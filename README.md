@@ -8,7 +8,7 @@ GFN2-xTB and refined with DFT, for activity and for survival in synthesis.
 
 - **Explore the results in your browser:** https://freeedericschubert.github.io/SACred/ (a marimo notebook running in
   WebAssembly; the first visit takes about a minute while Python loads)
-- **Dataset:** Zenodo, DOI `<DOI>` (database, tables, ~11,000 DFT and ~5,000 xTB structures with energies and forces)
+- **Dataset:** Zenodo, DOI `10.5281/zenodo.23580900` (database, tables, ~11,000 DFT and ~5,000 xTB structures with energies and forces)
 
 > Hackathon release, October 2026. All results are preliminary drafts that need expert checking.
 
