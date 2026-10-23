@@ -1,0 +1,14 @@
+{
+ "motif": "S3:SV",
+ "state": "ref",
+ "from": "Mn-S3:SV",
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

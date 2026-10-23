@@ -1,0 +1,17 @@
+{
+ "motif": "W-O4:DV",
+ "enzyme": "xTB calibration anchor: raw dG_H -1.52 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  67
+ ],
+ "state": "H_M",
+ "start": "GFN2-xTB geometry",
+ "ih": 71
+}

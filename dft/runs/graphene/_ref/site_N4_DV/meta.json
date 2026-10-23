@@ -1,0 +1,16 @@
+{
+ "motif": "N4:DV",
+ "state": "ref",
+ "from": "Co-N4:DV",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal",
+ "note": "forc_conv_thr loosened to 1e-2 Ry/Bohr on 22 Oct: after 600 BFGS steps the energy oscillated within 1e-4 Ry (forces 4-6e-3 Ry/Bohr)"
+}

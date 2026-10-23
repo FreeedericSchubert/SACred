@@ -1,0 +1,15 @@
+{
+ "motif": "Fe-NS2:SV",
+ "enzyme": "His-ligated Fe of Fe-S clusters, 34 entries (4U9H, 3U7Q)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_S",
+ "ih": 72
+}

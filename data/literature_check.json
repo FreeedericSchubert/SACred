@@ -1,0 +1,364 @@
+[
+ {
+  "motif": "Fe-NS2",
+  "dg": "-0.20",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "None of the checked papers computes hydrogen evolution for Fe-NS2. The Fe N/S series compute other reactions: CO2 reduction (FeNnS4-n, 10.1002/cplu.202300306), ORR/OER (FeSxN4-x, 10.1002/cssc.202300637), ORR (Fe-N4 with second-shell S, 10.1007/s40820-020-00456-8; Fe-N3S1 papers) and NRR (TM-S4-G, 10.1021/acs.jpclett.2c02105). The HER-focused graphene SAC papers found (e.g. 10.1039/d4ra09113b, 10.1002/cphc.70486, 10.1039/d6cp01369d) did not show N+S co-coordinated Fe in their titles. Our dG_H = -0.20 eV for Fe-NS2 therefore has no direct literature comparison.",
+   "closest": [
+    {
+     "title": "Enhanced Electrocatalytic CO2 Reduction Reactivity of S- and N-Doped Fe-Embedded Graphene",
+     "coordination": "Fe on graphene (DFT) with FeNnS4-n, n=1-4 (FeN3S1, FeN2S2, FeN1S3, FeN4, FeS4); four donors, so FeN1S3 and FeN2S2 are the nearest but neither is NS2; CO2 reduction, computational",
+     "doi": "10.1002/cplu.202300306",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Constructing N,S and N,P Co-Coordination in Fe Single-Atom Catalyst for High-Performance Oxygen Redox Reaction",
+     "coordination": "Fe with FeSxN4-x (x=1-4), DFT; highlights FeSN3; four donors; ORR/OER, computational",
+     "doi": "10.1002/cssc.202300637",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Vacancy Defects Inductive Effect of Asymmetrically Coordinated Single-Atom Fe-N3S1 Active Sites for Robust Electrocatalytic Oxygen Reduction",
+     "coordination": "Fe single atoms with Fe-N3S1 (three N, one S) on N,S co-doped carbon with vacancy defects; experimental",
+     "doi": "10.1002/adma.202308243",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Nitrogen, sulfur co-coordinated iron single-atom catalysts with the optimized electronic structure for highly efficient oxygen reduction in Zn-air battery and fuel cell",
+     "coordination": "Fe single atom with N,S co-coordinated Fe-N3S site (three N, one S); experimental",
+     "doi": "10.1016/j.jcis.2024.05.197",
+     "year": 2024,
+     "match": "related"
+    },
+    {
+     "title": "Atomically Dispersed Fe-N4 Modified with Precisely Located S for Highly Efficient Oxygen Reduction",
+     "coordination": "Fe(N3)(N-C-S) by XANES, i.e. Fe-N4 with S in the second sphere, not a direct Fe-S donor; experimental",
+     "doi": "10.1007/s40820-020-00456-8",
+     "year": 2020,
+     "match": "related"
+    }
+   ],
+   "summary": "The papers found contain only 4-coordinate Fe N/S series (FeNnS4-n, FeSxN4-x, Fe-N3S1), Fe-N4 with S in the second shell, and TM-S4. The 4-coordinate double-vacancy screenings (Cho 2022, Ritopečki 2022) cannot contain a 3-coordinate site. The single-vacancy TM-N2X screening has no S. The 2026 review describes Gallagher as four identical dopants (TM-4XDG). Medium because the SIs of the two Fe N/S screenings were not read. No HER precedent was found.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [],
+   "notes": "The not-found conclusion depends on abstract-level readings of the four-coordinate FeNnS4-n and FeSxN4-x series and of the Gallagher screening. It does not use evidence from the other reports that lowers the risk: the 2026 review (10.1039/d6cp00932h, full text) describes the Gallagher work as TM-4XDG with four identical dopants; Cho et al. 2022 only has 4-coordinate double-vacancy sites; and the single-vacancy TM-N2X screening (10.1039/d4cp03779k) has X = B, C, O, P but no S. No three-coordinate Fe-N/S single-vacancy screening was found. Fix: Keep related_only at medium confidence, and cite the review's description of Gallagher and the d4cp03779k scope (no S) as supporting evidence. Medium rather than high is still right, because the SIs of the two Fe N/S screenings (10.1002/cplu.202300306, 10.1002/cssc.202300637) were not read."
+  },
+  "deep_check": {
+   "verdict": "related_only",
+   "papers_checked": 11,
+   "full_texts": 1
+  }
+ },
+ {
+  "motif": "Fe-NO3",
+  "dg": "-0.12",
+  "verdict": {
+   "verdict": "reported_computational_only",
+   "her_reported": "No checked paper reports HER for Fe-N1O3. Ge et al. 2021, the only paper that covers Fe-N1O3 (the x = 3 member of its series), computed ORR only. The HER papers I found are a different site (FeN2O2 on graphene, dG_H* = 0.09 eV, NJC 2026, closed access, so other N/O ratios cannot be excluded) and a different motif (TM-NO2 anchored graphene, ChemPhysChem 2026, best Ni-NO2 at -0.39 eV). Our Fe-NO3 dG_H = -0.12 eV therefore appears new as an HER result, but the motif itself is not new.",
+   "closest": [
+    {
+     "title": "Probing the catalytic activity of M-N4-xOx embedded graphene for the oxygen reduction reaction by density functional theory",
+     "year": 2021,
+     "doi": "10.1007/s11705-020-2017-7",
+     "match": "exact",
+     "coordination": "M-N4-xOx in graphene, M = Fe, Co, Ni, x = 1-4 (includes Fe-N1O3); ORR only (abstract via the journal page and a citing full text)"
+    },
+    {
+     "title": "Computational Screening of Single-Metal-Atom Embedded Graphene-Based Electrocatalysts Stabilized by Heteroatoms",
+     "year": 2022,
+     "doi": "10.3389/fchem.2022.873609",
+     "match": "exact",
+     "coordination": "screening of MYX3 sites (one Y plus three X from B, N, O, P, S) in a graphene double vacancy for 28 metals, 700 combinations with formation energies, ORR for the stable ones; includes this donor set; no dG_H (full text checked)"
+    },
+    {
+     "title": "Construction of Single-Atom Catalysts for N, O Synergistic Coordination and Application to Electrocatalytic O2 Reduction",
+     "coordination": "TM-N2O2 units (TM=Sc-Zn, including Fe) on carbon (TM-N2O2Cx), DFT, ORR. This is N2O2, not NO3.",
+     "match": "related",
+     "doi": "10.3390/molecules28217264",
+     "year": 2023
+    },
+    {
+     "title": "Oxygen Coordination on Fe-N-C to Boost Oxygen Reduction Catalysis",
+     "coordination": "Atomically dispersed Fe with O-Fe-N2C2 moieties: N2C2 in-plane plus an axial O, penta-coordinated Fe, experiment and theory. Not NO3.",
+     "match": "related",
+     "doi": "10.1021/acs.jpclett.0c02812",
+     "year": 2020
+    }
+   ],
+   "summary": "Two independent DFT series include Fe-N1O3 by construction. Ge et al. 2021 (10.1007/s11705-020-2017-7; abstract: M-N4-xOx, M = Fe, Co, Ni, x = 1-4; ORR) and Cho et al. 2022 (10.3389/fchem.2022.873609; MYX3 with Y = N, X = O, Fe included, graphene double vacancy, full-text method). Neither table entry has been seen, so the confidence is not high. No HER on this motif was reported, so our dG_H = -0.12 eV is a new HER result for a known motif.",
+   "confidence": "high"
+  },
+  "challenge": {
+   "refuted": true,
+   "counter_evidence": [],
+   "notes": "The report rests the reported_computational_only verdict on one closed-access abstract (Ge et al. 2021, 10.1007/s11705-020-2017-7). It missed that Cho et al. 2022 (10.3389/fchem.2022.873609, full text read in the Zn-N3O and Fe-S2C2 reports) also covers Fe with Y = N and X = O, which is Fe-NO3 (1 N + 3 O) in a graphene double vacancy. That second source also settles the vacancy-geometry question left open for Ge et al. Fix: Add Cho et al. 2022 as a second, independent computational precedent and keep reported_computational_only. Confidence can go up to medium-high, because two independent screenings include Fe-N1O3 by construction. It should not be high, because neither paper has been seen naming the Fe-N1O3 entry or its stability. HER on this motif is still not reported."
+  },
+  "deep_check": {
+   "verdict": "reported_computational_only",
+   "papers_checked": 8,
+   "full_texts": 1
+  }
+ },
+ {
+  "motif": "Zn-N3O",
+  "dg": "+0.12",
+  "verdict": {
+   "verdict": "reported_computational_only",
+   "her_reported": "No checked paper computes HER (ΔG_H*) on Zn-N3O. Cho et al. 2022 screened Zn-ON3 for ORR only. Jin et al. 2023 (Zn-N4-O → Zn-N3-O) is ORR only. The only Zn HER paper among those checked (PNAS 2024) uses ZnN4S1/ZnN3S models with H adsorption on neighbouring N/C sites. So our ΔG_H = +0.12 eV for Zn-N3O in a double vacancy appears to be new as an HER result.",
+   "closest": [
+    {
+     "title": "Computational Screening of Single-Metal-Atom Embedded Graphene-Based Electrocatalysts Stabilized by Heteroatoms",
+     "year": 2022,
+     "doi": "10.3389/fchem.2022.873609",
+     "match": "exact",
+     "coordination": "screening of MYX3 sites (one Y plus three X from B, N, O, P, S) in a graphene double vacancy for 28 metals, 700 combinations with formation energies, ORR for the stable ones; includes this donor set; no dG_H (full text checked)"
+    },
+    {
+     "title": "Dynamic Asymmetry in O/N-Coordinated Zn Single-Atom Catalysts Promotes Sabatier-Favorable Urea and Urea Peroxide Electrosynthesis",
+     "coordination": "Isolated Zn with 3 O + 1 N (Zn-O3N1-C), confirmed by XAS. The donor ratio is the reverse of N3O, and the reactions are CO2/nitrate co-reduction and 2e- ORR, not HER.",
+     "match": "related",
+     "doi": "10.1002/anie.3649572",
+     "year": 2026
+    },
+    {
+     "title": "Axial Oxygen Ligands Regulating Electronic and Geometric Structure of Zn-N-C Sites to Boost Oxygen Reduction Reaction",
+     "coordination": "Isolated Zn with 4 in-plane N plus 1 axial O (Zn-N4-O), five-fold coordinated. This is N4O, not N3O, and the reaction is ORR.",
+     "match": "related",
+     "doi": "10.1002/advs.202302152",
+     "year": 2023
+    },
+    {
+     "title": "Boosted hydrogen evolution kinetics of heteroatom-doped carbons with isolated Zn as an accelerant",
+     "coordination": "Isolated Zn with 4 N + 1 S (ZnN4S1) in a carbon matrix. This is the closest HER paper on a carbon-supported Zn single atom, but the donors differ (N4S, no O).",
+     "match": "related",
+     "doi": "10.1073/pnas.2315362121",
+     "year": 2024
+    }
+   ],
+   "summary": "Cho et al. 2022 (full text) computed formation energies for all 700 MX4/MYX3 double-vacancy combinations, which includes Zn-ON3. Zn-ON3 is not named, and its stability and any ORR result are unknown. Jin et al. 2023 Zn-N3-O exists only as an adsorbate-bound ORR intermediate, so it is related only. No experimental report and no HER calculation were found.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": true,
+   "counter_evidence": [],
+   "notes": "The upgrade is correct under the definition, but it is inferred from the method description (700 combinations, formation energy computed for all). The fetched text does not name Zn-ON3 and does not say whether it was stable. Other possible sources (acsami.6c10190 with only the abstract read, d6dt01022a by title only) were not checked. That does not weaken the verdict, but it should be recorded. Fix: Keep reported_computational_only at medium confidence. State explicitly that the precedent is a formation-energy-level calculation within a screening, not a named or analysed site. A manual look at the Cho et al. formation-energy heatmap or SI would confirm it."
+  },
+  "deep_check": {
+   "verdict": "reported_computational_only",
+   "papers_checked": 12,
+   "full_texts": 4
+  }
+ },
+ {
+  "motif": "Co-N2OC",
+  "dg": "+0.03",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "I found no paper that studies HER on a Co-N2OC site. Two papers do study HER on related sites. Small 2022 (10.1002/smll.202201139) covers Co-N3 and Co-N4 in graphene with no O. ChemPhysChem 2026 (10.1002/cphc.70486) covers TM-NO2 anchored on graphene. Nat Commun 2017 (10.1038/s41467-017-01100-7) measured HER experimentally on a Co-N-C material with CoNxCy sites, again with no O/C mixed shell. Every Co paper with N plus O in the first shell (Small 2022 OCoN2C2, JPCL 2025 Co-N3O, Angew 2025 Co-NxO4-x, Nat Commun 2024 Co-C/N/O, Molecules 2023 TM-N2O2C14) studies ORR or 2e- ORR, not HER. Our dG_H = +0.03 eV therefore has no direct literature comparison.",
+   "closest": [
+    {
+     "title": "Boosting Oxygen Reduction for High-Efficiency H2O2 Electrosynthesis on Oxygen-Coordinated CoNC Catalysts",
+     "coordination": "Single Co atom, penta-coordinated OCoN2C2: two N, two C and one O (carbon-supported Co/NC)",
+     "doi": "10.1002/smll.202200730",
+     "year": 2022,
+     "match": "related"
+    },
+    {
+     "title": "Atomically dispersed asymmetric cobalt electrocatalyst for efficient hydrogen peroxide production",
+     "year": 2024,
+     "doi": "10.1038/s41467-024-48209-0",
+     "match": "related",
+     "coordination": "eight five-coordinate Co-C/N/O models; only CoN2O2-C named in the text; supplementary Fig. S22 not checked"
+    },
+    {
+     "title": "Single Co Atoms Implanted into N-Doped Hollow Carbon Nanoshells with Non-Planar Co-N4-1-O2 Sites for Efficient Oxygen Electrochemistry",
+     "coordination": "Single Co atoms on N-doped hollow carbon; XAFS gives Co-N4 (four N). The abstract says the DFT-active site is Co-N4-1-O2, i.e. N4 plus O2 from adsorbed O2, not a first-shell O donor",
+     "doi": "10.1021/acs.inorgchem.1c00824",
+     "year": 2021,
+     "match": "related"
+    },
+    {
+     "title": "A computational study of CO oxidation reactions on metal impurities in graphene divacancies",
+     "coordination": "Co in a graphene divacancy (Co-DG), computational. The abstract states no N or O donors, so this is only the same vacancy type",
+     "doi": "10.1039/c7cp07397f",
+     "year": 2018,
+     "match": "related"
+    }
+   ],
+   "summary": "The closest sites are 5-coordinate OCoN2C2 (Small 2022), 5-coordinate Co-C/N/O models with only CoN2O2-C named (Nat Commun 2024), Co-NxO4-x and TM-N2O2 without a C donor, and 3-coordinate Co-N2O/Co-N2C in a single vacancy. The heteroatom screenings (Cho, Ge) have no C donor. Medium because Nat Commun 2024 SI Fig. S22 and several full texts were not read. No HER precedent was found.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [],
+   "notes": "The biggest unchecked gap is Nat Commun 2024 (10.1038/s41467-024-48209-0). It has eight DFT Co-C/N/O models, and SI Fig. S22 could not be read. They are described as five-path, C4v-like (5-coordinate) sites, so an exact 4-coordinate CoN2OC is unlikely but not excluded. In the Nat Commun 2017 entry, some subscripts were filled in from the 'known paper notation' and not read from the text. That is a small evidence-provenance issue and does not change the verdict. Fix: Keep related_only at medium confidence and flag SI Fig. S22 of 10.1038/s41467-024-48209-0 for a manual check. Cho et al. 2022 and Ge et al. 2021 have no C donors, so they correctly do not apply here."
+  },
+  "deep_check": {
+   "verdict": "related_only",
+   "papers_checked": 11,
+   "full_texts": 3
+  }
+ },
+ {
+  "motif": "Cu-N3",
+  "dg": "+0.18",
+  "verdict": {
+   "verdict": "reported_experimental",
+   "her_reported": "Cu-N3 (one Cu, three N) on carbon is reported experimentally, including EXAFS-confirmed Cu-N3-C sites on carbon nanosheets. The abstracts I read give no dG_H for HER on Cu-N3. Cu-N3 on graphene has only been studied by DFT, for ORR/OER, and the abstracts report no hydrogen-evolution dG_H.",
+   "closest": [
+    {
+     "title": "Guanosine-derived atomically dispersed Cu-N3-C sites for efficient electroreduction of carbon dioxide",
+     "coordination": "Single Cu atoms on carbon nanosheets; Cu-N3-C sites (tricoordinated Cu with N) proved by EXAFS and supported by DFT",
+     "doi": "10.1016/j.jcis.2023.05.100",
+     "year": 2023,
+     "match": "exact"
+    },
+    {
+     "title": "Atomically Dispersed Cu-N3 Sites in N-Doped Porous Carbon for Enhanced Vanadium Flow Battery Performance",
+     "coordination": "Atomically dispersed Cu in N-doped porous carbon; abstract states a Cu-N3 coordination structure",
+     "doi": "10.1021/prechem.5c00420",
+     "year": 2026,
+     "match": "exact"
+    },
+    {
+     "title": "Dynamic Behavior of Single-Atom Catalysts in Electrocatalysis: Identification of Cu-N3 as an Active Site for the Oxygen Reduction Reaction",
+     "coordination": "Cu-N-C single-atom catalyst; starts as Cu2+-N4 and operando XAS shows it becoming Cu+-N3 (then HO-Cu-N2) under ORR conditions, with Cu+-N3 identified as the active site",
+     "doi": "10.1021/jacs.1c03788",
+     "year": 2021,
+     "match": "exact"
+    },
+    {
+     "title": "A theoretical investigation on the OER and ORR activity of graphene-based TM-N3 and TM-N2X (X = B, C, O, P) single atom catalysts by density functional theory calculations",
+     "coordination": "DFT only: graphene-based TM-N3 including Cu (CuN3), one metal atom with three N; OER/ORR overpotentials of 0.31 V and 0.44 V for CuN3",
+     "doi": "10.1039/d4cp03779k",
+     "year": 2024,
+     "match": "related"
+    },
+    {
+     "title": "CuN3 doped graphene as an active electrocatalyst for oxygen reduction reaction in fuel cells: A DFT study",
+     "coordination": "DFT only: Cu embedded in graphene with three N (CuN3-Gra), ORR mechanism",
+     "doi": "10.1016/j.jmgm.2020.107537",
+     "year": 2020,
+     "match": "related"
+    }
+   ],
+   "summary": "I read the abstracts of 8 candidates. The Cu-N3 motif on carbon counts as reported experimentally. Two papers state Cu-N3 outright. In 10.1016/j.jcis.2023.05.100 the Cu-N3-C sites on carbon nanosheets are proved by EXAFS. In 10.1021/prechem.5c00420 single Cu atoms in N-doped porous carbon have a Cu-N3 coordination. In 10.1021/jacs.1c03788 the Cu starts as Cu-N4 and operando XAS shows it becoming Cu+-N3 under ORR conditions. That makes it a looser match, because N3 appears only as a potential-driven working state. Four papers are related only. 10.1016/j.jmgm.2020.107537 and 10.1039/d4cp03779k are DFT-only studies of CuN3 in graphene (ORR/OER, not HER). 10.1021/acsomega.2c01562 is a computed 2D C3N3Cu sheet, and the two carbon-nitride papers (10.1021/acsami.1c17782 and 10.1038/s41467-026-73151-8) use Cu-N3 on a carbon nitride support. I did not open the Cu-S1N3 (N3 plus an S donor) or Cu-N4-C (four N) papers, because their donor sets differ and they are related at most. Cu-N3 sites on carbon are therefore not new. None of these abstracts reports hydrogen evolution or dG_H on Cu-N3, so the HER data for the graphene single-vacancy model (dG_H = +0.18 eV) may still be new. The abstracts do not show whether the experimental N3 sites sit in a graphene single vacancy. This is a draft and needs expert checking.",
+   "confidence": "medium"
+  },
+  "challenge": null
+ },
+ {
+  "motif": "Mo-NS3",
+  "dg": "+0.21",
+  "verdict": {
+   "verdict": "reported_computational_only",
+   "her_reported": "I found no paper that computes dG_H (or any HER quantity) for Mo-NS3. HER/dG_H data exist only for related motifs: M@SxNy-graphene including S3N1 for Mn/Fe/Co (10.3390/nano12234309, full text); H adsorption on Mo-NxPy-graphene, where HER is the competing reaction (10.1039/d4na00298a, full text); and experimental HER on Mo1N1C2 (10.1002/anie.201710599, prior note). For Mo-S4-G (10.1021/acs.jpclett.2c02105) the abstract covers NRR only. Its SI, which might hold H* data, was not accessible.",
+   "closest": [
+    {
+     "title": "Computational Screening of Single-Metal-Atom Embedded Graphene-Based Electrocatalysts Stabilized by Heteroatoms",
+     "year": 2022,
+     "doi": "10.3389/fchem.2022.873609",
+     "match": "exact",
+     "coordination": "screening of MYX3 sites (one Y plus three X from B, N, O, P, S) in a graphene double vacancy for 28 metals, 700 combinations with formation energies, ORR for the stable ones; includes this donor set; no dG_H (full text checked)"
+    },
+    {
+     "title": "Sulfur-Coordinated Transition Metal Atom in Graphene for Electrocatalytic Nitrogen Reduction with an Electronic Descriptor",
+     "year": 2022,
+     "doi": "10.1021/acs.jpclett.2c02105",
+     "coordination": "Single TM atoms (Mo among 25 metals) coordinated to four S in graphene (TM-S4-G); first-principles study for N2 reduction. This is S4, not N1S3.",
+     "match": "related"
+    },
+    {
+     "title": "Rational Design of Single Molybdenum Atoms Anchored on N-Doped Carbon for Effective Hydrogen Evolution Reaction",
+     "year": 2017,
+     "doi": "10.1002/anie.201710599",
+     "coordination": "Single Mo atoms with one N and two C (Mo1N1C2) on N-doped carbon, shown by XAFS; HER. No S donors.",
+     "match": "related"
+    },
+    {
+     "title": "Atomically Dispersed Mo Sites Anchored on Multichannel Carbon Nanofibers toward Superior Electrocatalytic Hydrogen Evolution",
+     "year": 2021,
+     "doi": "10.1021/acsnano.1c07694",
+     "coordination": "Single Mo atoms with one O, one N and two C (Mo-O1N1C2) on N-doped carbon nanofibers; HER. No S donors.",
+     "match": "related"
+    }
+   ],
+   "summary": "Changed from related_only for consistency with Zn-N3O. Cho et al. 2022 (10.3389/fchem.2022.873609) screened all MYX3 combinations for 28 metals including Mo (4d), with Y, X from {B, N, O, P, S} in a graphene double vacancy, so Mo-NS3 (Y = N, X = S) got a formation-energy calculation. It is not named in the text and its stability is unknown, so confidence is medium. Ritopečki 2022 has S3N1 only for Mn/Fe/Co, and the Mo-specific screenings (Mo-NxPy, Mo-S4, Mo/S-G) do not have it. No HER on Mo-NS3 was found, so our +0.21 eV is a new HER result.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": true,
+   "counter_evidence": [],
+   "notes": "The verdicts are not consistent across reports. The Zn-N3O report upgrades its motif to reported_computational_only because Cho et al. (Front. Chem. 2022, 10.3389/fchem.2022.873609) computed formation energies for all 700 MX4/MYX3 combinations in a graphene double vacancy. That set covers 28 metals (Sc-Zn, Y-Cd, Hf-Au) and X, Y from {B, N, O, P, S}, with MYX3 meaning 1 Y + 3 X. The Fe-S2C2 report read this full text (PMC9019222) and confirms the M-X4/M-YX3 scope. Mo is a 4d metal, so Mo with Y = N and X = S (Mo-NS3, 1 N + 3 S in a double vacancy) is in the computed set. The Mo-NS3 report never checked this paper and kept related_only. Fix: Apply the same rule as for Zn-N3O and change Mo-NS3 to reported_computational_only, citing Cho et al. 2022, at medium confidence. Inclusion follows from the method (all 700 combinations got formation energies). The text does not name Mo-NS3 and does not say whether it passed the stability filter. Only ORR was computed, so the HER result (dG_H = +0.21 eV) is still new. Check the formation-energy figure or SI of Cho et al. by hand to confirm the Mo-NS3 entry and whether it is stable."
+  },
+  "deep_check": {
+   "verdict": "related_only",
+   "papers_checked": 8,
+   "full_texts": 2
+  }
+ },
+ {
+  "motif": "Fe-S2C2",
+  "dg": "+0.21",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "No checked paper computes hydrogen evolution or dG_H for Fe-S2C2. The nearest HER-related work is Ritopečki et al. 2022 (10.3390/nano12234309), which computes hydrogen reactivity for Fe@SxNy (S/N, not S/C). The 2026 review summarises that work as finding Fe SACs where O- or S-doping can enhance HER activity but are mostly unstable. Our +0.21 eV for Fe-S2C2 has no direct literature comparison in the papers checked.",
+   "closest": [
+    {
+     "title": "Enhanced Electrocatalytic CO2 Reduction Reactivity of S- and N-Doped Fe-Embedded Graphene",
+     "coordination": "Fe in graphene with FeNnS4-n (n=1-4) first shells (N and S donors, DFT); no carbon donors",
+     "doi": "10.1002/cplu.202300306",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Sulfur-Coordinated Transition Metal Atom in Graphene for Electrocatalytic Nitrogen Reduction with an Electronic Descriptor",
+     "coordination": "25 single TM atoms (Mo, Sc, Cr, V, W, Ti, Nb, Mn, Re and others) with S4 coordination in graphene (TM-S4-G, DFT); the abstract does not name Fe among the metals",
+     "doi": "10.1021/acs.jpclett.2c02105",
+     "year": 2022,
+     "match": "related"
+    },
+    {
+     "title": "Constructing N,S and N,P Co-Coordination in Fe Single-Atom Catalyst for High-Performance Oxygen Redox Reaction",
+     "coordination": "Fe with FeSxN4-x (x=1-4) first shells (DFT); N and S donors, no carbon donors",
+     "doi": "10.1002/cssc.202300637",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Atomically Dispersed Fe-N4 Modified with Precisely Located S for Highly Efficient Oxygen Reduction",
+     "coordination": "Fe(N3)(N-C-S) by XANES; Fe-N4 first shell with S in the periphery",
+     "doi": "10.1007/s40820-020-00456-8",
+     "year": 2020,
+     "match": "related"
+    },
+    {
+     "title": "Unraveling the Origin of Sulfur-Doped Fe-N-C Single-Atom Catalyst for Enhanced Oxygen Reduction Activity: Effect of Iron Spin-State Tuning",
+     "coordination": "C-FeN4-S moiety, with S in the second coordination sphere of Fe-N-C",
+     "doi": "10.1002/anie.202110243",
+     "year": 2021,
+     "match": "related"
+    }
+   ],
+   "summary": "Cho et al. 2022 and the 2026 review (both full text) show no mixed Fe S/C first shell. Mixed C shells appear only with N or O, and S appears only as S4 or S/N mixtures. The abstract-level series (FeNnS4-n, TM-S4, Fe@SxNy, C/N-only stability screening) also have no S/C. Medium because the Gallagher/Zhao, Wen and FeSxN4-x full texts and SIs were not read, and the Tang TM-4XDG study was not located. No HER precedent was found. The quoted dG_H value should be checked, since it matches the Mo-NS3 value.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [],
+   "notes": "There are small inconsistencies across reports. The Fe-S2C2 report marks 10.3390/nano12234309 as abstract_only, while the Mo-NS3 report read its full text (PMC9737643). It marks 10.1002/cssc.202300637 as not_accessible, while the Fe-NS2 report has it as abstract_only. Its her_note quotes 'our +0.21 eV for Fe-S2C2', the same value given for Mo-NS3, and the Fe-S2C2 motif header states no value. This may be a copy error. Fix: Bring the access labels in line (nano12234309: full_text, which confirms the M@SxNy x+y=4 series is S/N only; cssc.202300637: abstract_only). Check the Fe-S2C2 dG_H value against the project's own results before using it. Neither point changes the related_only verdict."
+  },
+  "deep_check": {
+   "verdict": "related_only",
+   "papers_checked": 9,
+   "full_texts": 2
+  }
+ }
+]

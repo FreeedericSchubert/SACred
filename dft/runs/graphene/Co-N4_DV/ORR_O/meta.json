@@ -1,0 +1,19 @@
+{
+ "motif": "Co-N4:DV",
+ "enzyme": "O2 cross-check: the same site in Cho et al. 2022 (PBE-D3, U_ORR 0.95 V)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "ORR_O",
+ "iads": [
+  71
+ ],
+ "start": "DFT bare geometry, O from GFN2-xTB"
+}

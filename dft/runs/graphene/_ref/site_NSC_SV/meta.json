@@ -1,0 +1,14 @@
+{
+ "motif": "NSC:SV",
+ "state": "ref",
+ "from": "Cu-NSC:SV",
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

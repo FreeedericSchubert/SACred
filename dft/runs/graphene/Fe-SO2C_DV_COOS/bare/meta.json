@@ -1,0 +1,16 @@
+{
+ "motif": "Fe-SO2C:DV:COOS",
+ "enzyme": "xTB library: calibrated dG_H +0.00 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare",
+ "start": "GFN2-xTB geometry"
+}

@@ -1,0 +1,16 @@
+{
+ "motif": "Zn-NS2:SV",
+ "enzyme": "beta-carbonic anhydrase (Cys2His), 25 entries (6LAC)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "NEB_2",
+ "image": 2,
+ "start": "GFN2-xTB NEB image"
+}

@@ -1,0 +1,15 @@
+{
+ "motif": "Ni-O3:SV",
+ "enzyme": "xTB scan: calibrated dG_H -0.05 eV (H_M)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  69
+ ],
+ "state": "bare",
+ "start": "GFN2-xTB geometry"
+}

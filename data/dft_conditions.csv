@@ -1,0 +1,15 @@
+site,quantity,state,what,value,U_RHE
+Co-N2OC:DV:NONC,dG_H,Hdonor_C,H on the C donor,-0.017,
+Co-N2OC:DV:NONC,dG_H,Hdonor_O,H on the O donor,0.031,
+Co-N2OC:DV:NONC,dG_H,CH_HM,"H on Co, C donor hydrogenated",0.612,
+Co-N2OC:DV:NONC,dG_H,H_M,H on Co (reference),0.033,
+Co-N2OC:DV:NONC,dG_cap,H2,H capping of the emptied site (2 H),-2.820,
+Co-N2OC:DV:NONC,dG_dem,H2,"acid demetalation, pH 0",-1.808,0.000
+Co-N2OC:DV:NONC,dG_cap,H4,H capping of the emptied site (4 H),-1.335,
+Co-N2OC:DV:NONC,dG_dem,H4,"acid demetalation, pH 0, +0.0 V vs RHE",-0.323,0.000
+Co-N2OC:DV:NONC,dG_dem,H4,"acid demetalation, pH 0, -0.2 V vs RHE",-0.723,-0.200
+Co-N4:DV,dG_cap,H2,H capping of the emptied site (2 H),,
+Co-N4:DV,dG_dem,H2,"acid demetalation, pH 0",,0.000
+Zn-NS2:SV,E_escape,ESC_end,"escape energy, DFT (xTB: +0.34 eV, NEB barrier 0.38 eV)",,
+Ni-NS2:SV,E_escape,ESC_end,"escape energy, DFT (xTB: +0.72 eV, NEB barrier 0.96 eV)",,
+Cu-N3:SV,E_escape,ESC_end,"escape energy, DFT (xTB: +3.01 eV, NEB barrier 3.16 eV)",,

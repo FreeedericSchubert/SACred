@@ -1,0 +1,15 @@
+{
+ "motif": "NO2C:DV:CNOO",
+ "state": "ref",
+ "from": "Zn-NO2C:DV:CNOO",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

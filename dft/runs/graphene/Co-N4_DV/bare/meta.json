@@ -1,0 +1,15 @@
+{
+ "motif": "Co-N4:DV",
+ "enzyme": "benchmark: Co-N4 is the most studied HER single-atom site",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

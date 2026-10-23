@@ -1,0 +1,574 @@
+<title>Enzyme Sites as Single-Atom Catalysts</title>
+<meta name="description" content="Metal first shells from the Protein Data Bank rebuilt as graphene and MoS2 single-atom sites, ranked by hydrogen adsorption free energy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; the ranked ΔG_H table is the centrepiece, every site a dot on one shared axis.
+   Data colours are the metals' own (rust iron, cobalt blue, verdigris copper, the violet Mo of the MoS2 figure). */
+:root {
+  --bg: #f3f5f5; --surface: #ffffff; --ink: #1c2427; --muted: #59666b; --rule: #d3dbde;
+  --accent: #2c6bd3; --band: #dcefe4; --band-ink: #2f6b4f; --warn: #9a5a12; --warn-bg: #f6ead8;
+  --fe: #c4682f; --co: #3f6fc0; --ni: #3f9a6a; --cu: #1f8f8a; --zn: #7a8796; --mo: #8a68b0; --w: #5d5a93;
+  --mn: #b0427a; --v: #b28a12;
+  --display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11171a; --surface: #172024; --ink: #e2e8ea; --muted: #9babb0; --rule: #2a363b;
+    --accent: #79a3ff; --band: #1d3a2c; --band-ink: #93d4b0; --warn: #e5a75e; --warn-bg: #3a2a16;
+    --fe: #e08451; --co: #6d97e0; --ni: #62bf8c; --cu: #3fb8b1; --zn: #9aa8b6; --mo: #a98bd0; --w: #8f8ccf;
+    --mn: #d669a0; --v: #d6ad3a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11171a; --surface: #172024; --ink: #e2e8ea; --muted: #9babb0; --rule: #2a363b;
+  --accent: #79a3ff; --band: #1d3a2c; --band-ink: #93d4b0; --warn: #e5a75e; --warn-bg: #3a2a16;
+  --fe: #e08451; --co: #6d97e0; --ni: #62bf8c; --cu: #3fb8b1; --zn: #9aa8b6; --mo: #a98bd0; --w: #8f8ccf;
+  --mn: #d669a0; --v: #d6ad3a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 1.0625rem; line-height: 1.6; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 16px; padding-block: 40px 64px; display: grid; gap: 64px; }
+p { margin: 0; max-width: 68ch; }
+a { color: var(--accent); }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(2.1rem, 4.6vw, 3.3rem); max-width: 20ch; }
+h2 { font-size: clamp(1.45rem, 2.6vw, 1.9rem); }
+h3 { font-size: 1.2rem; }
+section { display: grid; gap: 18px; min-width: 0; }
+.eyebrow { max-width: none; font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.18rem; }
+.muted { color: var(--muted); }
+.small { font-size: 0.92rem; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* hero facts */
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0; margin: 8px 0 0;
+         border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.facts div { padding: 14px 16px 14px 0; display: grid; gap: 2px; align-content: start; }
+.facts dt { font-family: var(--mono); font-size: 1.55rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.facts dd { margin: 0; color: var(--muted); font-size: 0.95rem; line-height: 1.35; }
+
+/* ranked table */
+.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+tbody tr:last-child td { border-bottom: 0; }
+th { font-weight: 600; font-size: 0.82rem; color: var(--muted); letter-spacing: 0.02em; white-space: nowrap; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+td.site { white-space: nowrap; }
+.site b { font-weight: 600; }
+.site small { display: block; color: var(--muted); font-size: 0.8rem; }
+.swatch { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 7px; vertical-align: 1px; }
+td.origin { min-width: 14rem; max-width: 22rem; }
+td.dot, th.dot { padding-block: 4px; width: 340px; min-width: 340px; }
+.dot svg, .axis svg { display: block; width: 100%; height: auto; overflow: visible; }
+.band { fill: var(--band); }
+.zero { stroke: var(--band-ink); stroke-width: 1; }
+.tick { stroke: var(--rule); stroke-width: 1; }
+.ticklabel { fill: var(--muted); font: 10px var(--mono); }
+.ptmark { fill: var(--muted); }
+.near td.n.val { color: var(--band-ink); font-weight: 600; }
+.chip { display: inline-block; font-size: 0.76rem; padding: 1px 7px; border-radius: 999px; background: var(--warn-bg);
+        color: var(--warn); white-space: nowrap; }
+.chip.new { background: var(--band); color: var(--band-ink); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 0.9rem; color: var(--muted); align-items: center; }
+.legend .item { display: inline-flex; align-items: center; gap: 7px; }
+.legend svg { width: 16px; height: 16px; }
+
+/* funnel: one row per step, bar length on a log scale */
+.funnel { display: grid; gap: 6px; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; }
+.frow { display: grid; grid-template-columns: minmax(11rem, 21rem) 1fr; gap: 4px 16px; align-items: center; }
+.frow .flabel { font-size: 0.93rem; line-height: 1.3; }
+.fbar { position: relative; height: 22px; }
+.fbar i { position: absolute; left: 0; top: 3px; bottom: 3px; border-radius: 3px; }
+.fbar i.merge { background: var(--rule); }
+.fbar i.select { background: var(--accent); }
+.fbar i.add, .fbar i.compute { background: transparent; border: 2px solid var(--muted); }
+.fbar b { position: absolute; top: 0; line-height: 22px; font-family: var(--mono); font-weight: 500; font-size: 0.9rem;
+          font-variant-numeric: tabular-nums; padding-left: 8px; white-space: nowrap; }
+.fticks { position: relative; height: 16px; }
+.fticks span { position: absolute; transform: translateX(-50%); font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
+.fticks span:first-child { transform: none; }
+.frow.ticks .flabel { font-size: 0.78rem; color: var(--muted); }
+.legend i.sw { display: inline-block; width: 18px; height: 10px; border-radius: 2px; }
+@media (max-width: 560px) { .frow { grid-template-columns: 1fr; } .frow.ticks .flabel { display: none; } }
+
+/* steps, figures, two-column blocks */
+.steps { margin: 0; padding: 0; list-style: none; counter-reset: step; display: grid; gap: 14px;
+         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); }
+.steps li { counter-increment: step; display: grid; gap: 4px; align-content: start; padding-top: 10px; border-top: 2px solid var(--ink); }
+.steps li::before { content: counter(step); font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+.steps b { font-weight: 600; }
+figure { margin: 0; display: grid; gap: 10px; }
+figure img { width: 100%; height: auto; display: block; background: #ffffff; border-radius: 6px; border: 1px solid var(--rule); }
+figcaption { font-size: 0.92rem; color: var(--muted); max-width: 80ch; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 28px; align-items: start; }
+.cols > * { min-width: 0; }
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 0; font-size: 0.97rem; }
+.kv dt { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+.kv dd { margin: 0; color: var(--muted); }
+.plain { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 75ch; }
+.status { font-size: 0.85rem; color: var(--muted); }
+.rxsites { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.rxsite { white-space: nowrap; }
+.rxsite small { color: var(--muted); }
+footer { display: grid; gap: 6px; font-size: 0.88rem; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 18px; }
+@media (max-width: 560px) {
+  .facts div { padding-right: 8px; }
+  td.origin { min-width: 11rem; }
+}
+</style>
+
+<div class="wrap">
+  <header style="display:grid; gap:18px">
+    <p class="eyebrow" id="eyebrow">Hackathon project · draft results</p>
+    <h1>Enzyme sites as single-atom catalysts</h1>
+    <p class="lede">Hydrogenases, laccases and nitrogenases hold single metal atoms in pockets of N, S and O donors. We took the first coordination shell of every transition-metal site in the Protein Data Bank, rebuilt it as a doped vacancy in graphene and computed how strongly each site binds hydrogen. The target is a hydrogen adsorption free energy ΔG<sub>H</sub> near 0 eV: binding neither too strongly nor too weakly.</p>
+    <dl class="facts" id="facts"></dl>
+  </header>
+
+  <section id="results" aria-labelledby="h-results">
+    <h2 id="h-results">Which sites bind hydrogen just right</h2>
+    <p id="results-lead"></p>
+    <div class="table-wrap">
+      <table id="ranked">
+        <caption class="muted small" style="text-align:left; padding:10px 12px 0">Graphene sites, DFT, sorted by distance from the optimum</caption>
+        <thead><tr><th>Site</th><th>Taken from</th><th>H on</th><th class="dot axis" id="axis"></th><th class="n">ΔG<sub>H</sub> (eV)</th><th class="n">Papers</th><th>Notes</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="legend">
+      <span class="item"><svg viewBox="0 0 16 16"><rect x="0" y="2" width="16" height="12" class="band"/></svg><span>|ΔG<sub>H</sub>| ≤ 0.2 eV</span></span>
+      <span class="item"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="5" fill="var(--ink)"/></svg><span>H on the metal</span></span>
+      <span class="item"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="4.5" fill="var(--surface)" stroke="var(--ink)" stroke-width="2"/></svg><span>H on an S donor</span></span>
+      <span class="item"><svg viewBox="0 0 16 16"><path d="M8 3 L12 11 L4 11 Z" class="ptmark"/></svg><span>Pt(111), −0.09 eV, for reference</span></span>
+    </div>
+    <p class="muted small">Papers: works in OpenAlex that name the motif together with a single-atom term, an indicator of how well studied it is, not a novelty proof. Values are drafts from PBE-D3 and need expert checking.</p>
+  </section>
+
+  <section id="literature" aria-labelledby="h-literature">
+    <h2 id="h-literature">Has anyone made these before?</h2>
+    <p>For the sites near the optimum we searched PubMed, arXiv and chemRxiv (Valency), read the closest abstracts, then read the open-access full texts of the closest papers, followed their citations and searched for screening series such as M–N<sub>x</sub>O<sub>4−x</sub>. A site counts as reported if a paper has the same metal with exactly the same donor atoms on a carbon support, including large DFT screenings that compute it without naming it.</p>
+    <div class="table-wrap">
+      <table id="lit-table">
+        <thead><tr><th>Site</th><th class="n">ΔG<sub>H</sub> (eV)</th><th>Verdict</th><th>Closest earlier work</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="muted small">Paywalled full texts and supporting information could not be read, so a site listed only there could be missed. Read "not found" as "no prior report found", not as proof of novelty.</p>
+  </section>
+
+  <section id="funnel" aria-labelledby="h-funnel">
+    <h2 id="h-funnel">From the PDB to six sites</h2>
+    <p id="funnel-lead">Most of the drop is merging, not rejecting. The PDB holds the same few coordination motifs thousands of times, and graphene keeps only the donor set and its arrangement, so many protein sites become one graphene site. The real filters come later: frequency, the fast xTB screen, compute time and the narrow window around ΔG<sub>H</sub> = 0.</p>
+    <div class="funnel" id="funnel-rows" role="list"></div>
+    <div class="legend">
+      <span class="item"><i class="sw" style="background:var(--rule)"></i><span>merging identical or equivalent sites, nothing lost</span></span>
+      <span class="item"><i class="sw" style="background:var(--accent)"></i><span>a selection</span></span>
+      <span class="item"><i class="sw" style="border:2px solid var(--muted)"></i><span>more candidates per site, or still running</span></span>
+    </div>
+    <p class="muted small">Bar length on a logarithmic scale. Counts for hydrogen evolution on graphene; O₂, CO₂ and N₂ reduction and the other supports are still open.</p>
+  </section>
+
+  <section id="how" aria-labelledby="h-how">
+    <h2 id="h-how">How the sites were made</h2>
+    <ol class="steps" id="steps"></ol>
+  </section>
+
+  <section id="examples" aria-labelledby="h-examples">
+    <h2 id="h-examples">From enzyme to graphene</h2>
+    <figure>
+      <img src="img/nife.png" alt="[NiFe] hydrogenase 4U9H: whole enzyme, the Ni first shell Ni–S4, and the graphene Ni–S4 and Ni–S3 sites" loading="lazy">
+      <figcaption>[NiFe] hydrogenase (PDB 4U9H). The Ni sits between square planar and tetrahedral, so both graphene versions are computed: all four S in a double vacancy, or three S in a single vacancy with the fourth position open for H.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/laccase.png" alt="Laccase 6RI6: whole enzyme, the T1 copper first shell Cu–N2S, and the relaxed graphene Cu–N2S site bare and with H" loading="lazy">
+      <figcaption>Laccase (PDB 6RI6). The type-1 copper (two His, one Cys) becomes Cu–N₂S in a single vacancy. When H binds to Cu, the Cu–S bond opens and the S flips below the sheet; a calculation of that bare configuration decides the final value.</figcaption>
+    </figure>
+  </section>
+
+  <section id="pdb" aria-labelledby="h-pdb">
+    <h2 id="h-pdb">The PDB sweep</h2>
+    <div class="cols">
+      <div style="display:grid; gap:14px">
+        <p id="pdb-lead"></p>
+        <dl class="kv" id="pdb-val"></dl>
+      </div>
+      <div class="table-wrap">
+        <table id="top">
+          <caption class="muted small" style="text-align:left; padding:10px 12px 0">Most common first shells of enzyme metals, as graphene sites</caption>
+          <thead><tr><th>First shell</th><th>Site</th><th class="n">PDB entries</th><th>Example</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="screen" aria-labelledby="h-screen">
+    <h2 id="h-screen">Fast screening first</h2>
+    <p id="screen-text"></p>
+  </section>
+
+  <section id="mos2" aria-labelledby="h-mos2">
+    <h2 id="h-mos2">MoS<sub>2</sub>: basal plane and an Fe–S<sub>3</sub> site</h2>
+    <p>On the basal-plane S of clean MoS<sub>2</sub> hydrogen binds far too weakly (ΔG<sub>H</sub> = +2.09 eV). An Fe bound to three S of the sheet (like an Fe of an Fe–S cluster), puts H on the Fe at ΔG<sub>H</sub> = +0.11 eV, close to the optimum; the runs with the sheet charged against a plate below (doping from underneath) were not started. The xTB values for Fe and eleven other metals on the same site are in the next section; for Fe, xTB is about 1.2 eV too negative here.</p>
+    <div class="table-wrap">
+      <table id="mos2-table">
+        <thead><tr><th>System</th><th>H on</th><th class="n">ΔG<sub>H</sub> (eV)</th><th>Status</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <figure>
+      <img src="img/mos2.png" alt="MoS2 models: H on basal S of clean MoS2, Fe–S3 sites, the Fe site with a charged plate below and the electron potential energy along z" loading="lazy">
+      <figcaption>All side views share one height scale. The charged plate, its potential barrier and the dipole layer sit where they were in the gate setup of an earlier MoS<sub>2</sub> project; panel e sketches the potential an electron feels for ±0.3 e per cell.</figcaption>
+    </figure>
+  </section>
+
+  <section id="supports" aria-labelledby="h-supports">
+    <h2 id="h-supports">MoS<sub>2</sub> and silica pick other enzyme sites</h2>
+    <p>On graphene the vacancy supplies the donors. On MoS<sub>2</sub> the sheet supplies three S, 3.16 Å apart, to a metal sitting over a Mo; in a sulfur vacancy the metal binds the three Mo below instead. On silica, condensation with Si–OH supplies one to three siloxide O. Mapping every PDB site onto these faces selects other enzyme sites than graphene does: MoS<sub>2</sub> fits the octahedral and trigonal-prismatic sulfur sites of hydrogenases and of W and Mo formate dehydrogenases, while the tetrahedral Fe–S cubes are about 0.5 Å too wide; silica takes oxygen-rich sites such as the water-bound zinc of carbonic anhydrase. Whatever the support does not supply would have to come from a thiol on MoS<sub>2</sub> or a silane linker on silica (“on top”).</p>
+    <p class="status" id="supports-counts"></p>
+    <div class="table-wrap">
+      <table id="supports-table">
+        <thead><tr><th>Support</th><th>Enzyme site</th><th>Found in</th><th class="n">Face spacing (Å)</th><th class="n">Entries</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <figure>
+      <img src="img/nife_mos2.png" alt="[NiFe] hydrogenase, its Ni–S4 first shell, Ni on three S of MoS2 bare and with H, and xTB ΔG_H of every metal on MoS2" loading="lazy">
+      <figcaption>MoS<sub>2</sub> example: the nickel of [NiFe] hydrogenase. Three of its four Cys map onto three S of the sheet; the fourth has no partner, and that open position is where H binds. Panel d: xTB ΔG<sub>H</sub> of every metal on MoS<sub>2</sub>, raw (open) and with the per-metal offset from graphene (filled).</figcaption>
+    </figure>
+    <figure>
+      <img src="img/ca_silica.png" alt="Cobalt carbonic anhydrase 1QRE, its Co–N3O3 first shell, Co on the silsesquioxane silica model bare and with H, and xTB ΔG_H of every metal on silica" loading="lazy">
+      <figcaption>Silica example: the cobalt form of γ-carbonic anhydrase (1QRE). Its bicarbonate and two waters sit where silica's two siloxide O and one silanol O go; the three His stay on top or would come from linkers. Co binds H best of the six metals on silica.</figcaption>
+    </figure>
+    <h3 style="margin-top:1.4rem">Hydrogen on the bare sites, first look with GFN2-xTB</h3>
+    <div class="table-wrap">
+      <table id="supports-xtb">
+        <thead><tr><th>Site</th><th>H on</th><th class="n">ΔG<sub>H</sub> xTB (eV)</th><th class="n">with metal offset (eV)</th><th>Notes</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="status">GFN2-xTB, spin-restricted, relaxed. MoS<sub>2</sub>: a 3 × 3 cut of the DFT sheet, the metal over a Mo or over a hollow (the lower one counts). Silica: the metal in the open corner of a methyl silsesquioxane, Me<sub>7</sub>Si<sub>7</sub>O<sub>9</sub>(OH)<sub>3</sub>, bound to two siloxide O and one silanol O. On graphene, raw xTB binds H on Ni and Cu about 1.2–1.3 eV too strongly; the offset column adds those per-metal corrections (none fitted for Mn, Mo and W), assuming the error belongs to the metal and not the support. Silica is an insulator: its numbers describe H binding, not an electrode.</p>
+  </section>
+
+  <section id="reactions" aria-labelledby="h-reactions">
+    <h2 id="h-reactions">The same sites for O<sub>2</sub>, CO<sub>2</sub> and N<sub>2</sub></h2>
+    <p>The enzymes behind our sites reduce O<sub>2</sub>, CO<sub>2</sub> and N<sub>2</sub> too, so every site also gets the intermediates of those reactions: *OH, *O and *OOH; *COOH, *CO and *OCHO; *N<sub>2</sub>, *N<sub>2</sub>H, *NH<sub>2</sub> and *NH<sub>3</sub>. From their free energies (computational hydrogen electrode, pH 0) follows the limiting potential: the most positive potential at which every electrochemical step still runs downhill for reductions, the least positive for O<sub>2</sub> evolution. All values are GFN2-xTB.</p>
+    <p class="status" id="reactions-fit"></p>
+    <div class="table-wrap">
+      <table id="reactions-table">
+        <thead><tr><th>Reaction</th><th>Best sites (limiting potential, V vs RHE)</th><th class="n">Equilibrium (V)</th><th class="n">Sites</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="status">CO<sub>2</sub> and N<sub>2</sub> values have no DFT reference yet and carry xTB's full error. A site that binds H more easily than the first CO<sub>2</sub> or N<sub>2</sub> intermediate will mostly make H<sub>2</sub>; ΔG<sub>H</sub> is listed for that comparison (from DFT where computed, else xTB). Zero-point and entropy terms are typical literature values, not computed.</p>
+  </section>
+
+  <section id="stability" aria-labelledby="h-stability">
+    <h2 id="h-stability">Will the metal stay in the site?</h2>
+    <p>A good ΔG<sub>H</sub> is worth little if the metal atom clusters or dissolves. For every site near the optimum we compute the formation energy E<sub>f</sub> = E(metal in site) − E(same vacancy without metal) − E(bulk metal per atom), and from it the dissolution potential U<sub>diss</sub> = U°(M/M<sup>n+</sup>) − E<sub>f</sub>/n. Sites with E<sub>f</sub> &lt; 0 and U<sub>diss</sub> &gt; 0 V vs SHE pass.</p>
+    <p class="status" id="stability-status"></p>
+  </section>
+
+  <section id="data" aria-labelledby="h-data">
+    <h2 id="h-data">The dataset</h2>
+    <div class="cols">
+      <p>Everything above comes from one rebuildable database: every metal site with its donors, weak contacts and graphene mapping, the PDB entries and protein entities they come from, motif statistics, the SAC models, DFT results and literature counts, plus the check against the PDB's own metal-link annotation. A public release with a DOI is planned.</p>
+      <dl class="kv">
+        <dt>SQLite</dt><dd>one file, ~0.5 GB, with views for the common questions</dd>
+        <dt>Parquet</dt><dd>every table, ~64 MB</dd>
+        <dt>CSV.gz</dt><dd>every table, ~61 MB</dd>
+        <dt>Docs</dt><dd>datasheet, column dictionary, provenance</dd>
+        <dt>Licence</dt><dd>to be decided (proposal: CC BY 4.0); PDB source data are CC0</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="caveats" aria-labelledby="h-caveats">
+    <h2 id="h-caveats">What these numbers are</h2>
+    <ul class="plain">
+      <li>ΔG<sub>H</sub> = ΔE<sub>H</sub> + 0.24 eV (computational hydrogen electrode): a thermodynamic first filter, not a rate.</li>
+      <li>PBE-D3 without +U, one spin state per structure, no solvent and no electrode potential.</li>
+      <li>One site per 6 × 6 graphene cell (about 1.9 nm² per metal atom); the protein's second shell is not represented.</li>
+      <li>Literature counts are search hits; a low count is a reason to look closer, not a claim of novelty.</li>
+      <li>All values are drafts from a two-day hackathon and still need expert checking.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div>Methods: RCSB PDB Search and Data APIs, gemmi (first shells), GFN2-xTB via tblite (screening), Quantum ESPRESSO 7.1 (PBE-D3, GBRV and pslibrary pseudopotentials), OpenAlex and Europe PMC (literature). Calculations on the Curta cluster, Freie Universität Berlin.</div>
+    <div id="updated"></div>
+  </footer>
+</div>
+
+<script id="page-data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById("page-data").textContent);
+const SUB = "₀₁₂₃₄₅₆₇₈₉";
+const sub = (s) => s.replace(/\d/g, (d) => SUB[+d]);
+const fmt = (v, digits = 2) => (v < 0 ? "−" : "+") + Math.abs(v).toFixed(digits);
+const int = (n) => n.toLocaleString("en-US");
+const METALS = ["Fe", "Co", "Ni", "Cu", "Zn", "Mo", "W", "Mn", "V"];
+const colour = (m) => METALS.includes(m) ? `var(--${m.toLowerCase()})` : "var(--muted)";
+const el = (tag, attrs = {}, html = "") => { const e = document.createElement(tag); Object.assign(e, attrs); if (html) e.innerHTML = html; return e; };
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+
+function motif(m) {
+  // "Fe-C2S2:DV:cis5" -> {metal, formula: "Fe–C₂S₂", site: "double vacancy, cis"}
+  const [head, site, ...opts] = m.split(":");
+  const [metal, donors] = head.split("-");
+  const iso = opts.find((o) => !o.startsWith("ax="));
+  const ax = opts.find((o) => o.startsWith("ax="));
+  const isoText = {cis5: "cis", cis6: "cis, 6-ring", trans: "trans"}[iso] || "";
+  const parts = [site === "DV" ? "double vacancy" : "single vacancy", isoText, ax ? sub(ax.slice(3)) + " below" : ""];
+  return {metal, formula: `${metal}–${sub(donors)}`, site: parts.filter(Boolean).join(", ")};
+}
+
+// shared ΔG_H scale for the dot column
+const LO = -2.1, HI = 2.1, W = 340, PAD = 8;
+const X = (v) => PAD + (Math.max(LO, Math.min(HI, v)) - LO) / (HI - LO) * (W - 2 * PAD);
+function axisSvg() {
+  let s = `<svg viewBox="0 0 ${W} 34" role="img" aria-label="ΔG_H axis from −2 to +2 eV">`;
+  s += `<rect x="${X(-0.2)}" y="2" width="${X(0.2) - X(-0.2)}" height="30" class="band"/>`;
+  for (const t of [-2, -1, 0, 1, 2]) {
+    s += `<line x1="${X(t)}" x2="${X(t)}" y1="20" y2="30" class="tick"/>`;
+    s += `<text x="${X(t)}" y="15" text-anchor="middle" class="ticklabel">${t === 0 ? "0" : fmt(t, 0)}</text>`;
+  }
+  s += `<path d="M${X(-0.09)} 24 l4 8 h-8 z" class="ptmark"><title>Pt(111): −0.09 eV</title></path>`;
+  return s + "</svg>";
+}
+function dotSvg(r) {
+  const c = colour(motif(r.motif).metal);
+  const onS = r.state === "H_S";
+  let s = `<svg viewBox="0 0 ${W} 18" role="img" aria-label="ΔG_H ${fmt(r.dG_H)} eV">`;
+  s += `<rect x="${X(-0.2)}" y="0" width="${X(0.2) - X(-0.2)}" height="18" class="band"/>`;
+  s += `<line x1="${X(0)}" x2="${X(0)}" y1="0" y2="18" class="zero"/>`;
+  s += `<circle cx="${X(r.dG_H)}" cy="9" r="${onS ? 4.6 : 5.4}" fill="${onS ? "var(--surface)" : c}" stroke="${c}" stroke-width="${onS ? 2.2 : 0}"`
+    + `${r.provisional ? ' opacity="0.6"' : ""}><title>${fmt(r.dG_H)} eV</title></circle>`;
+  return s + "</svg>";
+}
+
+// hero
+const near = D.graphene.filter((r) => Math.abs(+r.dG_H.toFixed(2)) <= 0.2);
+document.getElementById("eyebrow").textContent = `Hackathon project · draft results · updated ${D.updated}`;
+const facts = [
+  [int(D.sweep.sites), `metal sites in ${int(D.sweep.entries)} PDB entries, first shells extracted`],
+  [int(D.screen.sites), `graphene sites from enzyme metals screened with GFN2-xTB`],
+  [String(D.graphene.length), `H positions computed in DFT (results as of ${D.frozen}); the rest is xTB only`],
+  [String(near.length), `sites within 0.2 eV of the optimum`],
+];
+for (const [v, label] of facts) {
+  const d = el("div"); d.append(el("dt", {textContent: v}), el("dd", {textContent: label}));
+  document.getElementById("facts").append(d);
+}
+
+// ranked table
+document.getElementById("axis").innerHTML = axisSvg();
+const fresh = [...new Set(near.filter((r) => r.lit_check === "not_found" || r.lit_check === "related_only").map((r) => motif(r.motif).formula))];
+const screened = [...new Set(near.filter((r) => r.lit_check === "reported_computational_only").map((r) => motif(r.motif).formula))];
+const join = (a) => a.length > 1 ? a.slice(0, -1).join(", ") + " and " + a.at(-1) : a.join("");
+document.getElementById("results-lead").textContent =
+  `${near.length} of ${D.graphene.length} computed hydrogen positions lie within 0.2 eV of the optimum.`
+  + (fresh.length ? ` For ${join(fresh)}, a literature search found no earlier report as a single-atom catalyst.` : "")
+  + (screened.length ? ` ${join(screened)} ${screened.length > 1 ? "appear" : "appears"} in earlier DFT screenings, but not for hydrogen evolution.` : "");
+const tbody = document.querySelector("#ranked tbody");
+for (const r of D.graphene) {
+  const m = motif(r.motif);
+  const tr = el("tr");
+  if (Math.abs(+r.dG_H.toFixed(2)) <= 0.2) tr.className = "near";
+  const notes = [];
+  if (r.provisional) notes.push('<span class="chip">provisional</span>');
+  if (r.lit_check === "not_found" || r.lit_check === "related_only") notes.push('<span class="chip new">no prior SAC report found</span>');
+  else if (r.lit_check === "reported_computational_only") notes.push('<span class="chip">in earlier DFT screenings, no HER</span>');
+  else if (r.lit_check && r.lit_check.startsWith("reported")) notes.push('<span class="chip">reported before</span>');
+  else if (r.lit === 0) notes.push('<span class="chip new">no papers found</span>');
+  if (r.notes) notes.push(`<span class="muted small">${esc(r.notes.replace("another bare configuration still running", "a second bare geometry is running"))}</span>`);
+  tr.innerHTML = `<td class="site"><span class="swatch" style="background:${colour(m.metal)}"></span><b>${m.formula}</b><small>${m.site}</small></td>`
+    + `<td class="origin">${esc(r.origin)}</td><td>${r.state === "H_S" ? "S" : m.metal}</td>`
+    + `<td class="dot">${dotSvg(r)}</td><td class="n val">${fmt(r.dG_H)}</td>`
+    + `<td class="n">${r.lit === null ? "–" : r.lit}</td><td>${notes.join(" ")}</td>`;
+  tbody.append(tr);
+}
+
+// literature check
+(function () {
+  const label = {not_found: "no prior report found", related_only: "no prior report found (only related sites)",
+                 reported_experimental: "reported, experimentally",
+                 reported_computational_only: "computed in earlier DFT screenings, hydrogen evolution not studied"};
+  for (const r of D.literature || []) {
+    const m = motif(r.motif);
+    const closest = r.closest.map((c) => `${c.doi ? `<a href="https://doi.org/${esc(c.doi)}">${esc(c.title)}</a>` : esc(c.title)}`
+      + ` <span class="muted">(${esc(String(c.year || ""))}; ${esc(c.coordination || "")})</span>`).join("<br>");
+    const tr = el("tr");
+    tr.innerHTML = `<td class="site"><span class="swatch" style="background:${colour(m.metal)}"></span><b>${m.formula}</b><small>${m.site}</small></td>`
+      + `<td class="n">${fmt(r.dG_H)}</td>`
+      + `<td><span class="chip${r.verdict.startsWith("reported") ? "" : " new"}">${label[r.verdict] || r.verdict}</span></td>`
+      + `<td class="small" style="min-width:18rem">${closest}</td>`;
+    document.querySelector("#lit-table tbody").append(tr);
+  }
+})();
+
+// funnel
+(function () {
+  const box = document.getElementById("funnel-rows");
+  const top = Math.max(...D.funnel.map((f) => f.n));
+  const pos = (n) => Math.log10(Math.max(n, 1)) / Math.log10(top) * 82;   // % of the bar track; room for the count
+  const ticks = el("div", {className: "frow ticks"});
+  ticks.append(el("span", {className: "flabel", textContent: "count (log scale)"}));
+  const tk = el("div", {className: "fticks"});
+  for (const t of [1, 10, 100, 1000, 10000, 100000]) tk.append(el("span", {textContent: int(t), style: `left:${pos(t)}%`}));
+  ticks.append(tk);
+  box.append(ticks);
+  for (const f of D.funnel) {
+    const row = el("div", {className: "frow"});
+    row.setAttribute("role", "listitem");
+    row.append(el("span", {className: "flabel", textContent: f.label}));
+    const bar = el("span", {className: "fbar"});
+    const w = pos(f.n);
+    bar.append(el("i", {className: f.kind, style: `width:${w}%`, title: `${int(f.n)} ${f.label}`}), el("b", {textContent: int(f.n), style: `left:${w}%`}));
+    row.append(bar);
+    box.append(row);
+  }
+})();
+
+// how
+const steps = [
+  ["Sweep the PDB", `Every entry with a transition-metal component: ${int(D.sweep.entries_swept)} entries, all downloaded and processed.`],
+  ["Extract first shells", `Donor atoms within element-specific cutoffs, with crystal symmetry and alternate conformers: ${int(D.sweep.sites)} metal sites.`],
+  ["Map onto graphene", "Four nearly square-planar donors go into a double vacancy, otherwise the best three-donor face into a single vacancy. His N becomes pyridinic N, Cys S an S dopant, carboxylate or water O an O dopant."],
+  ["Screen fast", `GFN2-xTB relaxes ${int(D.screen.structures)} structures of ${D.screen.sites} sites; one offset per metal calibrates it against DFT.`],
+  ["Compute in DFT", "Quantum ESPRESSO, PBE-D3, spin-polarised, 6 × 6 graphene cell: ΔG_H = ΔE_H + 0.24 eV for H on the metal and on S donors."],
+  ["Check literature and stability", "OpenAlex and Europe PMC counts per motif; metal formation energy and dissolution potential for the sites near the optimum."],
+];
+for (const [t, txt] of steps) document.getElementById("steps").append(el("li", {}, `<b>${t}</b><span>${esc(txt).replace("ΔG_H", "ΔG<sub>H</sub>").replace("ΔE_H", "ΔE<sub>H</sub>")}</span>`));
+
+// PDB sweep
+const S = D.sweep;
+document.getElementById("pdb-lead").textContent =
+  `${int(S.sites)} metal sites in ${int(S.entries)} entries, ${int(S.representative)} of them unique (one per set of identical copies). `
+  + `The enzyme set for hydrogen evolution, O₂ and CO₂ reduction and N₂ fixation has ${int(S.enzyme_sites)} sites. `
+  + "Our donors were checked against the metal links the PDB annotates in the same files:";
+for (const [v, label] of [[S.exact, "of annotated sites have exactly the annotated donor set"], [S.precision, "precision: our donors that are annotated"], [S.recall, "recall: annotated partners we count"]]) {
+  document.getElementById("pdb-val").append(el("dt", {textContent: v}), el("dd", {textContent: label}));
+}
+for (const t of S.top) {
+  const [, metal, donors, site, ax] = t.motif.match(/^(\w+)-(\w+)\((SV|DV)\)(?:\+ax:(\w+))?$/) || [, t.motif, "", "", ""];
+  const [pdb, res] = t.example.replace(")", "").split("(");
+  const tr = el("tr");
+  tr.innerHTML = `<td><span class="swatch" style="background:${colour(metal)}"></span>${metal}–${sub(donors)}</td>`
+    + `<td>${site === "DV" ? "double vacancy" : "single vacancy"}${ax ? `, axial ${sub(ax)}` : ""}</td><td class="n">${int(t.entries)}</td>`
+    + `<td class="small">${esc(pdb)}${res ? ` <span class="muted">(${esc(res)} Å)</span>` : ""}</td>`;
+  document.querySelector("#top tbody").append(tr);
+}
+
+// screening
+const C = D.screen;
+document.getElementById("screen-text").textContent =
+  `DFT for every site would take weeks, so GFN2-xTB, a semi-empirical tight-binding method, relaxed all ${int(C.structures)} structures `
+  + `of ${C.sites} sites (the common enzyme donor environments, each with nine enzyme metals) in a few hours. `
+  + `Raw xTB errors depend on the metal, so we fit one offset per metal on ${C.pairs} sites that also have DFT values `
+  + `(${C.metals_calibrated}; a metal needs two pairs): predicted for each site from the others, the mean error for H on the `
+  + `metal is ${C.mae_metal.toFixed(2)} eV. The best ${C.selected} candidates went to DFT, `
+  + "started from their xTB geometries, which cuts the number of DFT relaxation steps several-fold. "
+  + `A library of every N, S, O and C arrangement adds ${int(C.library_sites)} sites with the nine enzyme metals plus Cr, Ru and Pt (a proof of concept)`
+  + (C.compare ? `. For the calibrated metals and at most one C donor: of the arrangements that enzymes use, `
+    + `${Math.round(100 * C.compare.scan)} % bind H within 0.3 eV of the optimum, of the other arrangements `
+    + `${Math.round(100 * C.compare.library)} % (median |ΔG_H| ${C.compare.scan_median.toFixed(2)} against `
+    + `${C.compare.library_median.toFixed(2)} eV, ${C.compare.n_scan} and ${C.compare.n_library} sites, Mann–Whitney p = ${C.compare.p})`
+    + (C.compare.favoured.length ? `; the difference comes from ${C.compare.favoured.join(", ")}` : "")
+    + (C.compare.reverse.length ? `, while for ${C.compare.reverse.join(", ")} it runs the other way` : "") + "." : ".");
+
+// MoS2
+for (const r of D.mos2) {
+  const tr = el("tr");
+  const v = r.dG_H === null ? "–" : fmt(r.dG_H);
+  const chip = r.status === "relaxed" ? "" : `<span class="chip">${esc(r.status)}</span>`;
+  tr.innerHTML = `<td>${esc(r.label)}</td><td>${r.on}</td><td class="n">${v}</td><td>${chip || '<span class="muted small">relaxed</span>'}</td>`;
+  document.querySelector("#mos2-table tbody").append(tr);
+}
+
+// MoS2 and silica
+(function () {
+  const P = D.supports;
+  if (!P) { document.getElementById("supports").hidden = true; return; }
+  const SUP = {MoS2: "MoS₂, on three S", MoS2vS: "MoS₂, in an S vacancy", SiO2: "silica"};
+  const smotif = (s) => {
+    const [, metal, face, sup, ax] = s.match(/^(\w+)-(\w+)\((\w+)\)(?:\+ax:(\w+))?$/) || [, s, "", "", ""];
+    const head = sup === "MoS2vS" ? `${metal} on ${sub(face)}` : `${metal}–${sub(face)}`;
+    return {metal, text: head + (ax ? ` <span class="muted">+ ${sub(ax)} on top</span>` : "")};
+  };
+  document.getElementById("supports-counts").textContent =
+    `Sites with a three-donor face: ${int(P.faces.MoS2)} on MoS₂ S, ${int(P.faces.MoS2vS)} metal-cluster corners for the S vacancy, `
+    + `${int(P.faces.SiO2)} on silica O (every copy, all metals). Spacings are medians of X-ray sites at 2.0 Å or better.`;
+  for (const sup of ["MoS2", "MoS2vS", "SiO2"]) {
+    for (const r of P.tables[sup] || []) {
+      const m = smotif(r.motif);
+      const tr = el("tr");
+      tr.innerHTML = `<td>${SUP[sup]}<br><span class="chip">${esc(r.why)}</span></td>`
+        + `<td class="site"><span class="swatch" style="background:${colour(m.metal)}"></span><b>${m.text}</b></td>`
+        + `<td class="small">${r.examples.map(esc).join("<br>")}</td>`
+        + `<td class="n">${r.xx === null ? "one atom" : r.xx.toFixed(2) + ` <span class="muted">vs ${r.ideal.toFixed(2)}</span>`}</td>`
+        + `<td class="n">${int(r.entries)}</td>`;
+      document.querySelector("#supports-table tbody").append(tr);
+    }
+  }
+  const order = (r) => (r.support === "MoS2" ? 0 : 2) + (r.metal === "clean" ? 0 : 1);   // the clean sheet first
+  for (const r of [...P.xtb].sort((a, b) => order(a) - order(b))) {
+    const tr = el("tr");
+    const site = r.metal === "clean" ? "clean MoS₂, basal S"
+      : r.support === "MoS2" ? `${r.metal}–S₃ on MoS₂` : `${r.metal} on silica (O₃)`;
+    const on = r.state === "H_M" ? r.metal : r.state === "H_S" ? "S" : "O";
+    const notes = [];
+    if (r.support === "MoS2" && r.metal !== "clean") notes.push(`bare: ${esc(r.site_bare)}, with H: ${esc(r.site_H)}`);
+    if (r.M_height_bare !== null && r.M_height_bare !== undefined && r.M_height_bare < 0.3)
+      notes.push(`<span class="chip">metal sank into the S layer (${fmt(r.M_height_bare)} Å)</span>`);
+    if (r.dG_H_dft !== null && r.dG_H_dft !== undefined) notes.push(`DFT (6 × 6): ${fmt(r.dG_H_dft)} eV`);
+    const want = r.state === "H_M" ? "M" : r.state === "H_S" ? "S" : "O";
+    if (r.H_partner && r.H_partner !== want) notes.push(`<span class="chip">H moved to ${esc(r.H_partner)}</span>`);
+    if (!r.converged) notes.push('<span class="chip">not converged</span>');
+    const near = r.dG_H_offset !== null && Math.abs(r.dG_H_offset) <= 0.2;
+    if (near) tr.className = "near";
+    tr.innerHTML = `<td class="site"><span class="swatch" style="background:${colour(r.metal)}"></span><b>${site}</b></td>`
+      + `<td>${on}</td><td class="n">${r.dG_H === null ? "–" : fmt(r.dG_H)}</td>`
+      + `<td class="n val">${r.dG_H_offset === null ? "–" : fmt(r.dG_H_offset)}</td><td class="small">${notes.join("; ")}</td>`;
+    document.querySelector("#supports-xtb tbody").append(tr);
+  }
+})();
+
+// other reactions
+(function () {
+  const R = D.reactions;
+  if (!R) { document.getElementById("reactions").hidden = true; return; }
+  const f = R.fit || {};
+  const fmt2 = (v) => v === null || v === undefined ? "–" : v.toFixed(2);
+  if (f.OH) document.getElementById("reactions-fit").textContent =
+    `O₂ intermediates are calibrated against published PBE-D3 values for ${f.OH.n} graphene double-vacancy sites (Cho et al., Front. Chem. 2022): `
+    + `mean error *OH ${fmt2(f.OH.mae_raw)} → ${fmt2(f.OH.mae_fit)} eV, *O ${fmt2(f.O.mae_raw)} → ${fmt2(f.O.mae_fit)} eV, `
+    + `*OOH ${fmt2(f.OOH.mae_raw)} → ${fmt2(f.OOH.mae_fit)} eV after a linear fit (r = ${fmt2(f.OH.r)}, ${fmt2(f.O.r)}, ${fmt2(f.OOH.r)}).`;
+  const name = (s) => s.kind === "graphene" ? (() => { const m = motif(s.site); return `${m.formula} <small>${m.site}</small>`; })()
+    : s.kind === "MoS2" ? `${s.metal}–S₃ <small>on MoS₂</small>` : `${s.metal} <small>on silica</small>`;
+  for (const r of R.best) {
+    const tr = el("tr");
+    const sites = r.sites.map((s) => `<span class="rxsite"><span class="swatch" style="background:${colour(s.metal)}"></span>${name(s)} `
+      + `<b class="val">${fmt(s.U)}</b>${s.dG_H !== null && s.dG_H !== undefined ? ` <span class="muted small">(ΔG<sub>H</sub> ${fmt(s.dG_H)}, ${esc(s.dG_H_source)})</span>` : ""}</span>`).join("");
+    tr.innerHTML = `<td><b>${r.label}</b><br><span class="chip${r.note.startsWith("calibrated") ? " new" : ""}">${esc(r.note)}</span></td>`
+      + `<td class="rxsites">${sites}</td><td class="n">${fmt(r.eq)}</td><td class="n">${r.n}</td>`;
+    document.querySelector("#reactions-table tbody").append(tr);
+  }
+})();
+
+// stability
+const stab = D.graphene.filter((r) => r.E_f !== null);
+document.getElementById("stability-status").textContent = stab.length
+  ? `${stab.length} sites done: ` + stab.map((r) => `${motif(r.motif).formula} E_f ${fmt(r.E_f)} eV, U_diss ${fmt(r.U_diss)} V`).join("; ")
+  : `Not computed yet.`;
+
+document.getElementById("updated").textContent = `Last updated ${D.updated}. DFT results as of ${D.frozen}; the DFT runs started since (new xTB library hits, including Cr, Ru and Pt) follow.`;
+</script>

@@ -1,0 +1,15 @@
+{
+ "motif": "Fe-S2C:SV",
+ "enzyme": "FeMo-co Fe bound to the carbide, 11 entries / 83 sites (3U7Q)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "ih": 72
+}

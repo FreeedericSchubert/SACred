@@ -1,0 +1,16 @@
+{
+ "motif": "Cr-S2O2:DV:trans",
+ "enzyme": "xTB library: raw dG_H -0.03 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  67
+ ],
+ "state": "bare",
+ "start": "GFN2-xTB geometry"
+}

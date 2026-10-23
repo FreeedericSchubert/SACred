@@ -1,0 +1,15 @@
+{
+ "motif": "Mo-NS2O:DV:SNSO",
+ "enzyme": "nitrogenase Mo as the sweep maps it (cis S2 + His N + homocitrate O), 7 entries (3U7Q)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

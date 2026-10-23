@@ -1,0 +1,16 @@
+{
+ "motif": "Mo-S4:DV",
+ "enzyme": "formate dehydrogenase Mo-bisMGD (4 dithiolene S)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "ih": 71
+}

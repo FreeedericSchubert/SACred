@@ -1,0 +1,16 @@
+{
+ "motif": "Co-S3:SV",
+ "enzyme": "xTB scan: calibrated dG_H +0.03 eV (H_S)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  70
+ ],
+ "state": "H_S",
+ "start": "GFN2-xTB geometry",
+ "ih": 72
+}

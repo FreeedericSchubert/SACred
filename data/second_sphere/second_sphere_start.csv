@@ -1,0 +1,4 @@
+motif,source_site,enzyme,candidates,groups,second_sphere,atoms_bare,atoms_H_M,align_rmsd_unit
+Zn-NS2:SV,6LAC_A_ZN_201_ZN,beta-carbonic anhydrase,13,5,Hoh311 O: water; His93 N: ammonia; Hoh351 O: water; Ala95 N: ammonia; Gly91 O: formaldehyde,90,91,0.681
+Ni-NS2:SV,8EZH_B_NI_514_NI,lactate racemase (Ni pincer cofactor),8,4,Tyr294 OH: methanol; Trp358 NE1: ammonia; His174 NE2: imidazole; Phe107 N: ammonia,95,96,0.42
+Co-N2OC:DV:NONC,3HTW_A_CO_2_CO,organophosphate hydrolase,9,3,Asp364 OD2: acetic acid; Thr277 N: ammonia; Thr275 O: formaldehyde,87,88,0.484

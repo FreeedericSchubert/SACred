@@ -1,0 +1,14 @@
+{
+ "motif": "NS2:SV",
+ "state": "ref",
+ "from": "Fe-NS2:SV",
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

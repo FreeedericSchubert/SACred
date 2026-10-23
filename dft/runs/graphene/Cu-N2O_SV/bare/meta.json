@@ -1,0 +1,14 @@
+{
+ "motif": "Cu-N2O:SV",
+ "enzyme": "T2 Cu of multicopper oxidases, 16 entries (6RI6)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

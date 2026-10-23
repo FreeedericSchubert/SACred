@@ -1,0 +1,15 @@
+{
+ "motif": "W-S4:DV",
+ "enzyme": "W-formate dehydrogenase / formylmethanofuran dehydrogenase",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

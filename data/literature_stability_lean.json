@@ -1,0 +1,740 @@
+[
+ {
+  "topic": "thermo",
+  "queries": [
+   "semantic: thermodynamic stability of SACs on N-doped graphene: metal binding energy vs cohesive energy",
+   "semantic: review of SAC stability, synthesis and aggregation challenges on carbon supports",
+   "semantic: high-throughput DFT screening of TM single atoms in graphene vacancies for stability and activity",
+   "semantic: dissolution potential and leaching of metal single atoms anchored on carbon in electrocatalysis",
+   "semantic: formation energy of single-atom metal sites with N, S, O, C coordination in graphene and carbon",
+   "semantic: synthesis of SACs: pyrolysis, vacancy trapping and metal precursor migration in carbon",
+   "title: single-atom catalyst stability",
+   "title: single atom graphene vacancy",
+   "title: single-atom catalysts synthesis",
+   "title: dissolution stability single-atom"
+  ],
+  "papers": [
+   {
+    "title": "Stability of graphene-based single-atom catalysts across the first-row transition series: the interplay of coordination, composition, and metal identity",
+    "doi": "10.1039/d6dt01022a",
+    "valency_id": "42695769",
+    "year": 2026,
+    "finding": "DFT on 60 first-row TM SACs in mono/divacancy graphene, with and without N doping. Divacancies bind more strongly than monovacancies; C coordination beats N for the metal-graphene bond; stability is governed by d-state alignment with the graphene Fermi level; N doping weakens binding for late TMs.",
+    "relation": "overlaps_our_approach",
+    "relation_note": "Agrees with DV > SV (xTB variance result). It contradicts or complicates our N > S/C reading: it finds C beats N, while we find N holds better than S and see Co-N2OC as the only passing site. Closest systematic stability screen, but it uses hand-designed N-doped sites, not PDB enzyme sites.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Reactivity screening of single atoms on modified graphene surface - from formation and scaling relations to catalytic activity",
+    "doi": "10.1002/admi.202001814",
+    "valency_id": "2101.02922",
+    "year": 2021,
+    "finding": "DFT on 9 metals (Ni, Cu, Ru, Rh, Pd, Ag, Ir, Pt, Au) on 4 supports. Only the single-vacancy graphene gives SACs stable against aggregation and dissolution under electrocatalysis conditions; only M@vacancy (not Ag, Au) is stable under HER in acid.",
+    "relation": "contradicts",
+    "relation_note": "Finds SV sites stable against aggregation, while our E_f is positive for 18 of 20 sites. Likely a difference in definition (reference, pure C vacancy vs donor-substituted sites, metals studied). Needs reconciling with our E_f reference.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Atomic adsorption on graphene with a single vacancy: systematic DFT study through the periodic table of elements",
+    "doi": "10.1039/c7cp07542a",
+    "valency_id": "29238768",
+    "year": 2018,
+    "finding": "PBE/D2/D3/vdW-DF2 for elements of rows 1-6 at the SV. Binding correlates with the cohesive energy of the element. Dissolution potentials computed; most metals at the vacancy are more noble than in their bulk phase.",
+    "relation": "supports",
+    "relation_note": "Same cohesive-energy correlation as our E_f trend. It is precedent for our U_diss approach, but limited to bare C3 vacancy without N/S/O donors.",
+    "relevance": "high",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "The Local Coordination Effects on the Reactivity and Speciation of Active Sites in Graphene-Embedded Single-Atom Catalysts over Wide pH and Potential Range",
+    "doi": "10.3390/nano12234309",
+    "valency_id": "36500932",
+    "year": 2022,
+    "finding": "Mn, Fe, Co in M@N4 with N replaced by O or S (OxNy, SxNy). Replacing N with O or S destabilises the SACs towards dissolution (Pourbaix analysis).",
+    "relation": "supports",
+    "relation_note": "Consistent with our N > S (and xTB: S and O hold the metal more weakly than N). Only 3 metals and DV N4 base; our work extends to 12 metals, C donors, and SV.",
+    "relevance": "high",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Unraveling the Stability of N-Doped Graphene Supported Single-Atom and Dual-Atom Catalysts From Pourbaix Diagram",
+    "doi": "10.1002/anie.3532397",
+    "valency_id": "41972767",
+    "year": 2026,
+    "finding": "Pourbaix stability of Cr, Mn, Fe, Co, Ni SACs/DACs on N-doped graphene. Co and Ni stable over wide pH/potential, Cr unstable everywhere; Fe and Mn stable only with adsorbates.",
+    "relation": "extends",
+    "relation_note": "Method for pH-dependent U_diss with speciation and adsorbates; our U_diss is a simpler vacuum-style value. Co being most stable agrees with Co-N2OC being our only passing site.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Activity And Stability of Single- And Di-Atom Catalysts for the O2 Reduction Reaction",
+    "doi": "10.1002/anie.202311113",
+    "valency_id": "37756676",
+    "year": 2024,
+    "finding": "Formation-energy plus Pourbaix screen of first-row TM SACs/DACs on defective N-graphene for ORR. MnNC found stable in acid and alkaline; 4 SACs and 15 DACs with high activity.",
+    "relation": "method_for_us",
+    "relation_note": "Template for coupling formation energy, stability and ORR activity; matches our ORR-intermediate aim. Handpicked N sites only, not enzyme-derived.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "The Nature and Stability of Transition Metal-Anchored Nitrogen-Doped Graphene Single-Atom Catalysts",
+    "doi": "10.1002/chem.202501654",
+    "valency_id": "40605634",
+    "year": 2025,
+    "finding": "Activation-strain and KS-MO analysis for Ti-Zn on the N4-doped support: metal-support interaction strengthens Ti to Ni and weakens Ni to Zn, due to filling of the 3dxy orbital.",
+    "relation": "extends",
+    "relation_note": "Electronic explanation for the metal trend (Cu, Zn weakly bound) that we only see as correlation with cohesive energy; N4 only.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Understanding stability and reactivity of transition metal single-atoms on graphene",
+    "doi": "10.1038/s41598-025-00126-y",
+    "valency_id": "40319041",
+    "year": 2025,
+    "finding": "PBE+D3 for Co, Ni, Rh, Pd, Ir, Pt on pristine graphene, hBN and monovacancy graphene. Monovacancy binds very strongly (up to 9.11 eV for Ir).",
+    "relation": "background",
+    "relation_note": "Adsorption energies on the bare vacancy are not formation energies vs bulk; limited metals and no donor variation.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Mechanism of Particle-Mediated Inhibition of Demetalation for Single-Atom Catalytic Sites in Acidic Electrochemical Environments",
+    "doi": "10.1021/jacs.3c04315",
+    "valency_id": "37429887",
+    "year": 2023,
+    "finding": "Experimental: metal particles donate electrons to FeN4, strengthening Fe-N and cutting Fe dissolution by 78%; 430 h in a fuel cell.",
+    "relation": "background",
+    "relation_note": "Experimental demetalation context for the dissolution criterion; it is Fe-N4 only.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Destabilization of Single-Atom Catalysts: Characterization, Mechanisms, and Regeneration Strategies",
+    "doi": "10.1002/adma.202418942",
+    "valency_id": "39828525",
+    "year": 2025,
+    "finding": "Review of SAC destabilization mechanisms, in situ characterization and regeneration (redispersion, poison desorption).",
+    "relation": "background",
+    "relation_note": "Context for the dissolution and aggregation failure modes we model; no screening data.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   }
+  ],
+  "known": "Metal-vacancy binding in graphene follows the metal cohesive energy, and divacancies bind more strongly than monovacancies. Local donor choice matters: replacing N with O or S destabilises dissolution stability, while C coordination binds the metal more strongly than N. Co and Ni are the most dissolution-stable among first-row metals in N-doped graphene, and Pourbaix analyses are the standard dissolution treatment. Studies are typically 5 to 60 hand-designed sites on 3 to 12 metals.",
+  "our_addition": "Our screen is built from the coordination shells of PDB metalloenzyme sites and mixed N/S/O/C donors, reaching 1,138 xTB sites on 12 metals with DFT checks. Added on top are Arrhenius escape and NEB kinetics for pyrolysis conditions. Our positive E_f for 18 of 20 sites contrasts with the earlier report that the single vacancy is aggregation-stable (2101.02922), and we find N beats S (consistent with 36500932) but the Dalton paper finds C beats N.",
+  "gaps": "From these abstracts, nobody has built a PDB-wide enzyme-to-SAC stability screen with real enzyme donor sets, nor compared enzyme donor sets against binding-maximising ones. The abstracts also show no kinetic escape barriers or pyrolysis-temperature criteria. Mixed N/S/O/C donors across many metals, and strain/geometry mismatch versus the enzyme site, are untreated here. The Pourbaix dissolution treatment is also not combined with a high-throughput screen across metals and donor sets. Only abstracts were read, so the novelty claim holds only against these 10 papers and the Dalton paper is the closest rival."
+ },
+ {
+  "topic": "kinetics",
+  "queries": [
+   "semantic: single-atom catalyst aggregation and sintering during high-temperature pyrolysis of metal-nitrogen-carbon materials",
+   "semantic: metal atom migration and escape barriers from carbon vacancies in single-atom catalysts, nudged elastic band",
+   "semantic: review of stability and degradation mechanisms of single-atom catalysts under operating conditions",
+   "semantic: temperature-dependent clustering of isolated metal atoms into nanoparticles on graphene, kinetic trapping",
+   "semantic: ab initio molecular dynamics or machine-learned potential simulation of single-atom metal stability and diffusion on carbon supports",
+   "semantic: synthesis of thermally stable single-atom catalysts that suppress metal agglomeration at high loading",
+   "title: single atom sintering",
+   "title: single-atom catalyst stability",
+   "title: atom migration vacancy",
+   "title: single atoms aggregation"
+  ],
+  "papers": [
+   {
+    "title": "Stability of graphene-based single-atom catalysts across the first-row transition series: the interplay of coordination, composition, and metal identity",
+    "year": 2026,
+    "valency_id": "42695769",
+    "doi": "10.1039/d6dt01022a",
+    "finding": "DFT on 60 first-row-metal SACs in mono- and divacancy graphene, with and without N doping, plus Ni(111)-supported cases. Divacancies bind more strongly than monovacancies, C coordination beats N, stability follows d-state alignment with the graphene Fermi level, and N doping weakens binding for late metals.",
+    "relation": "overlaps_our_approach",
+    "relation_note": "Agrees with our DV > SV (xTB). Its 'C beats N' needs checking against our N-vs-S/O result and the N3 < N2S ordering for Cu, since the donor sets differ. It is thermodynamic only, with no kinetics, no S/O donors and no enzyme-derived sites, so it does not pre-empt a PDB-wide screen.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Towards instant prediction of metal ad-atom diffusion barriers for understanding of sintering and catalysts durability",
+    "year": 2025,
+    "valency_id": "10.26434/chemrxiv-2025-0x7xb",
+    "doi": "10.26434/chemrxiv-2025-0x7xb",
+    "finding": "A bond-order-conservation model predicts adatom surface-diffusion barriers on FCC(100) metals with an MAE of 0.12 eV, comparable to BEP accuracy, and is proposed for on-the-fly sintering prediction.",
+    "relation": "method_for_us",
+    "relation_note": "Possible cheap surrogate for our escape and diffusion barriers. It covers metal surfaces only, not vacancy escape from graphene.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Adsorbate-assisted migration of the metal atom in atomically dispersed catalysts: An ab initio molecular dynamics study",
+    "year": 2021,
+    "valency_id": "34241241",
+    "doi": "10.1063/5.0054991",
+    "finding": "5 ps AIMD at 500 K of Pt on rutile TiO2(110). Adsorbates weaken Pt-support binding and raise diffusion, while a near-linear O-Pt-adsorbate motif inhibits migration.",
+    "relation": "extends",
+    "relation_note": "Shows that adsorbates under operation can lower escape barriers. Our escape energies are for bare sites, so they are an upper bound for operating conditions. The support is an oxide, not carbon.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Understanding the Dynamic Aggregation in Single-Atom Catalysis",
+    "year": 2024,
+    "valency_id": "38287886",
+    "doi": "10.1002/advs.202308046",
+    "finding": "Review of dynamic aggregation of single atoms driven by thermodynamic or kinetic factors, covering intrinsic stability, site-migration barriers, temperature, voltage, adsorbates and support, plus confinement and defect-engineering strategies.",
+    "relation": "background",
+    "relation_note": "Frames the thermodynamic-versus-kinetic split that our E_f versus escape-energy analysis addresses.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Thermally Stable Single-Atom Heterogeneous Catalysts",
+    "year": 2021,
+    "valency_id": "33763927",
+    "doi": "10.1002/adma.202004319",
+    "finding": "Progress report: single atoms tend to migrate and agglomerate under reaction conditions. Covers preparation routes (pyrolysis, atom trapping and others), coordination structures and performance of thermally durable SACs.",
+    "relation": "background",
+    "relation_note": "Context for the pyrolysis-temperature criterion. It gives no quantitative barriers.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Destabilization of Single-Atom Catalysts: Characterization, Mechanisms, and Regeneration Strategies",
+    "year": 2025,
+    "valency_id": "39828525",
+    "doi": "10.1002/adma.202418942",
+    "finding": "Review of SAC destabilization (active sites, coordination, support, conditions), in situ characterization, and regeneration by redispersion and other routes.",
+    "relation": "background",
+    "relation_note": "Background for the operating-stability side. It notes that structure-stability relationships are still lacking, which fits our gap.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Trapping of metal atoms in vacancies of carbon nanotubes and graphene",
+    "year": 2010,
+    "valency_id": "20499848",
+    "doi": "10.1021/nn100356q",
+    "finding": "In-situ STEM observed metal atoms trapped by graphene and nanotube vacancies, and escape from the traps studied over 20-670 C, which gives information on metal-defect bonding.",
+    "relation": "supports",
+    "relation_note": "Experimental precedent for vacancy trapping and thermal escape on carbon. Its escape temperatures could serve as a rough check of our Arrhenius escape threshold (~3.5 eV at 800 C), and the abstract gives no numbers.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Non defect-stabilized thermally stable single-atom catalyst",
+    "year": 2019,
+    "valency_id": "30651560",
+    "doi": "10.1038/s41467-018-08136-3",
+    "finding": "Pt single atoms stabilized by covalent metal-support interaction on reducible iron oxide, with no support defects involved. Stable through high-temperature calcination, with PtO2 vapor trapped.",
+    "relation": "background",
+    "relation_note": "Oxide-support, non-vacancy route. It does not bear on carbon-vacancy conclusions.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   }
+  ],
+  "known": "Single atoms migrate and agglomerate under pyrolysis and operating conditions. Graphene mono- and divacancy DFT studies show that divacancies bind metals more strongly than monovacancies and that stability follows metal identity and electronic alignment. Vacancy trapping and thermal escape have been observed directly by STEM on carbon (20-670 C). Adsorbates and operating conditions can lower migration barriers, and reviews already frame aggregation as a mix of thermodynamic and kinetic factors.",
+  "our_addition": "We extend thermodynamics (E_f, U_diss) to enzyme-derived N/S/O/C donor sets across 12 metals and 1,138 xTB sites. We add NEB barriers close to the escape energy, which justifies a simple Arrhenius escape criterion at pyrolysis temperatures. Our finding that S and O bind more weakly than N is new next to the 2026 Dalton paper, which only compares N and C coordination. Our finding that only 1 of 20 sites is both thermodynamically and electrochemically stable also appears new.",
+  "gaps": "None of the abstracts shows a PDB-wide or enzyme-derived stability screen, S/O donor sets in graphene vacancies, or escape barriers tied to a pyrolysis-temperature criterion across many metals. None reports ML-potential or AIMD aggregation on carbon vacancies, and the two sintering/ML candidates (Pt on silica, multiscale Pt sintering) were not opened. Operation-induced effects such as adsorbate-assisted escape are not included in our work. The 2010 STEM escape data could not be compared quantitatively from the abstract alone."
+ },
+ {
+  "topic": "mixed",
+  "queries": [
+   "semantic: single-atom catalysts with heteroatom-mixed first coordination shell N S O on carbon, synthesis control of coordination environment",
+   "semantic: review of atomically dispersed metal sites with non-metal coordination (N, S, O, C) in carbon-supported single-atom catalysts",
+   "semantic: Fe-N-S or Co-N-S single-atom sites on carbon: sulfur coordination synthesis and EXAFS verification",
+   "semantic: Co-N2O2 or Ni-N2S2 single-atom catalyst: stability of sulfur- or oxygen-coordinated sites during pyrolysis and electrocatalysis",
+   "semantic: carbon-bonded donor (Fe-N3C, Co-N3C) single-atom sites: identification by XANES and EXAFS and their catalytic activity",
+   "semantic: high-throughput or systematic study of M-N-X (X = S, O, C) coordination motifs in single-atom catalysts: formation energy and metal leaching",
+   "title: Co-N3S single atom",
+   "title: sulfur-coordinated single atom",
+   "title: heteroatom coordination single-atom",
+   "title: N2O2 single atom"
+  ],
+  "papers": [
+   {
+    "title": "Stability of graphene-based single-atom catalysts across the first-row transition series: the interplay of coordination, composition, and metal identity",
+    "year": 2026,
+    "doi": "10.1039/d6dt01022a",
+    "valency_id": "42695769",
+    "finding": "DFT on 60 first-row SACs in mono- and divacancy graphene, with and without N doping. Divacancies bind more strongly than monovacancies, C coordination beats N coordination for the metal-graphene bond, and N doping weakens binding for late metals. Stability follows d-state alignment with the graphene Fermi level plus radius-dependent geometric accommodation.",
+    "relation": "overlaps_our_approach",
+    "relation_note": "Agrees with our DV > SV result. It contradicts or complicates our finding that N holds the metal better than S, because here C beats N. It covers only N and C donors, and is not enzyme-derived or PDB-wide.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Tuning the metal-support interactions in transition metal-anchored heteroatom-doped graphene single-atom catalysts",
+    "year": 2026,
+    "doi": "10.1039/d6cp00932h",
+    "valency_id": "42300494",
+    "finding": "Review of quantum-chemical studies on tuning metal-support bond strength. It compares SV and DV topology, B/N/O dopants in the first shell, and periodic trends across periods 3 to 5.",
+    "relation": "overlaps_our_approach",
+    "relation_note": "Closest review to our stability framing (vacancy type, donor identity, metal trend). It could show whether a systematic S/O/C donor scan exists. The abstract lists B, N and O but not S.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Vacancy Defects Inductive Effect of Asymmetrically Coordinated Single-Atom Fe-N3S1 Active Sites for Robust Electrocatalytic Oxygen Reduction",
+    "year": 2024,
+    "doi": "10.1002/adma.202308243",
+    "valency_id": "38102967",
+    "finding": "Fe single atoms on N,S co-doped carbon with abundant vacancy defects give stable Fe-N3S1 sites. Operando XAS ties activity to the coordination structure, and in situ Raman and ATR-SEIRAS are also used.",
+    "relation": "supports",
+    "relation_note": "Shows that an N3S (SV-like, 3N+S) site is experimentally accessible and survives operation. This is consistent with S-containing sites being makeable, even though we find S binds more weakly than N. It also shows XAS used to verify the coordination.",
+    "relevance": "high",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Asymmetrically coordinated single-atom Co-N3S/C catalyst for oxygen reduction reaction",
+    "year": 2026,
+    "doi": "10.1039/d5cc06743j",
+    "valency_id": "41661140",
+    "finding": "Coordinative compound impregnation synthesises Co-N3S/C with asymmetric coordination, which performs well in a Zn-air battery. The abstract is very short and gives no stability or characterisation detail.",
+    "relation": "background",
+    "relation_note": "Experimental example of the Co-N3S motif. Its synthesis route (coordination compound as precursor) is one way to set a mixed first shell.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Engineering Ni-N2O2 Coordination in Single-Atom Catalysts for Alkaline Hydrogen Evolution",
+    "year": 2025,
+    "doi": "10.1021/acs.inorgchem.5c03021",
+    "valency_id": "40903397",
+    "finding": "Ni atoms on N-doped carbon nanofibres in a defined N2O2 environment, characterised by single-crystal XRD (of a molecular precursor, as far as the abstract shows) and XAS. HER overpotential is 37 mV at 10 mA/cm2 in 1 M KOH.",
+    "relation": "method_for_us",
+    "relation_note": "Example of a N2O2 first shell made by a molecular-precursor route and verified by XAS. It is relevant to our Co-N2OC and N/O donor sets.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Atomically Dispersed Fe-N4 Modified with Precisely Located S for Highly Efficient Oxygen Reduction",
+    "year": 2020,
+    "doi": "10.1007/s40820-020-00456-8",
+    "valency_id": "34138133",
+    "finding": "Fe-NSC has S placed at the periphery, not bonded to Fe. XANES confirms an Fe(N3)(N-C-S) configuration. S doping shifts the electronic structure and improves ORR.",
+    "relation": "extends",
+    "relation_note": "Separates first-shell S from second-shell S, which our model (first shell only) does not cover. Also shows XANES used to tell the two apart.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Sulfur Modified Carbon-Based Single-Atom Catalysts for Electrocatalytic Reactions",
+    "year": 2024,
+    "doi": "10.1002/smll.202401900",
+    "valency_id": "38798155",
+    "finding": "Review of precise synthesis routes for introducing S into M-N4 and controlling whether S binds the metal directly. It covers the resulting ORR, CO2RR, HER and OER performance and the characterisation used.",
+    "relation": "background",
+    "relation_note": "Overview of how S coordination is controlled and verified. Useful for the synthesis and verification part, but the abstract does not discuss thermodynamic stability against clustering.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Role of heteroatom-doping in enhancing catalytic activities and the stability of single-atom catalysts for ORR and OER",
+    "year": 2022,
+    "doi": "10.1039/d2nr04880a",
+    "valency_id": "36301010",
+    "finding": "First-principles study of S-doped TM-N-C SACs: stability, electronic structure and ORR/OER overpotentials, with an intrinsic descriptor for screening. The abstract does not state whether S raises or lowers stability.",
+    "relation": "overlaps_our_approach",
+    "relation_note": "A computational S-doping stability screen. Could conflict with our finding that S weakens binding, but it is not enzyme-derived and the stability result is not given in the abstract.",
+    "relevance": "medium",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Review of Carbon Support Coordination Environments for Single Metal Atom Electrocatalysts (SACS)",
+    "year": 2024,
+    "doi": "10.1002/adma.202301477",
+    "valency_id": "37078970",
+    "finding": "Topical review of first- and second-shell modulation by N and other non-metals. It links synthesis methods, the analytical techniques used to confirm the doping, and electrocatalytic performance, and names open questions.",
+    "relation": "background",
+    "relation_note": "Broad reference for control and verification of mixed shells.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "The Nature and Stability of Transition Metal-Anchored Nitrogen-Doped Graphene Single-Atom Catalysts",
+    "year": 2025,
+    "doi": "10.1002/chem.202501654",
+    "valency_id": "40605634",
+    "finding": "Energy decomposition analysis for Ti to Zn on a four-N-doped graphene support. Metal-support binding strengthens from Ti to Ni and weakens from Ni to Zn, explained by the filling of the 3dxy orbital.",
+    "relation": "supports",
+    "relation_note": "Gives a non-monotonic metal trend for N4 sites. Compare with our finding that E_f follows bulk cohesive energy, which is a different descriptor that may be partly consistent. It covers N4 only.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   }
+  ],
+  "known": "Mixed N/S, N/O and N/C first shells on carbon (Fe-N3S, Co-N3S, Ni-N2O2) are made experimentally, by co-doping or by molecular and coordination-compound precursors. They are checked with EXAFS and XANES (and Mossbauer, operando XAS), which can separate first-shell S from second-shell S. Computational stability screens of graphene SACs show that divacancies bind better than monovacancies, that C and N donors differ, and that the metal trend is non-monotonic and tied to d-state alignment. Systematic data on S/O donor stability against clustering, and on operando stability of S/O sites, are thin in these abstracts.",
+  "our_addition": "Our PDB-derived screen adds a broad, enzyme-based set of N/S/O/C donor sets, vacancy types and 12 metals. Three results are new relative to these abstracts. Most sites have E_f > 0, with only Co-N2OC (DV) stable. S and O hold the metal more weakly than N and C. A kinetic escape-barrier criterion links pyrolysis temperature to survival. The DV > SV result agrees with the literature, but the N-versus-C ordering needs to be checked against d6dt01022a, which finds C better than N.",
+  "gaps": "As far as these abstracts show, no one has used the enzyme first coordination shells as a systematic source of SAC sites. No one has combined thermodynamic E_f with escape and NEB barriers and an Arrhenius pyrolysis criterion for mixed N/S/O/C shells. No one has compared enzyme geometry with the rigid vacancy geometry (shorter bonds, out-of-plane metal). Experimental work reports activity for individual Fe/Co-N3S and Ni-N2O2 sites but gives no systematic stability comparison of S and O sites against N. Whether Co-N2OC has been made is not addressed. Note that abstracts only: the stability results of 10.1039/d2nr04880a and the donor scope of 10.1039/d6cp00932h need full-text checks."
+ },
+ {
+  "topic": "bio",
+  "queries": [
+   "semantic: bio-inspired single-atom catalysts mimicking enzyme active sites",
+   "semantic: review of single-atom catalysts inspired by metalloenzymes such as hydrogenase, nitrogenase and heme",
+   "semantic: synthesis of single-atom M-N-C catalysts from protein or biomass precursors",
+   "semantic: nanozymes with defined metal-nitrogen or metal-sulfur sites mimicking natural enzymes",
+   "semantic: protein data bank structures used for high-throughput catalyst design or active-site screening",
+   "semantic: stability and durability of single-atom catalysts derived from enzyme-like or laccase-like sites",
+   "title: single-atom enzyme mimic",
+   "title: biomimetic single-atom catalyst",
+   "title: protein-derived carbon single atom",
+   "title: nanozyme"
+  ],
+  "papers": [
+   {
+    "title": "Bioinspired Design of Heterogenous Single-Atomic-Site Catalysts for Electrocatalysis and Photocatalysis",
+    "year": 2025,
+    "doi": "10.1002/adma.202502131",
+    "valency_id": "40525774",
+    "finding": "Review of bioinspired SAC design: first-shell coordination (metal centre, coordination number/species) and second/long-range effects, with examples inspired by hydrogenase, nitrogenase, oxidase and dehydrogenase.",
+    "relation": "background",
+    "relation_note": "Frames first-shell mimicry as a design principle, but is qualitative and says nothing about a systematic PDB-wide stability screen.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Deactivation Mechanism and Mitigation Strategies of Single-Atom Site Electrocatalysts",
+    "year": 2025,
+    "doi": "10.1002/adma.202420383",
+    "valency_id": "40223412",
+    "finding": "Review of SAC degradation at atomic, meso and nano scale (mainly ORR) and of mitigation strategies (robust substrate, metal-support interaction, site stability). States that stability work relies on empirical rather than rational design.",
+    "relation": "supports",
+    "relation_note": "Supports the motivation for a computed stability screen (E_f, U_diss, escape energy); the abstract gives no quantitative cross-metal or cross-donor stability dataset to compare with ours.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "QuantumPDB: A Workflow for High-Throughput Quantum Cluster Model Generation from Protein Structures",
+    "year": 2026,
+    "doi": "10.1021/acs.jcim.5c03064",
+    "valency_id": "42086224",
+    "finding": "Python workflow that builds QM cluster models of active-site coordination/interaction spheres from raw PDB structures; demonstrated on 989 holo-enzymes (1,673 cluster models, DFT).",
+    "relation": "overlaps_our_approach",
+    "relation_note": "Systematic PDB-wide active-site extraction with DFT, but for enzyme cluster models and substrate polarisation, not for transfer to SACs or stability. Overlaps our PDB-harvesting step only; could serve as a method comparison.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Topological transformation of microbial proteins into iron single-atom sites for selective H2O2 electrosynthesis",
+    "year": 2024,
+    "doi": "10.1038/s41467-024-55041-z",
+    "valency_id": "39737987",
+    "finding": "Trace Fe in microbial protein, pyrolysed, gives Fe single-atom sites FeN5-xOx resembling nonheme Fe enzymes; FeN3O2 gives 93.7 % H2O2 selectivity.",
+    "relation": "extends",
+    "relation_note": "Experimental precedent that enzyme-like mixed N/O donor sets form in carbon; it bears on our O-containing sites. Our data (O holds metal more weakly than N, escape above ~3.5-4.2 eV needed at pyrolysis) bear on how stable such FeNO sites are.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Bridging the Catalytic Turnover Gap Between Single-Atom Iron Nanozymes and Natural Enzymes by Engineering the First and Second Shell Coordination",
+    "year": 2024,
+    "doi": "10.1002/adma.202306602",
+    "valency_id": "38091378",
+    "finding": "First/second-shell tuning of Fe SAzymes (axial S ligands, SO2- groups) gives turnover of 52.7 s-1 for peroxidase-like catalysis, with computational mechanism study.",
+    "relation": "extends",
+    "relation_note": "Shows S donors can help activity; our results show S holds the metal more weakly than N (Cu N3 0.68 < N2S 1.44 eV), so an activity-stability trade-off is implied but not tested there.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Metallothionein-Inspired Asymmetric Heteroatom Doping of Single-Atom Nanozymes for Multi-Enzyme Biocatalysis",
+    "year": 2026,
+    "doi": "10.1002/advs.202517502",
+    "valency_id": "41178457",
+    "finding": "Cysteine-coordinated Fe, ZIF-8 biomineralisation and pyrolysis give FeN3S, with 1.35-4.60-fold higher multi-enzyme activities than S-free analogues.",
+    "relation": "extends",
+    "relation_note": "Protein-inspired FeN3S is the type of site (3 donors with S) that our SV results rank as less strongly bound than N-only; relevant to the S-vs-N stability result.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Coordination Geometry Tuning in a Single-Atom Nanozyme to Mimic Metalloenzymes with Nonplanar Active Site",
+    "year": 2025,
+    "doi": "10.1002/advs.202505733",
+    "valency_id": "40782064",
+    "finding": "Zn-N4 sites from ZIF-8 carbonisation in tetrahedral, distorted tetrahedral and square-planar geometries; distorted tetrahedral Zn is best for carbonic-anhydrase-like CO2 hydration (DFT: Zn-OH affinity).",
+    "relation": "supports",
+    "relation_note": "Supports our geometry finding that planar graphene vacancies flatten sites and push the metal out of plane (SV ~0.8 A), losing enzyme geometry; Zn is also our least escape-resistant metal (median 1.7 eV).",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Regulating the Coordination Environment of Mesopore-Confined Single Atoms from Metalloprotein-MOFs for Highly Efficient Biocatalysis",
+    "year": 2022,
+    "doi": "10.1002/adma.202205674",
+    "valency_id": "36073657",
+    "finding": "Metalloproteins encapsulated in MOFs then pyrolysed give Fe-SACs, generalisable to various metalloproteins, with up to 25-fold higher efficiency than natural enzymes.",
+    "relation": "background",
+    "relation_note": "Synthetic route from metalloprotein precursors; coordination is assumed to be protein-induced, not tested against the enzyme first shell or stability.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Designing Efficient Single Metal Atom Biocatalysts at the Atomic Structure Level",
+    "year": 2024,
+    "doi": "10.1002/anie.202315933",
+    "valency_id": "38206594",
+    "finding": "Minireview of regulating SAC biocatalysis through active site, coordination environment and site-support interaction, biomedical focus.",
+    "relation": "background",
+    "relation_note": "General background, no stability or PDB content.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Natural biomass derived single-atom catalysts for energy and environmental applications",
+    "year": 2024,
+    "doi": "10.1016/j.ijbiomac.2024.133694",
+    "valency_id": "38992538",
+    "finding": "Review: over forty SAC types made from starch, cellulose, lignin, proteins, chitin, with Fe, Co, Ni, Cu, Zn, Mn, Pt, for ORR, OER, HER.",
+    "relation": "background",
+    "relation_note": "Covers the pyrolysis synthesis context for our 800-1000 C escape criterion; no stability criterion.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   }
+  ],
+  "known": "Bioinspired SAC design is established as a qualitative principle (first-shell and second-shell mimicry of hydrogenase, nitrogenase, oxidase), and several experimental routes make enzyme-like M-N/O/S sites from proteins, metalloprotein-MOFs or biomass by pyrolysis (FeN5-xOx, FeN3S, Zn-N4 geometries). Coordination tuning (axial S, geometry, N/O/S mix) is shown to change nanozyme activity. Reviews state that SAC stability is limited and that stability design is still largely empirical. High-throughput use of the PDB exists for enzyme cluster models (QuantumPDB, 989 holo-enzymes).",
+  "our_addition": "We add a PDB-wide transfer of metalloenzyme first shells into graphene vacancies with computed thermodynamic (E_f, U_diss) and kinetic (escape energy, NEB) stability, showing most sites (18 of 20 by DFT) are unstable against clustering and only Co-N2OC passes. This quantifies an N > S/O stability penalty that the activity-focused S- and O-doped experimental papers do not address, and shows the rigid support distorts enzyme geometry.",
+  "gaps": "As far as these abstracts show, none combines PDB-wide first-shell extraction with SAC construction and a computed stability screen (E_f, dissolution potential, escape barrier). Bioinspired SAC work is experimental or single-system, stability is treated qualitatively, and QuantumPDB stops at enzyme cluster models. Also absent: an explicit check of enzyme-site geometry retention on a graphene support, and an activity-versus-stability trade-off for S/O donor sets. Caveat: only a title search and ten abstracts were checked, so the novelty claim is not proven by absence."
+ },
+ {
+  "topic": "geometry",
+  "queries": [
+   "semantic: strain engineering of M-N4 single-atom sites in graphene: effect on stability and catalytic activity",
+   "semantic: out-of-plane distortion of metal center in M-N4 porphyrin and phthalocyanine complexes versus embedded graphene single-atom catalysts",
+   "semantic: review of single-atom catalysts with metal-nitrogen-carbon coordination: geometry, support rigidity and stability",
+   "semantic: high-throughput DFT screening of transition metal single atoms on N-doped graphene: coordination geometry and thermodynamic stability",
+   "semantic: metal phthalocyanine and porphyrin molecular catalysts compared with pyrolyzed M-N-C single-atom sites: structure-activity and stability",
+   "semantic: synthesis and stability of atomically dispersed metal sites on carbon supports: substrate strain, curvature and metal leaching",
+   "title: single-atom catalyst strain",
+   "title: M-N4 distortion",
+   "title: single-atom stability",
+   "title: porphyrin phthalocyanine"
+  ],
+  "papers": [
+   {
+    "title": "Stability of graphene-based single-atom catalysts across the first-row transition series: the interplay of coordination, composition, and metal identity",
+    "year": 2026,
+    "valency_id": "42695769",
+    "doi": "10.1039/d6dt01022a",
+    "finding": "DFT on 60 first-row TM SACs in mono-/divacancy graphene, with and without N doping. DV binds more strongly and flexibly than SV; C coordination beats N for the metal-graphene bond; stability follows metal d-state alignment with the graphene Fermi level plus radius-dependent geometric accommodation; N doping weakens binding for late metals.",
+    "relation": "overlaps_our_approach",
+    "relation_note": "Agrees with DV > SV and the metal trend. Contradicts our DFT finding that N holds the metal better than S only if read as 'N beats C'; they say C beats N, while our xTB shows C and N both hold more strongly than S and O. Differs in scope: generic N/C donors, no enzyme-derived sites, no S/O, no kinetics.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "The effect of coordination environment on the kinetic and thermodynamic stability of single-atom iron catalysts",
+    "year": 2020,
+    "valency_id": "32022036",
+    "doi": "10.1039/c9cp05349b",
+    "finding": "DFT on five Fe-N_x carbon substrates: more N donors raise the Fe migration barrier and improve adsorption and formation energies.",
+    "relation": "supports",
+    "relation_note": "Supports our escape-energy/NEB kinetic framing and the claim that donor set controls stability; our NEB barriers lying 0.01-0.3 eV above escape energy extends this to many metals.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Structural flexibility dictates reactivity of single-atom catalysts",
+    "year": 2026,
+    "valency_id": "2603.12424",
+    "doi": "",
+    "finding": "Fe-N3 vs Fe-N4 model sites on an inert support, same electronic configuration, but CO adsorption differs by >0.6 eV because Fe can lift out of the N3 plane (DFT plus STM).",
+    "relation": "supports",
+    "relation_note": "Matches our observation that SV sites push the metal ~0.8 A out of the donor plane; shows this out-of-plane freedom matters for reactivity, which our dG_H results can be compared to.",
+    "relevance": "high",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Identical Fe-N4 Sites with Different Reactivity: Elucidating the Effect of Support Curvature",
+    "year": 2025,
+    "valency_id": "39878198",
+    "doi": "10.1021/acsami.4c19913",
+    "finding": "0.4 A corrugation of graphene/Ir(111) changes TCNQ binding on Fe-N4 sites by >0.3 eV, attributed to steric hindrance.",
+    "relation": "background",
+    "relation_note": "Support geometry changes site reactivity; we only treat flat rigid graphene, so curvature is an untested variable.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Substrate strain tunes operando geometric distortion and oxygen reduction activity of CuN2C2 single-atom sites",
+    "year": 2021,
+    "valency_id": "34732747",
+    "doi": "10.1038/s41467-021-26747-1",
+    "finding": "Substrate strain (CNT 8 nm vs graphene) tunes distortion of the CuN2C2 site and gives sixfold higher ORR activity; DFT and XAS.",
+    "relation": "extends",
+    "relation_note": "Experimental evidence that support-imposed geometry changes activity; supports our point that the rigid flat graphene differs from the enzyme geometry in a way that matters.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Generalizable mechanochemical impact of curvature governing stability and reactivity at catalytic sites on rippled supports",
+    "year": 2026,
+    "valency_id": "41924911",
+    "doi": "10.1039/d5cp04759e",
+    "finding": "DFT on 3d/4d/5d M-N-C sites: curvature changes thermodynamic stability (larger metals favoured at higher curvature), H binding and CO2 activation, strongest for early metals.",
+    "relation": "extends",
+    "relation_note": "Directly bears on our finding that strain adds nothing in xTB and on dG_H; they find a curvature effect on stability, so our flat-support strain null result may not carry over to curved supports.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Effect of Strain Engineering on the Spin State of the Ni-N4/C Single-Atom Catalyst and Its Consequence in Electrocatalysis",
+    "year": 2024,
+    "valency_id": "39235076",
+    "doi": "10.1021/acsami.4c07953",
+    "finding": "Tensile strain on Ni-N4/C switches Ni from low to high spin and improves O2 and CO2 electroreduction activity.",
+    "relation": "extends",
+    "relation_note": "Strain affects activity via spin state, which our closed-shell-style stability screen and dG_H do not capture.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Substrate Strain Engineering of Single-Atomic Sn-N4 Sites Embedded in Various Carbon Matrixes for Bifunctional Oxygen Electrocatalysis",
+    "year": 2023,
+    "valency_id": "37141049",
+    "doi": "10.1021/acsami.3c02232",
+    "finding": "Sn-N4 forms a pyramid; strain transfer to CNT, GQD and graphene supports changes O-intermediate binding and breaks scaling relations in CNTs.",
+    "relation": "extends",
+    "relation_note": "Large metal out of plane plus support strain affects ORR intermediates; relevant to our out-of-plane displacement and the ORR intermediates being computed.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Unveiling the critical role of strain-induced local structure changes in Co-N4 single-atom catalysts for enhanced oxygen reduction and evolution reactions",
+    "year": 2026,
+    "valency_id": "41867137",
+    "doi": "10.1039/d5nr04959h",
+    "finding": "DFT: directional strain tuning M-N distances optimizes ORR/OER with OOH* formation as common rate-determining step; coordination type (pyridinic vs pyrrolic) dominates.",
+    "relation": "supports",
+    "relation_note": "Supports our observation that M-donor bond lengths (shortened by 0.1-0.4 A on graphene) matter for activity; Co is also our one stable site.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Potential-Induced Dynamic Coordination of Nonmetal Atoms Directly Bound to Metal Centers in Graphene-Embedded Single-Atom Catalysts and Its Implications",
+    "year": 2026,
+    "valency_id": "2602.04475",
+    "doi": "",
+    "finding": "Constant-potential DFT/AIMD on NiN4-xCx: C donors bound to Ni hydrogenate under potential, N donors do not; this reshapes the site and weakens adsorption.",
+    "relation": "extends",
+    "relation_note": "Suggests our C-donor sites (e.g. Co-N2OC) may not remain intact under operating potential, a caveat to the U_diss stability claim; N donors are robust.",
+    "relevance": "medium",
+    "flag_for_deep_read": true
+   }
+  ],
+  "known": "Divacancies bind single atoms more strongly than monovacancies, the metal-support bond follows d-state alignment and metal identity, and N donors raise migration barriers for Fe. Support curvature and strain change site geometry, metal-donor distances, spin state, and ORR/CO2 activity, and an out-of-plane metal (Fe-N3, Sn-N4) gives reactivity that electronic structure alone does not predict. Systematic stability screens exist for first-row metals in generic N/C vacancy sites.",
+  "our_addition": "We start from the actual first coordination shells of PDB metalloenzymes (N, S, O, C donors), cover 12 metals and 1,138 sites, and combine DFT E_f, U_diss, escape energy and NEB kinetics. We find that S/O hold weaker than N, that enzyme donor sets do not maximise binding, and that only Co-N2OC is stable. The rigid-support geometry mismatch versus enzyme and molecular complexes is quantified (about 2/3 from the support).",
+  "gaps": "Within these abstracts, no study derives SAC sites from enzyme active sites PDB-wide, so the novelty claim stands (the closest is 42695769, a 60-SAC generic screen). No abstract compares graphene-embedded geometries against the enzyme or molecular porphyrin/phthalocyanine complexes with a decomposition of support-induced change. Curvature and strain effects on stability (41924911) were not tested with S/O donors or kinetic barriers. Phthalocyanine out-of-plane and degradation papers were not opened, and none of the abstracts covers S/O-donor sites under potential."
+ },
+ {
+  "topic": "ml",
+  "queries": [
+   "semantic: machine learning prediction of single-atom catalyst stability and synthesizability",
+   "semantic: review of data-driven descriptors for single-atom catalysts and metal-support interactions",
+   "semantic: high-throughput database of single-atom sites on graphene and 2D supports across transition metals and coordination environments",
+   "semantic: machine-learned interatomic potential active learning for single-atom catalyst structures and metal leaching",
+   "semantic: synthesizability and thermodynamic stability of atomically dispersed metal catalysts from computational screening",
+   "semantic: recent review machine learning for single-atom catalysis design",
+   "title: single-atom catalyst stability machine learning",
+   "title: single-atom synthesis descriptors database",
+   "title: dual-atom stability active learning",
+   "title: atomically dispersed catalysts high-throughput"
+  ],
+  "papers": [
+   {
+    "title": "Stability of graphene-based single-atom catalysts across the first-row transition series: the interplay of coordination, composition, and metal identity",
+    "year": 2026,
+    "doi": "10.1039/d6dt01022a",
+    "finding": "DFT study of 60 3d-metal SACs on mono- and divacancy graphene, with and without N doping. Divacancies bind more strongly than monovacancies. C coordination beats N coordination for the metal-graphene bond. Stability follows alignment of metal d states with the graphene Fermi level. For late metals, N doping weakens binding.",
+    "relation": "overlaps_our_approach",
+    "relation_note": "Agrees with our DV > SV result and with metal-identity trends. Its C > N finding sits close to our xTB result that C holds metal well. Our N > S ordering is not tested here because it has no S or O donors. Closest published systematic SV/DV stability study, but only 3d metals, no enzyme-derived sites.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Unraveling the Stability of N-Doped Graphene Supported Single-Atom and Dual-Atom Catalysts From Pourbaix Diagram",
+    "year": 2026,
+    "doi": "10.1002/anie.3532397",
+    "finding": "Pourbaix-based electrochemical stability of Cr, Mn, Fe, Co, Ni SACs and DACs on N-doped graphene, including leached-metal speciation and H-capped vacancies. Co- and Ni-SAC are stable over wide pH and potential ranges. Cr-SAC is unstable everywhere, and DAC stable regions are smaller than SAC ones.",
+    "relation": "extends",
+    "relation_note": "Goes beyond our U_diss: it adds pH, adsorbate effects and vacancy H-capping. Co being the most stable agrees with our Co-N2OC (U_diss +0.51 V). Shows our dissolution potential is only a first-order criterion.",
+    "relevance": "high",
+    "flag_for_deep_read": true
+   },
+   {
+    "title": "Fast-Track to Catalyst Stability: Machine Learning Optimized Predictions for M1/M2-N6-Gra Catalysts",
+    "year": 2025,
+    "doi": "10.1021/acs.jpclett.5c00097",
+    "finding": "MLP trained on 143 DFT samples predicts formation energies of 1134 dual-atom M1/M2-N6-Gra catalysts (test R2 0.98). 604 have E_f < 0. Coordination number controls E_f. Cohesive energy dominates at low coordination, and metal-substrate binding at high coordination.",
+    "relation": "supports",
+    "relation_note": "Supports our finding that E_f follows bulk cohesive energy. Supplies a feature set and transfer-learning recipe we could use on our xTB library. Only N6 dual-metal sites.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "LOCAL: A Locality-based Active Learning Framework for Predicting the Stability of Dual-Atom Catalysts",
+    "year": 2025,
+    "doi": "arXiv:2503.19445",
+    "finding": "GCN plus active learning predicts stability of dual-atom catalysts on N-doped graphene over 611,648 structures. Test MAE is 0.15 eV with DFT on only 2.7 % of the data. COHP-based locality is used and phase diagrams are validated against synthesized configurations.",
+    "relation": "method_for_us",
+    "relation_note": "Template for scaling our 1,138-site xTB set with active learning, using xTB or DFT labels. N-only donors, no S, O or enzyme-derived sites.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Transfer learning with domain knowledge adaptation for stability evaluation of dual-atom catalysts on nitrogen-doped carbon",
+    "year": 2025,
+    "doi": "10.1039/d5cp01340b",
+    "finding": "Transfer learning evaluates stability against metal aggregation for dual-atom catalysts on N-doped carbon. Stability descriptors learned on single atoms on doped carbon transfer to dual-atom sites.",
+    "relation": "method_for_us",
+    "relation_note": "Aggregation-based stability is the same notion as our E_f vs bulk. Suggests the descriptors from our xTB set could transfer to the DFT subset. The abstract gives no numbers.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Active learning accelerated exploration of single-atom local environments in multimetallic systems for oxygen electrocatalysis",
+    "year": 2024,
+    "doi": "10.26434/chemrxiv-2024-6skxn",
+    "finding": "Equivariant GNN surrogate with active learning explores more than 30,000 binary 3d-metal single-atom sites with varying ligand environments for ORR/OER. The targets are DFT binding energies and descriptors, not stability. Co-Fe, Co-Co and Co-Zn pairs are predicted promising.",
+    "relation": "background",
+    "relation_note": "Shows that ML over many metals and coordinations is established for activity. It does not address stability or synthesizability, which leaves our focus open.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "An Atlas and Design Rules for Single- and Dual-Atom Alloys",
+    "year": 2026,
+    "doi": "arXiv:2609.19087",
+    "finding": "DFT atlas of transition-metal single- and dual-atom alloys in Cu and Ag surfaces, validated by STM. Stability follows an electron count (pairing is strongest near d10), with size mismatch and spin as modifiers.",
+    "relation": "background",
+    "relation_note": "Atlas-style systematic stability work, but for alloy surfaces, not carbon-supported SACs. Parallels our metal-trend analysis (d-filling, cohesion).",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "Single-Atom Saturation: A Fundamental Principle for Single-Atom-Site Catalyst Design",
+    "year": 2025,
+    "doi": "10.1021/jacs.5c00643",
+    "finding": "Proposes a descriptor combining d-electron saturation and coordination saturation of the single atom to predict intermediate binding on single-atom alloys. It also applies to N-doped graphene SACs. It targets activity, not stability.",
+    "relation": "background",
+    "relation_note": "Coordination and d-occupancy descriptors are candidates for explaining our donor-set results. It is an activity descriptor, so it says nothing directly about stability or synthesis.",
+    "relevance": "low",
+    "flag_for_deep_read": false
+   },
+   {
+    "title": "New Frontiers in Single-Atom Catalysis: Active-Site Dynamics and AI-Enabled Design",
+    "year": 2026,
+    "doi": "10.1021/acs.chemrev.6c00200",
+    "finding": "Review of active-site evolution in SACs (atomic migration, coordination changes) and of in situ characterization, multiscale modeling and ML as routes to design.",
+    "relation": "background",
+    "relation_note": "Frames our escape-energy and NEB kinetics as part of site dynamics. Good citation for introduction and outlook.",
+    "relevance": "medium",
+    "flag_for_deep_read": false
+   }
+  ],
+  "known": "ML and active learning for SAC and DAC stability are established, but only on N-coordinated dual-atom or N6 graphene sites: MLP formation-energy models (1134 sites), GCN active learning (611,648 structures, MAE 0.15 eV), and transfer of aggregation-stability descriptors. Systematic DFT on graphene SACs shows that divacancies bind more strongly than monovacancies, and that stability follows metal d-state alignment and cohesive energy. Electrochemical (Pourbaix) work finds Co and Ni SACs the most robust and DACs less stable than SACs. ML across many metals and coordinations exists for activity (30,000+ sites), not for stability.",
+  "our_addition": "We add stability and kinetic data (E_f, U_diss, escape energy, NEB barriers with an Arrhenius pyrolysis criterion) for sites whose donor sets come from PDB metalloenzymes, with N, S, O and C donors. We also show that enzyme donor sets do not maximise binding. Our C-versus-N and DV-versus-SV trends are consistent with the Dalton 2026 paper, and the cohesive-energy dependence with Fast-Track.",
+  "gaps": "None of the abstracts shows a PDB-wide or enzyme-derived screen, or S/O donors in graphene vacancies. None combines thermodynamic stability with kinetic barriers against escape, or an Arrhenius synthesis-temperature criterion. ML work covers only N-coordinated (dual-atom) sites. No ML or active-learning model for stability across mixed N/S/O/C donor sets and many metals was found, so our xTB library of 1,138 sites could be that dataset. Caveat: these are title and abstract searches, so the novelty claim rests on the abstracts only."
+ }
+]

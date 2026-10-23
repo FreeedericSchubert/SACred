@@ -1,0 +1,15 @@
+{
+ "motif": "Fe-S4:DV",
+ "enzyme": "Fe-S clusters, P-cluster (4 S)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

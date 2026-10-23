@@ -1,0 +1,14 @@
+state,metal,n_pairs,offset,loo_mae,used
+H_M,Co,3,0.533,0.066,True
+H_M,Cr,1,0.623,,False
+H_M,Cu,10,1.308,0.367,True
+H_M,Fe,20,-0.039,0.328,True
+H_M,Mn,1,2.319,,False
+H_M,Mo,4,1.873,1.207,True
+H_M,Ni,12,0.842,0.443,True
+H_M,Pt,2,1.303,0.684,True
+H_M,Ru,2,0.027,0.510,True
+H_M,V,1,0.897,,False
+H_M,W,3,0.206,1.018,True
+H_M,Zn,8,0.452,0.528,True
+H_S,,21,0.749,1.076,True

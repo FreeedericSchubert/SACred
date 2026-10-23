@@ -1,0 +1,15 @@
+{
+ "motif": "Ni-N4:DV",
+ "enzyme": "methyl-coenzyme M reductase F430",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

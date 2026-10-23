@@ -1,0 +1,17 @@
+{
+ "motif": "Zn-N2SO:DV:NSNO",
+ "enzyme": "xTB scan: calibrated dG_H +0.10 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  13
+ ],
+ "state": "H_M",
+ "start": "GFN2-xTB geometry",
+ "ih": 71
+}

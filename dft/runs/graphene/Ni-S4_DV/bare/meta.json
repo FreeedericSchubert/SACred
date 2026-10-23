@@ -1,0 +1,15 @@
+{
+ "motif": "Ni-S4:DV",
+ "enzyme": "[NiFe] hydrogenase Ni (4 Cys)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

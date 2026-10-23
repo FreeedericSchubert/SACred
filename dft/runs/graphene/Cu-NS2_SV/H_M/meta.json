@@ -1,0 +1,15 @@
+{
+ "motif": "Cu-NS2:SV",
+ "enzyme": "CuA of cytochrome c oxidase, 16 entries (5B1A)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "ih": 72
+}

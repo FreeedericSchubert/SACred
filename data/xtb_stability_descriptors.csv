@@ -1,0 +1,16 @@
+part,descriptor,weight
+within metal,n_N,0.146
+within metal,n_S,1.327
+within metal,n_O,1.007
+within metal,DV,-0.697
+within metal,M_height,0.095
+within metal,max_M_X,-0.162
+within metal,cv_r2_all,0.605
+within metal,cv_r2_donors,0.599
+enzyme prior,spearman,0.148
+geometry,angle_rms,0.364
+geometry,dh,0.396
+geometry,dd,-0.052
+geometry,donors_lost,0.004
+geometry,cv_r2_base,0.391
+geometry,cv_r2_with_mismatch,0.393

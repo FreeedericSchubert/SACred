@@ -1,0 +1,4 @@
+motif,label,E_f_dft_eV,U_diss_V,escape_energy_xtb_eV,neb_barrier_xtb_eV,tau_1000K_s,tau_1500K_s,tau_2000K_s,metal_index,donor_indices,fixed_index,source
+Zn-NS2:SV,unstable: leaves within picoseconds at 1000 K,1.272,-1.398,0.447,0.379,8.1e-12,1.9e-12,9e-13,71,41 42 31,14,"DFT-relaxed bare site (PBE-D3, 6x6 graphene cell, dft/runs/graphene/Zn-NS2_SV/bare)"
+Ni-NS2:SV,"intermediate: leaves within nanoseconds at 1000 K, within ~0.1 ns at 1500 K",2.152,-1.333,0.694,0.956,6.6e-09,1.6e-10,2.6e-11,71,41 42 31,68,"DFT-relaxed bare site (PBE-D3, 6x6 graphene cell, dft/runs/graphene/Ni-NS2_SV/bare)"
+Co-N2OC:DV:NONC,"stable: our best site, should stay at any reachable temperature",-1.572,0.506,5.728,,7400000000000000.0,1800000.0,27.0,70,41 31 50 40,67,"DFT-relaxed bare site (PBE-D3, 6x6 graphene cell, dft/runs/graphene/Co-N2OC_DV_NONC/bare)"

@@ -1,0 +1,16 @@
+{
+ "motif": "Cu-N2C:SV",
+ "enzyme": "xTB scan: calibrated dG_H -0.03 eV (H_M)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "start": "GFN2-xTB geometry",
+ "ih": 72
+}

@@ -1,0 +1,20 @@
+{
+ "motif": "Co-N2OC:DV:NONC",
+ "enzyme": "O2 cross-check: best new site (xTB U_ORR 0.58 V, DFT dG_H +0.03 eV)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  67
+ ],
+ "state": "ORR_OH",
+ "start": "DFT bare geometry, OH from GFN2-xTB",
+ "iads": [
+  71,
+  72
+ ]
+}

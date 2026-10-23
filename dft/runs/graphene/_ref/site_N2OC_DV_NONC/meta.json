@@ -1,0 +1,15 @@
+{
+ "motif": "N2OC:DV:NONC",
+ "state": "ref",
+ "from": "Co-N2OC:DV:NONC",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

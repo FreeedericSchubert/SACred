@@ -1,0 +1,14 @@
+{
+ "motif": "Zn-N3:SV",
+ "enzyme": "carbonic anhydrase (3 His)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

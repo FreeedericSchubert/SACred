@@ -1,0 +1,15 @@
+{
+ "motif": "N2O2:DV:trans",
+ "state": "ref",
+ "from": "Fe-N2O2:DV:trans",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

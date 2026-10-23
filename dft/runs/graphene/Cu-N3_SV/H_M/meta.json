@@ -1,0 +1,15 @@
+{
+ "motif": "Cu-N3:SV",
+ "enzyme": "CuB of cytochrome c oxidase, T3 Cu of laccase (3 His)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "ih": 72
+}

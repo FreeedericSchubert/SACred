@@ -1,0 +1,13 @@
+,count
+weak: beyond_cutoff,31304
+not within 3.4 A,5958
+weak: minor_occupancy,1304
+weak: alt_overlap,417
+weak: his_second_ring_n,282
+weak: beyond_cutoff+minor_occupancy,215
+other: element_not_counted,208
+weak: alt_disorder,193
+weak: beyond_cutoff+alt_disorder,31
+weak: protein_carbon,11
+weak: beyond_cutoff+protein_carbon,9
+weak: minor_occupancy+alt_disorder,1

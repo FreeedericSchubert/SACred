@@ -1,0 +1,15 @@
+{
+ "motif": "N3O:DV",
+ "state": "ref",
+ "from": "Zn-N3O:DV",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

@@ -1,0 +1,280 @@
+<title>Enzyme to Catalyst Zoom</title>
+<meta name="description" content="Zoom from a metalloenzyme to its metal site and on to the same metal as a single-atom catalyst on graphene, MoS2 or silica.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* One viewer, one slider: protein -> pocket -> first shell -> the support. The website's tokens (site/template.html). */
+:root {
+  --bg: #f3f5f5; --surface: #ffffff; --ink: #1c2427; --muted: #59666b; --rule: #d3dbde;
+  --accent: #2c6bd3; --band: #dcefe4; --band-ink: #2f6b4f;
+  --display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11171a; --surface: #172024; --ink: #e2e8ea; --muted: #9babb0; --rule: #2a363b;
+    --accent: #79a3ff; --band: #1d3a2c; --band-ink: #93d4b0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11171a; --surface: #172024; --ink: #e2e8ea; --muted: #9babb0; --rule: #2a363b;
+  --accent: #79a3ff; --band: #1d3a2c; --band-ink: #93d4b0; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 1rem; line-height: 1.5; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: 16px; padding-block: 16px 24px; display: grid; gap: 12px; }
+.eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(1.5rem, 2.6vw, 2rem); line-height: 1.15; margin: 2px 0 0; text-wrap: balance; }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button { font: inherit; font-size: 0.92rem; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--rule);
+              background: var(--surface); color: var(--ink); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.seg button:disabled { opacity: 0.4; cursor: default; }
+.seg button:focus-visible, input[type=range]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 19rem; gap: 14px; align-items: start; }
+@media (max-width: 760px) { .main { grid-template-columns: minmax(0, 1fr); } }
+.stage { position: relative; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden;
+         height: min(62vh, 560px); min-height: 340px; }
+#viewer { position: absolute; inset: 0; }
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
+.panel h2 { font-family: var(--display); font-weight: 600; font-size: 1.25rem; line-height: 1.2; margin: 0; }
+.panel p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.value { font-family: var(--mono); font-size: 0.9rem; color: var(--band-ink); background: var(--band); padding: 6px 10px; border-radius: 6px; }
+.donors { margin: 0; padding: 0; list-style: none; display: grid; gap: 2px; font-family: var(--mono); font-size: 0.82rem; color: var(--ink); }
+.slider { display: grid; gap: 4px; }
+input[type=range] { width: 100%; accent-color: var(--accent); }
+.playrow { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; align-items: center; }
+#play { font: inherit; font-size: 0.92rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--ink);
+        background: var(--ink); color: var(--surface); cursor: pointer; white-space: nowrap; }
+#play:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ticks { display: grid; grid-template-columns: repeat(4, 1fr); font-size: 0.8rem; color: var(--muted); margin-left: 92px; }
+.ticks span { cursor: pointer; }
+.ticks span:nth-child(2) { text-align: center; } .ticks span:nth-child(3) { text-align: center; } .ticks span:nth-child(4) { text-align: right; }
+.ticks span.on { color: var(--ink); font-weight: 600; }
+.hint { font-size: 0.8rem; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+
+<div class="wrap">
+  <div>
+    <div class="eyebrow">From enzyme to single-atom catalyst · drag the slider or press Play</div>
+    <h1 id="title">Enzyme to catalyst</h1>
+  </div>
+  <div class="seg" id="examples" role="group" aria-label="Example enzyme"></div>
+  <div class="main">
+    <div class="stage"><div id="viewer" aria-label="3D view"></div></div>
+    <aside class="panel" aria-live="polite">
+      <div class="eyebrow" id="stage-name"></div>
+      <h2 id="stage-title"></h2>
+      <p id="stage-text"></p>
+      <ul class="donors" id="donor-list"></ul>
+      <div class="value" id="value" hidden></div>
+    </aside>
+  </div>
+  <div class="slider">
+    <div class="playrow"><button id="play" type="button">▶ Play</button>
+    <input type="range" id="zoom" min="0" max="100" value="0" step="0.2" aria-label="Zoom from the protein to the support"></div>
+    <div class="ticks" id="ticks"><span data-v="0">Protein</span><span data-v="45">Active site</span><span data-v="72">First shell</span><span data-v="100">On the support</span></div>
+  </div>
+  <div class="hint">Drag to rotate, scroll to zoom the 3D view by hand. Structures: the PDB entry (protein); relaxed DFT or GFN2-xTB structures (supports). Drafts from a hackathon.</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.4.2/3Dmol-min.js"></script>
+<script id="viewer-data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById("viewer-data").textContent);
+const CHAIN = ["#a9b9ec", "#f0cfa0", "#b5ddbc", "#efbfd0", "#c8c0ea", "#bfe0e6"];
+const SUPPORT_NAME = {graphene: "Graphene", MoS2: "MoS₂", SiO2: "Silica"};
+const SUPPORT_IN = {graphene: "graphene", MoS2: "MoS₂", SiO2: "silica"};
+const METAL = {Fe: "#c4682f", Co: "#3f6fc0", Ni: "#3f9a6a", Cu: "#1f8f8a", Zn: "#7a8796", Mo: "#8a68b0", W: "#5d5a93", Mn: "#b0427a", V: "#b28a12"};
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const viewer = $3Dmol.createViewer(document.getElementById("viewer"), {backgroundColor: css("--surface") || "white", antialias: true});
+let ex = null, prot = null, sups = {}, orig = {}, views = {}, support = "graphene", lastStage = "";
+
+function ease(t) { return t * t * (3 - 2 * t); }
+function mix(a, b, t) {   // camera: position and distance linear, rotation kept
+  const v = a.slice();
+  for (let i = 0; i < 4; i++) v[i] = a[i] + (b[i] - a[i]) * t;
+  return v;
+}
+function slerp(a, b, t) {  // quaternions (w, x, y, z)
+  let d = a[0] * b[0] + a[1] * b[1] + a[2] * b[2] + a[3] * b[3];
+  if (d < 0) { b = b.map((x) => -x); d = -d; }
+  if (d > 0.9995) { const q = a.map((x, i) => x + (b[i] - x) * t); const n = Math.hypot(...q); return q.map((x) => x / n); }
+  const th = Math.acos(d), s = Math.sin(th);
+  return a.map((x, i) => (Math.sin((1 - t) * th) * x + Math.sin(t * th) * b[i]) / s);
+}
+function rotate([w, x, y, z], p) {
+  const R = [[1 - 2 * (y * y + z * z), 2 * (x * y - w * z), 2 * (x * z + w * y)],
+             [2 * (x * y + w * z), 1 - 2 * (x * x + z * z), 2 * (y * z - w * x)],
+             [2 * (x * z - w * y), 2 * (y * z + w * x), 1 - 2 * (x * x + y * y)]];
+  return R.map((r) => r[0] * p[0] + r[1] * p[1] + r[2] * p[2]);
+}
+// support model between its placement on the enzyme's first shell (f = 0) and its own top view (f = 1)
+function place(k, f) {
+  const al = ex.supports.find((x) => x.support === k).align;
+  const q = slerp(al.q, [1, 0, 0, 0], f), c = al.t.map((x) => x * (1 - f));
+  sups[k].selectedAtoms({}).forEach((a, i) => { const p = rotate(q, orig[k][i]); a.x = p[0] + c[0]; a.y = p[1] + c[1]; a.z = p[2] + c[2]; });
+}
+function sel(extra) { return Object.assign({model: prot}, extra); }
+function atomSel(s) { return {model: prot, chain: s.chain, resi: s.resi, atom: s.atom}; }
+function pocketSel(d) { return {model: prot, within: {distance: d, sel: atomSel(ex.metal_sel)}, byres: true}; }
+
+function load(key) {
+  ex = D.find((e) => e.key === key);
+  viewer.clear();
+  prot = viewer.addModel(ex.pdb, "pdb");
+  sups = {};
+  orig = {};
+  for (const s of ex.supports) {
+    sups[s.support] = viewer.addModel(s.xyz, "xyz");
+    orig[s.support] = sups[s.support].selectedAtoms({}).map((a) => [a.x, a.y, a.z]);
+  }
+  viewer.setStyle({}, {});
+  viewer.zoomTo({model: prot}); views.all = viewer.getView();
+  viewer.zoomTo(pocketSel(9)); views.pocket = viewer.getView();
+  viewer.zoomTo({or: [atomSel(ex.metal_sel), ...ex.donors.map(atomSel)]}); views.shell = viewer.getView();
+  for (const k in sups) {
+    place(k, 0); viewer.zoomTo({model: sups[k]}); viewer.zoom(0.85); views["on_" + k] = viewer.getView();
+    place(k, 1); viewer.zoomTo({model: sups[k]}); viewer.zoom(0.85); views[k] = viewer.getView();
+  }
+  support = ex.support;
+  document.getElementById("title").textContent = ex.name;
+  for (const b of document.querySelectorAll("#examples button")) b.setAttribute("aria-pressed", b.dataset.key === key);
+  lastStage = "";
+  update(+document.getElementById("zoom").value, true);
+}
+
+function proteinStyle(s) {
+  const chains = [...new Set(prot.selectedAtoms({}).map((a) => a.chain))];
+  const op = s < 30 ? 1 : Math.max(0.1, 1 - (s - 30) / 30);
+  chains.forEach((c, i) => viewer.setStyle(sel({chain: c}), {cartoon: {color: CHAIN[i % CHAIN.length], opacity: op}}));
+  if (s >= 22 && s < 64) viewer.addStyle(Object.assign(pocketSel(7), {not: {resn: ex.metal_res}}),
+                                         {stick: {radius: 0.12, colorscheme: "greyCarbon"}});
+  viewer.addStyle(sel({resn: ex.metal_res}), {stick: {radius: 0.2}, sphere: {scale: 0.32}});
+  viewer.addStyle(atomSel(ex.metal_sel), {sphere: {scale: s < 30 ? 1.1 : 0.5, color: METAL[ex.metal]}});
+  if (s >= 55) {
+    for (const d of ex.donors) viewer.addStyle(atomSel(d), {sphere: {scale: 0.3}, stick: {radius: 0.16}});
+    const m = prot.selectedAtoms(atomSel(ex.metal_sel))[0];
+    for (const d of ex.donors) {
+      const a = prot.selectedAtoms(atomSel(d))[0];
+      viewer.addCylinder({start: {x: m.x, y: m.y, z: m.z}, end: {x: a.x, y: a.y, z: a.z}, radius: 0.09, color: "#5d6b70", fromCap: 1, toCap: 1});
+      if (s >= 62) viewer.addLabel(d.label, {position: {x: a.x, y: a.y, z: a.z}, fontSize: 12, fontColor: "#1c2427",
+                                             backgroundColor: "#ffffff", backgroundOpacity: 0.85, borderThickness: 0, inFront: true});
+    }
+    viewer.addLabel(ex.metal, {position: {x: m.x, y: m.y, z: m.z}, fontSize: 14, fontColor: "#ffffff", backgroundColor: "#1c2427",
+                               backgroundOpacity: 0.9, borderThickness: 0, inFront: true});
+  }
+}
+
+function supportStyle(r) {   // r: only atoms within r A of the metal (the support grows out of the first shell)
+  const m = sups[support];
+  const metal = m.selectedAtoms({elem: ex.metal});
+  const a = metal[metal.length - 1];
+  const near = (b) => Math.hypot(b.x - a.x, b.y - a.y, b.z - a.z) <= r;
+  viewer.setStyle({model: m, predicate: near}, {stick: {radius: 0.15}, sphere: {scale: 0.27}});
+  viewer.setStyle({model: m, elem: "Mo", predicate: near}, {stick: {radius: 0.15, color: "#8a68b0"}, sphere: {scale: 0.27, color: "#8a68b0"}});
+  viewer.addStyle({model: m, elem: ex.metal}, {sphere: {scale: 0.45, color: METAL[ex.metal]}});
+  if (a) viewer.addLabel(ex.metal, {position: {x: a.x, y: a.y, z: a.z}, fontSize: 14, fontColor: "#ffffff", backgroundColor: "#1c2427",
+                                    backgroundOpacity: 0.9, borderThickness: 0, inFront: true});
+}
+
+function stageOf(s) { return s < 35 ? "protein" : s < 62 ? "pocket" : s < 82 ? "shell" : "support"; }
+// the enzyme's first shell, fading out while the support grows around it (g: 0 -> 1)
+function shellFade(g) {
+  const m = prot.selectedAtoms(atomSel(ex.metal_sel))[0];
+  for (const d of ex.donors) {
+    const a = prot.selectedAtoms(atomSel(d))[0];
+    viewer.addSphere({center: {x: a.x, y: a.y, z: a.z}, radius: 0.34, color: "#e0a32e", alpha: 0.9 * (1 - g)});
+    viewer.addCylinder({start: {x: m.x, y: m.y, z: m.z}, end: {x: a.x, y: a.y, z: a.z}, radius: 0.09, color: "#5d6b70",
+                        alpha: 1 - g, fromCap: 1, toCap: 1});
+  }
+}
+
+function update(s, force) {
+  const stage = stageOf(s);
+  viewer.removeAllLabels();
+  viewer.removeAllShapes();
+  viewer.setStyle({}, {});
+  if (s < 76) {
+    proteinStyle(s);
+    const v = s <= 45 ? mix(views.all, views.pocket, ease(s / 45)) : mix(views.pocket, views.shell, ease(Math.min(1, (s - 45) / 27)));
+    viewer.setView(v);
+  } else {
+    // 76-88: the support model sits on the enzyme's first shell and grows outwards while the enzyme donors fade;
+    // 88-100: it turns into its own top view
+    const g = ease(Math.min(1, (s - 76) / 12)), f = ease(Math.max(0, (s - 88) / 12));
+    place(support, f);
+    supportStyle(2.6 + 16 * g);
+    if (f === 0) shellFade(g);
+    viewer.setView(f > 0 ? mix(views["on_" + support], views[support], f) : mix(views.shell, views["on_" + support], g));
+  }
+  viewer.render();
+  for (const t of document.querySelectorAll("#ticks span")) t.classList.toggle("on", stageOf(+t.dataset.v) === stage);
+  caption(stage);
+  lastStage = stage;
+}
+
+function caption(stage) {
+  const sup = ex.supports.find((x) => x.support === support);
+  const T = {
+    protein: ["1 · Protein", ex.name, `${ex.note}. ${ex.chains[0].toUpperCase() + ex.chains.slice(1)}; the metal is the large sphere.`],
+    pocket: ["2 · Active site", "The pocket around the metal", `Residues within 7 Å of the ${ex.metal}, as sticks; the protein fades out.`],
+    shell: ["3 · First shell", `${ex.metal} and its donor atoms`, ex.shell + " This is what the sweep keeps and rebuilds on a support."],
+    support: ["4 · On the support", `${ex.metal} on ${SUPPORT_IN[support]}`, sup ? sup.text : ""],
+  }[stage];
+  document.getElementById("stage-name").textContent = T[0];
+  document.getElementById("stage-title").textContent = T[1];
+  document.getElementById("stage-text").textContent = T[2];
+  const list = document.getElementById("donor-list");
+  list.innerHTML = stage === "shell" ? ex.donors.map((d) => `<li>${ex.metal}–${d.label} &nbsp;${d.dist.toFixed(2)} Å</li>`).join("") : "";
+  const value = document.getElementById("value");
+  value.hidden = stage !== "support" || !sup || !sup.value;
+  if (sup) value.innerHTML = sup.value.replace("ΔG_H", "ΔG<sub>H</sub>");
+}
+
+for (const e of D) {
+  const b = document.createElement("button");
+  b.textContent = `${SUPPORT_NAME[e.support]} · ${e.name}`;
+  b.dataset.key = e.key;
+  b.addEventListener("click", () => load(e.key));
+  document.getElementById("examples").append(b);
+}
+document.getElementById("zoom").addEventListener("input", (e) => update(+e.target.value));
+for (const t of document.querySelectorAll("#ticks span")) t.addEventListener("click", () => {
+  const z = document.getElementById("zoom"); z.value = t.dataset.v; update(+z.value);
+});
+window.addEventListener("resize", () => { viewer.resize(); viewer.render(); });
+// Play: from wherever the slider is to the support, pausing at every stop (about 20 s for the whole way)
+const STOPS = [[0, 2000], [45, 3000], [72, 3500], [100, 0]];   // slider value, pause there (ms)
+const MOVE = {45: 3200, 72: 3000, 100: 6500};                    // ms to reach that stop from the one before
+let playing = null;
+function stopPlay() { cancelAnimationFrame(playing); playing = null; document.getElementById("play").textContent = "▶ Play"; }
+document.getElementById("play").addEventListener("click", () => {
+  const z = document.getElementById("zoom");
+  if (playing) { stopPlay(); return; }
+  if (+z.value >= 100) { z.value = 0; update(0, true); }
+  // timeline: [start time, end time, from, to] for every move and pause still ahead
+  const plan = [];
+  let t = 0, at = +z.value;
+  for (const [v, pause] of STOPS) {
+    if (v < at) continue;
+    if (v > at) { const d = MOVE[v] * (v - at) / (v - Math.max(...STOPS.map((x) => x[0]).filter((x) => x < v))); plan.push([t, t + d, at, v]); t += d; at = v; }
+    if (pause) { plan.push([t, t + pause, v, v]); t += pause; }
+  }
+  const t0 = performance.now();
+  document.getElementById("play").textContent = "❚❚ Pause";
+  const step = (now) => {
+    const e = now - t0, seg = plan.find((p) => e < p[1]) || plan[plan.length - 1];
+    const u = Math.min(1, (e - seg[0]) / Math.max(1, seg[1] - seg[0]));
+    const v = seg[2] + (seg[3] - seg[2]) * u;
+    if (Math.abs(v - +z.value) >= 0.2 || seg[2] !== seg[3]) { z.value = v; update(v); }
+    if (e < plan[plan.length - 1][1]) playing = requestAnimationFrame(step); else stopPlay();
+  };
+  playing = requestAnimationFrame(step);
+});
+load(D[0].key);
+</script>

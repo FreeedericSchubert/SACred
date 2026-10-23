@@ -1,0 +1,53 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'pw'
+  pseudo_dir = '~/sac_dft/pseudo_gbrv'
+  tprnfor = .true.
+  forc_conv_thr = 1.0d-3
+  etot_conv_thr = 1.0d-4
+  nstep = 200
+  max_seconds = 20400
+  tefield = .true.
+  dipfield = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 2
+  ntyp = 1
+  ecutwfc = 40
+  ecutrho = 200
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.01
+  vdw_corr = 'dft-d3'
+  dftd3_version = 4
+  nosym = .true.
+  edir = 3
+  emaxpos = 0.85
+  eopreg = 0.05
+  eamp = 0.0
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.2
+  mixing_mode = 'local-TF'
+  electron_maxstep = 300
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+
+ATOMIC_SPECIES
+  H      1.008  h_pbe_v1.4.uspp.F.UPF
+
+CELL_PARAMETERS angstrom
+     14.80200000     0.00000000     0.00000000
+      7.40100000    12.81890803     0.00000000
+      0.00000000     0.00000000    20.00000000
+
+ATOMIC_POSITIONS angstrom
+  H 11.1015000051 6.4094540144 8.3940546140
+  H 11.1014999949 6.4094540056 9.1559453860
+
+K_POINTS automatic
+  3 3 1 0 0 0

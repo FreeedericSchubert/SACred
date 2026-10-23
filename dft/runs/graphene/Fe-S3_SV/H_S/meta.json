@@ -1,0 +1,15 @@
+{
+ "motif": "Fe-S3:SV",
+ "enzyme": "nitrogenase FeMo-co belt Fe (3 S)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_S",
+ "ih": 72
+}

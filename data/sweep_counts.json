@@ -1,0 +1,256 @@
+{
+ "enzymes": {
+  "per_ec": {
+   "1.12": {
+    "reaction": "HER",
+    "enzyme": "hydrogenase",
+    "entities_total": 412,
+    "representatives": 53,
+    "entries": 29
+   },
+   "1.10.3.2": {
+    "reaction": "ORR",
+    "enzyme": "laccase",
+    "entities_total": 189,
+    "representatives": 38,
+    "entries": 38
+   },
+   "1.10.3.3": {
+    "reaction": "ORR",
+    "enzyme": "ascorbate oxidase",
+    "entities_total": 3,
+    "representatives": 1,
+    "entries": 1
+   },
+   "1.3.3.5": {
+    "reaction": "ORR",
+    "enzyme": "bilirubin oxidase",
+    "entities_total": 35,
+    "representatives": 2,
+    "entries": 2
+   },
+   "1.16.3.1": {
+    "reaction": "ORR",
+    "enzyme": "ferroxidase",
+    "entities_total": 412,
+    "representatives": 59,
+    "entries": 58
+   },
+   "7.1.1.9": {
+    "reaction": "ORR",
+    "enzyme": "cytochrome c oxidase",
+    "entities_total": 335,
+    "representatives": 34,
+    "entries": 18
+   },
+   "1.9.3.1": {
+    "reaction": "ORR",
+    "enzyme": "cytochrome c oxidase",
+    "entities_total": 325,
+    "representatives": 28,
+    "entries": 12
+   },
+   "7.1.1.7": {
+    "reaction": "ORR",
+    "enzyme": "cytochrome bd oxidase",
+    "entities_total": 15,
+    "representatives": 3,
+    "entries": 1
+   },
+   "7.1.1.3": {
+    "reaction": "ORR",
+    "enzyme": "bo3 quinol oxidase",
+    "entities_total": 4,
+    "representatives": 3,
+    "entries": 2
+   },
+   "1.10.3.11": {
+    "reaction": "ORR",
+    "enzyme": "alternative oxidase",
+    "entities_total": 0,
+    "representatives": 0,
+    "entries": 0,
+    "entities_any_resolution": 0
+   },
+   "1.2.7.4": {
+    "reaction": "CO2RR",
+    "enzyme": "Ni-Fe CO dehydrogenase",
+    "entities_total": 99,
+    "representatives": 9,
+    "entries": 9
+   },
+   "1.2.5.3": {
+    "reaction": "CO2RR",
+    "enzyme": "Mo-Cu CO dehydrogenase",
+    "entities_total": 24,
+    "representatives": 6,
+    "entries": 2
+   },
+   "1.17.1.9": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 45,
+    "representatives": 14,
+    "entries": 14
+   },
+   "1.17.1.10": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 0,
+    "representatives": 0,
+    "entries": 0,
+    "entities_any_resolution": 1
+   },
+   "1.17.1.11": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 0,
+    "representatives": 0,
+    "entries": 0,
+    "entities_any_resolution": 0
+   },
+   "1.17.5.3": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 1,
+    "representatives": 1,
+    "entries": 1
+   },
+   "1.17.2.3": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 0,
+    "representatives": 0,
+    "entries": 0,
+    "entities_any_resolution": 0
+   },
+   "1.17.98.3": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 3,
+    "representatives": 1,
+    "entries": 1
+   },
+   "1.17.99.7": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 1,
+    "representatives": 1,
+    "entries": 1
+   },
+   "1.2.1.2": {
+    "reaction": "CO2RR",
+    "enzyme": "formate dehydrogenase",
+    "entities_total": 67,
+    "representatives": 18,
+    "entries": 13
+   },
+   "2.3.1.169": {
+    "reaction": "CO2RR",
+    "enzyme": "acetyl-CoA synthase",
+    "entities_total": 33,
+    "representatives": 3,
+    "entries": 3
+   },
+   "1.2.7.12": {
+    "reaction": "CO2RR",
+    "enzyme": "formylmethanofuran dehydrogenase",
+    "entities_total": 5,
+    "representatives": 4,
+    "entries": 2
+   },
+   "2.8.4.1": {
+    "reaction": "CO2RR",
+    "enzyme": "methyl-coenzyme M reductase",
+    "entities_total": 99,
+    "representatives": 34,
+    "entries": 13
+   },
+   "4.2.1.1": {
+    "reaction": "CO2RR",
+    "enzyme": "carbonic anhydrase",
+    "entities_total": 1566,
+    "representatives": 60,
+    "entries": 60
+   },
+   "1.18.6.1": {
+    "reaction": "NRR",
+    "enzyme": "nitrogenase",
+    "entities_total": 268,
+    "representatives": 35,
+    "entries": 21
+   },
+   "1.19.6.1": {
+    "reaction": "NRR",
+    "enzyme": "nitrogenase",
+    "entities_total": 0,
+    "representatives": 0,
+    "entries": 0,
+    "entities_any_resolution": 0
+   }
+  },
+  "empty_ec": [
+   "1.10.3.11",
+   "1.17.1.10",
+   "1.17.1.11",
+   "1.17.2.3",
+   "1.19.6.1"
+  ],
+  "entities": 384,
+  "entries": 281
+ },
+ "all": {
+  "per_metal": {
+   "Fe": {
+    "components": 217,
+    "protein_entities": 9236,
+    "clusters_30": 1114,
+    "entries": 868
+   },
+   "Ni": {
+    "components": 41,
+    "protein_entities": 2021,
+    "clusters_30": 515,
+    "entries": 464
+   },
+   "Co": {
+    "components": 75,
+    "protein_entities": 1020,
+    "clusters_30": 337,
+    "entries": 313
+   },
+   "Cu": {
+    "components": 53,
+    "protein_entities": 2398,
+    "clusters_30": 341,
+    "entries": 267
+   },
+   "Mo": {
+    "components": 79,
+    "protein_entities": 310,
+    "clusters_30": 58,
+    "entries": 42
+   },
+   "W": {
+    "components": 44,
+    "protein_entities": 150,
+    "clusters_30": 67,
+    "entries": 57
+   },
+   "Mn": {
+    "components": 26,
+    "protein_entities": 3139,
+    "clusters_30": 664,
+    "entries": 600
+   },
+   "V": {
+    "components": 66,
+    "protein_entities": 149,
+    "clusters_30": 63,
+    "entries": 61
+   }
+  },
+  "entries": 2572,
+  "selected": 2572
+ }
+}

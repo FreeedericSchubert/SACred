@@ -1,0 +1,16 @@
+{
+ "motif": "Ni-N2S2:DV:cis6",
+ "enzyme": "same, other cis isomer (isomer sensitivity)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "ih": 71
+}

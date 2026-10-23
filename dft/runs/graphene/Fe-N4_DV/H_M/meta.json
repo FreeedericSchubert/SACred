@@ -1,0 +1,16 @@
+{
+ "motif": "Fe-N4:DV",
+ "enzyme": "heme a3 / heme b (porphyrin N4)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "ih": 71
+}

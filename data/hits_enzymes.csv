@@ -1,0 +1,385 @@
+entry_id,entity_id,reaction,query_ec,enzyme,ec,description,organism,resolution,method,title
+1N62,1,CO2RR,1.2.5.3,Mo-Cu CO dehydrogenase,1.2.99.2,Carbon monoxide dehydrogenase small chain,Oligotropha carboxidovorans,1.09,X-ray,"Crystal Structure of the Mo,Cu-CO Dehydrogenase (CODH), n-butylisocyanide-bound state"
+1N62,2,CO2RR,1.2.5.3,Mo-Cu CO dehydrogenase,1.2.99.2,Carbon monoxide dehydrogenase large chain,Oligotropha carboxidovorans,1.09,X-ray,"Crystal Structure of the Mo,Cu-CO Dehydrogenase (CODH), n-butylisocyanide-bound state"
+1N62,3,CO2RR,1.2.5.3,Mo-Cu CO dehydrogenase,1.2.99.2,Carbon monoxide dehydrogenase medium chain,Oligotropha carboxidovorans,1.09,X-ray,"Crystal Structure of the Mo,Cu-CO Dehydrogenase (CODH), n-butylisocyanide-bound state"
+1FFV,1,CO2RR,1.2.5.3,Mo-Cu CO dehydrogenase,,"CUTS, IRON-SULFUR PROTEIN OF CARBON MONOXIDE DEHYDROGENASE",Hydrogenophaga pseudoflava,2.25,X-ray,CARBON MONOXIDE DEHYDROGENASE FROM HYDROGENOPHAGA PSEUDOFLAVA
+1FFV,2,CO2RR,1.2.5.3,Mo-Cu CO dehydrogenase,,"CUTL, MOLYBDOPROTEIN OF CARBON MONOXIDE DEHYDROGENASE",Hydrogenophaga pseudoflava,2.25,X-ray,CARBON MONOXIDE DEHYDROGENASE FROM HYDROGENOPHAGA PSEUDOFLAVA
+1FFV,3,CO2RR,1.2.5.3,Mo-Cu CO dehydrogenase,,"CUTM, FLAVOPROTEIN OF CARBON MONOXIDE DEHYDROGENASE",Hydrogenophaga pseudoflava,2.25,X-ray,CARBON MONOXIDE DEHYDROGENASE FROM HYDROGENOPHAGA PSEUDOFLAVA
+9FPH,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.7.4,Carbon monoxide dehydrogenase 2,Carboxydothermus hydrogenoformans Z-2901,1.01,X-ray,"Ni,Fe-CODH : Ti(III)-reduced pH 8.0 + CO2"
+7B7Q,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.7.4,Carbon monoxide dehydrogenase,Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901),1.35,X-ray,CooS-V with oxidized hybrid cluster
+6ONC,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.7.4,Carbon monoxide dehydrogenase,Desulfovibrio vulgaris,1.5,X-ray,"Crystal structure of Desulfovibrio vulgaris carbon monoxide dehydrogenase produced without CooC, as-isolated"
+8RIU,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.7.4,Acetyl-CoA decarbonylase/synthase complex subunit alpha,Candidatus Methanoperedenaceae archaeon GB50,1.89,X-ray,Crystal structure of the F420-reducing carbon monoxide dehydrogenase component from the ethanotroph Candidatus Ethanoperedens thermophilum
+1OAO,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,"1.2.99.2,1.2.7.4",CARBON MONOXIDE DEHYDROGENASE/ACETYL-COA SYNTHASE SUBUNIT BETA,MOORELLA THERMOACETICA,1.9,X-ray,NiZn[Fe4S4] and NiNi[Fe4S4] clusters in closed and open alpha subunits of acetyl-CoA synthase/carbon monoxide dehydrogenase
+9FU4,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.7.4,Carbon monoxide dehydrogenase,Carboxydothermus hydrogenoformans,1.9,EM,Wobbly CODH/ACS in the as isolated state
+6YU9,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.99.2,"Carbon-monoxide dehydrogenase (Acceptor),Carbon-monoxide dehydrogenase (Acceptor)",Clostridium autoethanogenum DSM 10061,1.904,X-ray,CO-dehydrogenase homodimer from Clostridium autoethanogenum at 1.90-A resolution
+3CF4,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.99.2,Acetyl-CoA decarboxylase/synthase alpha subunit,Methanosarcina barkeri,2.0,X-ray,Structure of the CODH component of the M. barkeri ACDS complex
+6T7J,1,CO2RR,1.2.7.4,Ni-Fe CO dehydrogenase,1.2.7.4,Carbon monoxide dehydrogenase,Thermococcus sp. AM4,2.43,X-ray,As-isolated Ni-free crystal structure of carbon monoxide dehydrogenase from Thermococcus sp. AM4 produced without CooC maturase
+1OAO,2,CO2RR,2.3.1.169,acetyl-CoA synthase,2.3.1.169,CARBON MONOXIDE DEHYDROGENASE/ACETYL-COA SYNTHASE SUBUNIT ALPHA,MOORELLA THERMOACETICA,1.9,X-ray,NiZn[Fe4S4] and NiNi[Fe4S4] clusters in closed and open alpha subunits of acetyl-CoA synthase/carbon monoxide dehydrogenase
+7NZ5,1,CO2RR,2.3.1.169,acetyl-CoA synthase,2.3.1.169,CO-methylating acetyl-CoA synthase,Carboxydothermus hydrogenoformans Z-2901,1.9,X-ray,monomeric acetyl-CoA synthase with Zn at the proximal position of cluster A
+9G03,1,CO2RR,2.3.1.169,acetyl-CoA synthase,2.3.1.169,CO-methylating acetyl-CoA synthase,Clostridium autoethanogenum DSM 10061,2.1,EM,Structure of carbon monoxide dehydrogenase/acetyl-CoA synthase (CODH/ACS) in complex with ferredoxin (Clostridium autoethanogenum)
+3K34,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 2,Homo sapiens,0.9,X-ray,Human carbonic anhydrase II with a sulfonamide inhibitor
+5OGJ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 13,Homo sapiens,1.06,X-ray,"Crystal structure of human carbonic anhydrase isozyme XIII with 2-(Cyclooctylamino)-3,5,6-trifluoro-4-[(2-hydroxyethyl)thio]benzenesulfonamide"
+3KWD,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbon dioxide concentrating mechanism protein,Thermosynechococcus elongatus,1.1,X-ray,"Inactive truncation of the beta-carboxysomal gamma-Carbonic Anhydrase, CcmM, form 1"
+8Q3U,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 7,Homo sapiens,1.1,X-ray,Crystal structure of a fentanyl derivative in complex with human CA VII
+9F2O,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 12,Homo sapiens,1.12,X-ray,"Structure of human carbonic anhydrase XII complexed with 3-(cyclooctylamino)-2,6-difluoro-4-((3-hydroxypropyl)sulfonyl)-5- methoxybenzenesulfonamide"
+4CNX,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONIC ANHYDRASE 2,BOS TAURUS,1.23,X-ray,Surface residue engineering of bovine carbonic anhydrase to an extreme halophilic enzyme for potential application in postcombustion CO2 capture
+7Q0D,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 1,Homo sapiens,1.24,X-ray,Human carbonic anhydrase I in complex with Methyl 2-(benzenesulfonyl)-4-chloro-5-sulfamoylbenzoate
+6RQQ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 9,Homo sapiens,1.276,X-ray,X-ray crystal structure of protiated (H) large monoclinic unit cell CA IX SV.
+6LAC,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100),1.3,X-ray,The structural basis of the beta-carbonic anhydrase CafD (C39A mutant) of the filamentous fungus Aspergillus fumigatus
+2W3Q,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONIC ANHYDRASE 2,CRYPTOCOCCUS NEOFORMANS,1.34,X-ray,Structure and inhibition of the CO2-sensing carbonic anhydrase Can2 from the pathogenic fungus Cryptococcus neoformans
+3BOE,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Cadmium-specific carbonic anhydrase,Thalassiosira weissflogii,1.4,X-ray,Carbonic anhydrase from marine diatom Thalassiosira weissflogii- cadmium bound domain 2 with acetate (CDCA1-R2)
+3LAS,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Putative carbonic anhydrase,Streptococcus mutans,1.4,X-ray,Crystal structure of carbonic anhydrase from streptococcus mutans to 1.4 angstrom resolution
+9EAT,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 2,Escherichia coli BL21(DE3),1.43,X-ray,High-Resolution Structure of Escherichia coli Carbonic Anhydrase 2 in Space Group P4(2)2(1)2
+3BOJ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Cadmium-specific carbonic anhydrase,Thalassiosira weissflogii,1.45,X-ray,Carbonic anhydrase from marine diatom Thalassiosira weissflogii- cadmium bound domain 1 without bound metal (CDCA1-R1)
+5SWC,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Synechocystis sp. (strain PCC 6803 / Kazusa),1.45,X-ray,The structure of the beta-carbonic anhydrase CcaA
+1QRE,1,CO2RR,4.2.1.1,carbonic anhydrase,,CARBONIC ANHYDRASE,Methanosarcina thermophila,1.46,X-ray,A CLOSER LOOK AT THE ACTIVE SITE OF GAMMA-CARBONIC ANHYDRASES: HIGH RESOLUTION CRYSTALLOGRAPHIC STUDIES OF THE CARBONIC ANHYDRASE FROM METHANOSARCINA THERMOPHILA
+1V3W,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,ferripyochelin binding protein,Pyrococcus horikoshii,1.5,X-ray,Structure of Ferripyochelin binding protein from Pyrococcus horikoshii OT3
+5HPJ,1,CO2RR,4.2.1.1,carbonic anhydrase,,Carbonic anhydrase,Photobacterium profundum SS9,1.5,X-ray,Photobacterium profundum alpha-carbonic anhydrase
+4XFW,1,CO2RR,4.2.1.1,carbonic anhydrase,,Alpha-carbonic anhydrase,Helicobacter pylori G27,1.517,X-ray,Crystal structure of the monoclinic form of alpha-carbonic anhydrase from the human pathogen Helicobacter pylori
+3QY1,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Salmonella enterica subsp. enterica serovar Typhimurium,1.54,X-ray,1.54A Resolution Crystal Structure of a Beta-Carbonic Anhydrase from Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+4COQ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONATE DEHYDRATASE,THERMOVIBRIO AMMONIFICANS,1.55,X-ray,The complex of alpha-Carbonic anhydrase from Thermovibrio ammonificans with inhibitor sulfanilamide.
+2W2J,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONIC ANHYDRASE-RELATED PROTEIN,HOMO SAPIENS,1.6,X-ray,Crystal structure of the human carbonic anhydrase related protein VIII
+5BQ1,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Pseudomonas aeruginosa,1.6,X-ray,Capturing Carbon Dioxide in beta Carbonic Anhydrase
+7BM4,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Schistosoma mansoni,1.6,X-ray,Crystal structure of alpha Carbonic anhydrase from Schistosoma mansoni bound to 1-(4-fluorophenyl)-3-(4-sulphamoylphenyl)selenourea
+7O54,2,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Synechococcus elongatus (strain PCC 7942 / FACHB-805),1.63,X-ray,Crystal structure of the carbonic anhydrase-like domain of CcmM in complex with the C-terminal 17 residues of CcaA from Synechococcus elongatus (strain PCC 7942)
+6JQD,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100),1.69,X-ray,The structural basis of the beta-carbonic anhydrase CafC (L25G and L78G mutant) of the filamentous fungus Aspergillus fumigatus
+3UYQ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 3,Homo sapiens,1.7,X-ray,HCA 3
+3FW3,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 4,Homo sapiens,1.72,X-ray,Crystal Structure of soluble domain of CA4 in complex with Dorzolamide
+1YM3,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONIC ANHYDRASE (CARBONATE DEHYDRATASE) (CARBONIC DEHYDRATASE),Mycobacterium tuberculosis,1.75,X-ray,Crystal Structure of carbonic anhydrase RV3588c from Mycobacterium tuberculosis
+1FLJ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONIC ANHYDRASE III,Rattus norvegicus,1.8,X-ray,CRYSTAL STRUCTURE OF S-GLUTATHIOLATED CARBONIC ANHYDRASE III
+4G7A,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonate dehydratase,Sulfurihydrogenibium sp. YO3AOP1,1.8,X-ray,The crystal structure of an alpha Carbonic Anhydrase from the extremophilic bacterium Sulfurihydrogenibium yellowstonense YO3AOP1
+4YF4,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Beta-carbonic anhydrase 1,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),1.8,X-ray,Crystal structure of Rv1284 in the presence of polycarpine at mildly acidic pH
+7COI,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100),1.8,X-ray,Crystal structure of the b-carbonic anhydrase CafA of the fungal pathogen Aspergillus fumigatus
+4O1K,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Sordaria macrospora,1.83,X-ray,Crystal structures of two tetrameric beta-carbonic anhydrases from the filamentous ascomycete Sordaria macrospora.
+5CJF,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 14,Homo sapiens,1.83,X-ray,"The crystal structure of the human carbonic anhydrase XIV in complex with a 1,1'-biphenyl-4-sulfonamide inhibitor."
+3UCJ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Coccomyxa sp. PA,1.85,X-ray,Coccomyxa beta-carbonic anhydrase in complex with acetazolamide
+1Y7W,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Halotolerant alpha-type carbonic anhydrase (dCA II),Dunaliella salina,1.86,X-ray,Crystal structure of a halotolerant carbonic anhydrase from Dunaliella salina
+1KEQ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,F65A/Y131C-MI Carbonic Anhydrase V,Mus musculus,1.88,X-ray,"Crystal Structure of F65A/Y131C Carbonic Anhydrase V, covalently modified with 4-chloromethylimidazole"
+3B1B,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 1,Chlamydomonas reinhardtii,1.88,X-ray,The unique structure of wild type carbonic anhydrase alpha-CA1 from Chlamydomonas reinhardtii
+1KOP,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONIC ANHYDRASE,Neisseria gonorrhoeae,1.9,X-ray,NEISSERIA GONORRHOEAE CARBONIC ANHYDRASE
+3FE4,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 6,Homo sapiens,1.9,X-ray,Crystal Structure of Human Carbonic Anhydrase vi
+5CXK,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Vibrio cholerae,1.9,X-ray,Crystal structure of beta carbonic anhydrase from Vibrio cholerae
+1EKJ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,BETA-CARBONIC ANHYDRASE,Pisum sativum,1.93,X-ray,THE X-RAY CRYSTALLOGRAPHIC STRUCTURE OF BETA CARBONIC ANHYDRASE FROM THE C3 DICOT PISUM SATIVUM
+4X5S,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase (Carbonate dehydratase),Sulfurihydrogenibium azorense,1.95,X-ray,The crystal structure of an alpha carbonic anhydrase from the extremophilic bacterium Sulfurihydrogenibium azorense.
+7SMK,3,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carboxysome shell carbonic anhydrase,Halothiobacillus neapolitanus (strain ATCC 23641 / c2),1.98,EM,H. neapolitanus carboxysomal rubisco/CsoSCA-peptide (1-50)complex
+3E3I,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 2,Haemophilus influenzae,2.0,X-ray,"H. influenzae beta-carbonic anhydrase, variant G41A with 100 mM bicarbonate"
+6IM1,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase (Carbonate dehydratase),Persephonella marina (strain DSM 14350 / EX-H1),2.0,X-ray,Crystal structure of a highly thermostable carbonic anhydrase from Persephonella marina EX-H1
+7CXX,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100),2.0,X-ray,Structural insights into novel mechanisms of inhibition of the major b-carbonic anhydrase CafB from the pathogenic fungus Aspergillus fumigatus (disulfide-bonded form)
+3EYX,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Saccharomyces cerevisiae,2.04,X-ray,Crystal structure of Carbonic Anhydrase Nce103 from Saccharomyces cerevisiae
+1G5C,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,BETA-CARBONIC ANHYDRASE,Methanothermobacter thermautotrophicus,2.1,X-ray,CRYSTAL STRUCTURE OF THE 'CAB' TYPE BETA CLASS CARBONIC ANHYDRASE FROM METHANOBACTERIUM THERMOAUTOTROPHICUM
+4TWL,1,CO2RR,4.2.1.1,carbonic anhydrase,,Dioscorin 5,Dioscorea japonica,2.11,X-ray,Crystal structure of dioscorin complexed with ascorbate
+1DDZ,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,CARBONIC ANHYDRASE,Porphyridium purpureum,2.2,X-ray,"X-RAY STRUCTURE OF A BETA-CARBONIC ANHYDRASE FROM THE RED ALGA, PORPHYRIDIUM PURPUREUM R-1"
+6GWU,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Candida albicans,2.2,X-ray,Carbonic anhydrase CaNce103p from Candida albicans
+7C5Y,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,iota-carbonic anhydrase,Bigelowiella natans,2.2,X-ray,Crystal structure of the iota-carbonic anhydrase from eukaryotic microalga complexed with iodide
+8JIF,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase 4,Mus musculus,2.28,EM,Cryo-EM Structure of 3-axis block of AAV9P31-Car4 complex
+3UK8,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Cadmium-specific carbonic anhydrase,Thalassiosira weissflogii,2.3,X-ray,The crystal structure of the cd-bound domain 3 of the cadmium carbonic anhydrase from marine diatom Thalassiosira weissflogii
+7C5W,1,CO2RR,4.2.1.1,carbonic anhydrase,,iota-carbonic anhydrase,Nostoc sp. PCC 7120 = FACHB-418,2.3,X-ray,Crystal structure of the iota-carbonic anhydrase from cyanobacterium complexed with iodide
+8THM,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carboxysome shell carbonic anhydrase,Cyanobium sp. PCC 7001,2.3,X-ray,Beta carbonic anhydrase from the carboxysome of Cyanobium PCC 7001
+3VNP,1,CO2RR,4.2.1.1,carbonic anhydrase,,Hypothetical conserved protein,Geobacillus kaustophilus,2.4,X-ray,Crystal structure of hypothetical protein (GK2848) from Geobacillus Kaustophilus
+6Y04,1,CO2RR,4.2.1.1,carbonic anhydrase,4.2.1.1,Carbonic anhydrase,Trichomonas vaginalis,2.48,X-ray,Crystal structure of beta-carbonic anhydrase isoform I (TvaCA1) from the Trichomonas vaginalis protozoan.
+6T92,1,CO2RR,1.17.1.9,formate dehydrogenase,1.17.1.9,Formate dehydrogenase,Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719),1.12,X-ray,NAD+-dependent fungal formate dehydrogenase from Chaetomium thermophilum: A complex of N120C mutant protein with the reduced form of the cofactor NADH and the substrate formate at a secondary site.
+3JTM,1,CO2RR,1.17.1.9;1.2.1.2,formate dehydrogenase,1.2.1.2,"Formate dehydrogenase, mitochondrial",Arabidopsis thaliana,1.3,X-ray,Structure of recombinant formate dehydrogenase from Arabidopsis thaliana
+4XYB,1,CO2RR,1.17.1.9;1.2.1.2,formate dehydrogenase,1.2.1.2,Formate dehydrogenase,Granulicella mallensis (strain ATCC BAA-1857 / DSM 23137 / MP5ACTX8),1.38,X-ray,GRANULICELLA M. FORMATE DEHYDROGENASE (FDH) IN COMPLEX WITH NADP(+) AND NaN3
+8HTY,1,CO2RR,1.17.1.9,formate dehydrogenase,,Formate dehydrogenase,[Candida] boidinii,1.4,X-ray,Candida boidinii Formate Dehydrogenase Crystal Structure at 1.4 Angstrom Resolution
+8CM6,1,CO2RR,1.2.1.2,formate dehydrogenase,,"Formate dehydrogenase, alpha subunit, selenocysteine-containing",Desulfovibrio vulgaris str. Hildenborough,1.416,X-ray,W-formate dehydrogenase C872A from Desulfovibrio vulgaris - with Formamide
+5DN9,1,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,FDH,Candida boidinii,1.5,X-ray,Crystal structure of Candida boidinii formate dehydrogenase complexed with NAD+ and azide
+1KQF,1,CO2RR,1.17.5.3;1.2.1.2,formate dehydrogenase,1.2.1.2,"FORMATE DEHYDROGENASE, NITRATE-INDUCIBLE, MAJOR SUBUNIT",Escherichia coli,1.6,X-ray,FORMATE DEHYDROGENASE N FROM E. COLI
+1KQF,2,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,"FORMATE DEHYDROGENASE, NITRATE-INDUCIBLE, IRON-SULFUR SUBUNIT",Escherichia coli,1.6,X-ray,FORMATE DEHYDROGENASE N FROM E. COLI
+1KQF,3,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,"FORMATE DEHYDROGENASE, NITRATE-INDUCIBLE, CYTOCHROME B556(FDN) SUBUNIT",Escherichia coli,1.6,X-ray,FORMATE DEHYDROGENASE N FROM E. COLI
+1H0H,1,CO2RR,1.17.1.9;1.2.1.2,formate dehydrogenase,1.2.1.2,FORMATE DEHYDROGENASE SUBUNIT ALPHA,DESULFOVIBRIO GIGAS,1.8,X-ray,Tungsten containing Formate Dehydrogenase from Desulfovibrio Gigas
+2NAC,1,CO2RR,1.17.1.9;1.2.1.2,formate dehydrogenase,1.2.1.2,NAD-DEPENDENT FORMATE DEHYDROGENASE,Pseudomonas sp.,1.8,X-ray,HIGH RESOLUTION STRUCTURES OF HOLO AND APO FORMATE DEHYDROGENASE
+7YA4,1,CO2RR,1.17.1.9,formate dehydrogenase,1.17.1.9,Formate dehydrogenase,Novosphingobium sp. AP12,1.8,X-ray,Formate dehydrogenase from Novosphingobium sp. AP12 with NAD and Azide
+2GSD,1,CO2RR,1.17.1.9,formate dehydrogenase,1.2.1.43,NAD-dependent formate dehydrogenase,Moraxella sp.,1.95,X-ray,NAD-dependent formate dehydrogenase from bacterium Moraxella sp.C2 in complex with NAD and azide
+3FN4,1,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,NAD-dependent formate dehydrogenase,Moraxella sp.,1.96,X-ray,Apo-form of NAD-dependent formate dehydrogenase from bacterium Moraxella sp.C-1 in closed conformation
+6T8C,1,CO2RR,1.17.1.9,formate dehydrogenase,1.17.1.9,Formate dehydrogenase,Granulicella mallensis (strain ATCC BAA-1857 / DSM 23137 / MP5ACTX8),1.97,X-ray,Crystal structure of formate dehydrogenase FDH2 enzyme from Granulicella mallensis MP5ACTX8 in the apo form.
+6VW7,1,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,NAD-dependent formate dehydrogenase gamma subunit,Cupriavidus necator,2.0,X-ray,Formate Dehydrogenase FdsABG subcomplex FdsBG from C. necator - NADH bound
+6VW7,2,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,NAD-dependent formate dehydrogenase beta subunit,Cupriavidus necator,2.0,X-ray,Formate Dehydrogenase FdsABG subcomplex FdsBG from C. necator - NADH bound
+2GO1,1,CO2RR,1.17.1.9;1.2.1.2,formate dehydrogenase,1.2.1.2,NAD-dependent formate dehydrogenase,Pseudomonas sp.,2.1,X-ray,NAD-dependent formate dehydrogenase from Pseudomonas sp.101
+7ARZ,1,CO2RR,1.17.1.9,formate dehydrogenase,1.17.1.9,"Formate dehydrogenase, mitochondrial",Physcomitrium patens,2.15,X-ray,Ternary complex of NAD-dependent formate dehydrogenase from Physcomitrium patens
+7VW6,1,CO2RR,1.17.1.9;1.2.1.2,formate dehydrogenase,1.17.1.9,Formate dehydrogenase,Methylorubrum extorquens AM1,2.19,EM,Cryo-EM Structure of Formate Dehydrogenase 1 from Methylorubrum extorquens AM1
+7VW6,2,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,Tungsten-containing formate dehydrogenase beta subunit,Methylorubrum extorquens AM1,2.19,EM,Cryo-EM Structure of Formate Dehydrogenase 1 from Methylorubrum extorquens AM1
+8RVV,4,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,"Formate dehydrogenase, alpha subunit",Methanothermobacter marburgensis,2.2,EM,"CryoEM structure of the Elp-Hdr complex of Methanothermobacter marburgensis state 2, dimer (composite structure)"
+8RVV,5,CO2RR,1.17.98.3;1.2.1.2,formate dehydrogenase,1.2.1.2,"Formate dehydrogenase, beta subunit",Methanothermobacter marburgensis,2.2,EM,"CryoEM structure of the Elp-Hdr complex of Methanothermobacter marburgensis state 2, dimer (composite structure)"
+2IV2,1,CO2RR,1.17.1.9;1.17.99.7,formate dehydrogenase,"1.17.1.9,1.17.99.7",Formate dehydrogenase H,Escherichia coli,2.27,X-ray,Reinterpretation of reduced form of formate dehydrogenase H from E. coli
+1AA6,1,CO2RR,1.2.1.2,formate dehydrogenase,1.2.1.2,FORMATE DEHYDROGENASE H,Escherichia coli,2.3,X-ray,REDUCED FORM OF FORMATE DEHYDROGENASE H FROM E. COLI
+8J3P,1,CO2RR,1.17.1.9,formate dehydrogenase,1.17.1.9,Formate dehydrogenase,Candida dubliniensis (strain CD36 / ATCC MYA-646 / CBS 7987 / NCPF 3949 / NRRL Y-17841),2.3,X-ray,Formate dehydrogenase mutant from from Candida dubliniensis M4 complexed with NADP+
+5T5I,2,CO2RR,1.2.7.12,formylmethanofuran dehydrogenase,,Tungsten formylmethanofuran dehydrogenase subunit B,Methanothermobacter sp. CaT2,1.9,X-ray,"TUNGSTEN-CONTAINING FORMYLMETHANOFURAN DEHYDROGENASE FROM METHANOTHERMOBACTER WOLFEII, ORTHORHOMBIC FORM AT 1.9 A"
+5T5I,3,CO2RR,1.2.7.12,formylmethanofuran dehydrogenase,1.2.99.5,Tungsten-containing formylmethanofuran dehydrogenase 2 subunit C,Methanothermobacter wolfeii,1.9,X-ray,"TUNGSTEN-CONTAINING FORMYLMETHANOFURAN DEHYDROGENASE FROM METHANOTHERMOBACTER WOLFEII, ORTHORHOMBIC FORM AT 1.9 A"
+8RJA,3,CO2RR,1.2.7.12,formylmethanofuran dehydrogenase,1.2.7.12,formylmethanofuran dehydrogenase,Candidatus Methanoperedenaceae archaeon GB50,1.97,X-ray,Crystal structure of the F420-reducing formylmethanofuran dehydrogenase complex from the ethanotroph Candidatus Ethanoperedens thermophilum
+8RJA,4,CO2RR,1.2.7.12,formylmethanofuran dehydrogenase,1.2.7.12,Formylmethanofuran dehydrogenase subunit D,Candidatus Methanoperedenaceae archaeon GB50,1.97,X-ray,Crystal structure of the F420-reducing formylmethanofuran dehydrogenase complex from the ethanotroph Candidatus Ethanoperedens thermophilum
+9QQT,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase subunit alpha,Candidatus Methanoperedens sp.,0.98,X-ray,Methyl-coenzyme M reductase of ANME-2d Candidatus Methanoperedens Vercelli Strain 1 from a bioreactor enrichment culture
+9QQT,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase subunit beta,Candidatus Methanoperedens sp.,0.98,X-ray,Methyl-coenzyme M reductase of ANME-2d Candidatus Methanoperedens Vercelli Strain 1 from a bioreactor enrichment culture
+9QQT,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase subunit gamma,Candidatus Methanoperedens sp.,0.98,X-ray,Methyl-coenzyme M reductase of ANME-2d Candidatus Methanoperedens Vercelli Strain 1 from a bioreactor enrichment culture
+7B1S,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Ethyl-Coenzyme M reductase alpha subunit,Candidatus Ethanoperedens thermophilum,0.992,X-ray,Crystal structure of the ethyl-coenzyme M reductase from Candidatus Ethanoperedens thermophilum at 0.994-A resolution
+7B1S,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Ethyl-Coenzyme M reductase beta subunit,Candidatus Ethanoperedens thermophilum,0.992,X-ray,Crystal structure of the ethyl-coenzyme M reductase from Candidatus Ethanoperedens thermophilum at 0.994-A resolution
+7B1S,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Ethyl-Coenzyme M reductase gamma subunit,Candidatus Ethanoperedens thermophilum,0.992,X-ray,Crystal structure of the ethyl-coenzyme M reductase from Candidatus Ethanoperedens thermophilum at 0.994-A resolution
+5A0Y,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE I SUBUNIT ALPHA,METHANOTHERMOBACTER MARBURGENSIS,1.1,X-ray,METHYL-COENZYME M REDUCTASE FROM METHANOTHERMOBACTER MARBURGENSIS AT 1.1 A RESOLUTION
+5A0Y,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE I SUBUNIT BETA,METHANOTHERMOBACTER MARBURGENSIS,1.1,X-ray,METHYL-COENZYME M REDUCTASE FROM METHANOTHERMOBACTER MARBURGENSIS AT 1.1 A RESOLUTION
+5A0Y,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE I SUBUNIT GAMMA,METHANOTHERMOBACTER MARBURGENSIS,1.1,X-ray,METHYL-COENZYME M REDUCTASE FROM METHANOTHERMOBACTER MARBURGENSIS AT 1.1 A RESOLUTION
+9QR3,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Alpha subunit of the Methyl-coenzyme M reductase from ANME-2c,Candidatus Methanogasteraceae archaeon,1.34,X-ray,Methyl-coenzyme M reductase of an ANME-2c from a microbial enrichment
+9QR3,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Beta subunit of the Methyl-coenzyme M reductase from ANME-2c,Candidatus Methanogasteraceae archaeon,1.34,X-ray,Methyl-coenzyme M reductase of an ANME-2c from a microbial enrichment
+9QR3,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Gamma subunit of the Methyl-coenzyme M reductase from ANME-2c,Candidatus Methanogasteraceae archaeon,1.34,X-ray,Methyl-coenzyme M reductase of an ANME-2c from a microbial enrichment
+1E6Y,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE SUBUNIT ALPHA,METHANOSARCINA BARKERI,1.6,X-ray,Methyl-coenzyme M reductase from Methanosarcina barkeri
+1E6Y,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE I BETA SUBUNIT,METHANOSARCINA BARKERI,1.6,X-ray,Methyl-coenzyme M reductase from Methanosarcina barkeri
+1E6Y,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE SUBUNIT GAMMA,METHANOSARCINA BARKERI,1.6,X-ray,Methyl-coenzyme M reductase from Methanosarcina barkeri
+7NKG,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase alpha subunit,Methermicoccus shengliensis DSM 18856,1.6,X-ray,Methyl-coenzyme M reductase from Methermicoccus shengliensis at 1.6-A resolution
+7NKG,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase beta subunit,Methermicoccus shengliensis DSM 18856,1.6,X-ray,Methyl-coenzyme M reductase from Methermicoccus shengliensis at 1.6-A resolution
+7NKG,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase gamma subunit,Methermicoccus shengliensis DSM 18856,1.6,X-ray,Methyl-coenzyme M reductase from Methermicoccus shengliensis at 1.6-A resolution
+5A8W,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M II REDUCTASE,METHANOTHERMOBACTER WOLFEII,1.8,X-ray,METHYL-COENZYME M REDUCTASE II FROM METHANOTHERMOBACTER WOLFEII AT 1. 8 A RESOLUTION
+5A8W,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE II,METHANOTHERMOBACTER WOLFEII,1.8,X-ray,METHYL-COENZYME M REDUCTASE II FROM METHANOTHERMOBACTER WOLFEII AT 1. 8 A RESOLUTION
+5A8W,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE II,METHANOTHERMOBACTER WOLFEII,1.8,X-ray,METHYL-COENZYME M REDUCTASE II FROM METHANOTHERMOBACTER WOLFEII AT 1. 8 A RESOLUTION
+5N1Q,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE III FROM METHANOTHERMOCOCCUS THERMOLITHOTROPHICUS SUBUNIT ALPHA,Methanothermococcus thermolithotrophicus DSM 2095,1.9,X-ray,METHYL-COENZYME M REDUCTASE III FROM METHANOTHERMOCOCCUS THERMOLITHOTROPHICUS AT 1.9 A RESOLUTION
+5N1Q,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE III FROM METHANOTHERMOCOCCUS THERMOLITHOTROPHICUS SUBUNIT BETA,Methanothermococcus thermolithotrophicus DSM 2095,1.9,X-ray,METHYL-COENZYME M REDUCTASE III FROM METHANOTHERMOCOCCUS THERMOLITHOTROPHICUS AT 1.9 A RESOLUTION
+5N1Q,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,METHYL-COENZYME M REDUCTASE III FROM METHANOTHERMOCOCCUS THERMOLITHOTROPHICUS SUBUNIT GAMMA,Methanothermococcus thermolithotrophicus DSM 2095,1.9,X-ray,METHYL-COENZYME M REDUCTASE III FROM METHANOTHERMOCOCCUS THERMOLITHOTROPHICUS AT 1.9 A RESOLUTION
+6PEU,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,,GLY-ARG-LEU-GLY-PHE-TYR-GLY-TYR-ASP-LEU-GLN-ASP,Methanocaldococcus jannaschii,1.95,X-ray,Structure of YcaO enzyme from Methanocaldococcus jannaschii in complex with peptide
+9ECN,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,,Methyl-coenzyme M reductase subunit beta,Methanosarcina acetivorans C2A,2.0,X-ray,M. acetivorans MCR containing a 2-methylglutamine modification
+9ECN,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase subunit gamma,Methanosarcina acetivorans C2A,2.0,X-ray,M. acetivorans MCR containing a 2-methylglutamine modification
+3SQG,1,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,"Methyl coenzyme M reductase, alpha subunit",uncultured archaeon,2.1,X-ray,Crystal structure of a methyl-coenzyme M reductase purified from Black Sea mats
+3SQG,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,"Methyl-coenzyme M reductase, beta subunit",uncultured archaeon,2.1,X-ray,Crystal structure of a methyl-coenzyme M reductase purified from Black Sea mats
+3SQG,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,"Methyl-coenzyme M reductase, gamma subunit",uncultured archaeon,2.1,X-ray,Crystal structure of a methyl-coenzyme M reductase purified from Black Sea mats
+9H1L,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase subunit gamma,Methanococcus maripaludis,2.14,EM,Methyl-coenzyme M reductase activation complex binding to the A2 component after incubation with ATP
+9H1L,3,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase subunit beta,Methanococcus maripaludis,2.14,EM,Methyl-coenzyme M reductase activation complex binding to the A2 component after incubation with ATP
+9H1L,4,CO2RR,2.8.4.1,methyl-coenzyme M reductase,2.8.4.1,Methyl-coenzyme M reductase subunit alpha,Methanococcus maripaludis,2.14,EM,Methyl-coenzyme M reductase activation complex binding to the A2 component after incubation with ATP
+7QBS,2,CO2RR,2.8.4.1,methyl-coenzyme M reductase,,Peptide from Methyl-coenzyme M reductase subunit alpha from Methanosarcina acetivorans,Methanosarcina acetivorans,2.327,X-ray,"B12-dependent radical SAM methyltransferase, Mmp10 with [4Fe-4S] cluster, cobalamin, S-adenosyl-L-methionine, and peptide bound."
+4U9H,1,HER,1.12,hydrogenase,1.12.2.1,Periplasmic [NiFe] hydrogenase small subunit,Desulfovibrio vulgaris,0.89,X-ray,Ultra High Resolution Structure Of The Ni-R State Of [Nife]Hydrogenase From Desulufovibrio Vulgaris Miyazaki F
+4U9H,2,HER,1.12,hydrogenase,1.12.2.1,Periplasmic [NiFe] hydrogenase large subunit,Desulfovibrio vulgaris,0.89,X-ray,Ultra High Resolution Structure Of The Ni-R State Of [Nife]Hydrogenase From Desulufovibrio Vulgaris Miyazaki F
+5JSK,1,HER,1.12,hydrogenase,1.12.7.2,"Periplasmic [NiFeSe] hydrogenase, small subunit",Desulfovibrio vulgaris str. Hildenborough,0.95,X-ray,The 3D structure of [NiFeSe] hydrogenase from Desulfovibrio vulgaris Hildenborough in the reduced state at 0.95 Angstrom resolution
+5JSK,2,HER,1.12,hydrogenase,1.12.7.2,"Periplasmic [NiFeSe] hydrogenase, large subunit, selenocysteine-containing",Desulfovibrio vulgaris str. Hildenborough,0.95,X-ray,The 3D structure of [NiFeSe] hydrogenase from Desulfovibrio vulgaris Hildenborough in the reduced state at 0.95 Angstrom resolution
+9GZ4,1,HER,1.12,hydrogenase,1.12.7.2,Periplasmic [Fe] hydrogenase large subunit,Desulfovibrio desulfuricans,0.96,X-ray,FeFe Hydrogenase from Desulfovibrio desulfuricans labelled with cyanophenylalanine - reduced state
+9GZ4,2,HER,1.12,hydrogenase,1.12.7.2,Periplasmic [Fe] hydrogenase small subunit,Desulfovibrio desulfuricans,0.96,X-ray,FeFe Hydrogenase from Desulfovibrio desulfuricans labelled with cyanophenylalanine - reduced state
+6N59,1,HER,1.12,hydrogenase,1.12.7.2,Iron hydrogenase 1,Clostridium pasteurianum,1.02,X-ray,1.0 Angstrom crystal structure of [FeFe]-hydrogenase
+6FPO,1,HER,1.12,hydrogenase,1.12.99.6,Hydrogenase-1 small chain,Escherichia coli CFT073,1.05,X-ray,High resolution structure of native Hydrogenase (Hyd-1)
+6FPO,2,HER,1.12,hydrogenase,1.12.99.6,Hydrogenase-1 large chain,Escherichia coli K12,1.05,X-ray,High resolution structure of native Hydrogenase (Hyd-1)
+6HAV,1,HER,1.12,hydrogenase,1.12.98.2,"5,10-methenyltetrahydromethanopterin hydrogenase",Methanococcus aeolicus (strain ATCC BAA-1280 / DSM 17508 / OCM 812 / Nankai-3),1.06,X-ray,Crystal structure of [Fe]-hydrogenase (Hmd) from Methanococcus aeolicus in complex with FeGP and methenyl-tetrahydromethanopterin (close form A) at 1.06 A resolution
+3AYX,1,HER,1.12,hydrogenase,1.12.5.1,Membrane-bound hydrogenase large subunit,Hydrogenovibrio marinus,1.18,X-ray,Membrane-bound respiratory [NiFe] hydrogenase from Hydrogenovibrio marinus in an H2-reduced condition
+3AYX,2,HER,1.12,hydrogenase,1.12.5.1,Membrane-bound hydrogenase small subunit,Hydrogenovibrio marinus,1.18,X-ray,Membrane-bound respiratory [NiFe] hydrogenase from Hydrogenovibrio marinus in an H2-reduced condition
+6SZK,1,HER,1.12,hydrogenase,1.12.99.6,Hydrogenase-2 small chain,Escherichia coli (strain K12),1.2,X-ray,Hydrogenase-2 variant R479K - hydrogen reduced form treated with CO
+4UQL,1,HER,1.12,hydrogenase,1.12.2.1,HYDROGENASE (NIFE) SMALL SUBUNIT HYDA,DESULFOVIBRIO FRUCTOSOVORANS,1.22,X-ray,High-resolution structure of a Ni-A Ni-Sox mixture of the D. fructosovorans NiFe-hydrogenase L122A mutant
+4UQL,2,HER,1.12,hydrogenase,1.12.2.1,NICKEL-DEPENDENT HYDROGENASE LARGE SUBUNIT,DESULFOVIBRIO FRUCTOSOVORANS,1.22,X-ray,High-resolution structure of a Ni-A Ni-Sox mixture of the D. fructosovorans NiFe-hydrogenase L122A mutant
+6SYO,2,HER,1.12,hydrogenase,1.12.99.6,Hydrogenase-2 large chain,Escherichia coli (strain K12),1.25,X-ray,Hydrogenase-2 variant R479K - As Isolated form
+5OK4,1,HER,1.12,hydrogenase,1.12.98.2,"5,10-methenyltetrahydromethanopterin hydrogenase",Methanothermobacter marburgensis str. Marburg,1.29,X-ray,Crystal structure of native [Fe]-hydrogenase Hmd from Methanothermobacter marburgensis inactivated by O2.
+7ODH,1,HER,1.12,hydrogenase,1.12.99.6,Uptake hydrogenase large subunit,Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337),1.34,X-ray,Crystal structure of the O2-tolerant MBH-P242C from Ralstonia eutropha in its as-isolated state
+7ODH,2,HER,1.12,hydrogenase,1.12.99.6,Uptake hydrogenase small subunit,Cupriavidus necator (strain ATCC 17699 / DSM 428 / KCTC 22496 / NCIMB 10442 / H16 / Stanier 337),1.34,X-ray,Crystal structure of the O2-tolerant MBH-P242C from Ralstonia eutropha in its as-isolated state
+4KN9,1,HER,1.12,hydrogenase,1.12.99.6,Periplasmic [NiFeSe] hydrogenase small subunit,Desulfomicrobium baculatum,1.4,X-ray,High-resolution structure of H2-activated anaerobically purified Dm. baculatum [NiFeSe]-hydrogenase after crystallization under air
+4KN9,2,HER,1.12,hydrogenase,1.12.99.6,Nickel-dependent hydrogenase large subunit,Desulfomicrobium baculatum,1.4,X-ray,High-resolution structure of H2-activated anaerobically purified Dm. baculatum [NiFeSe]-hydrogenase after crystallization under air
+8DQV,1,HER,1.12,hydrogenase,1.12.99.6,"Hydrogenase-2, large subunit",Mycolicibacterium smegmatis,1.52,EM,The 1.52 angstrom CryoEM structure of the [NiFe]-hydrogenase Huc from Mycobacterium smegmatis - catalytic dimer (Huc2S2L)
+8DQV,2,HER,1.12,hydrogenase,1.12.99.6,"Hydrogenase-2, small subunit",Mycolicibacterium smegmatis,1.52,EM,The 1.52 angstrom CryoEM structure of the [NiFe]-hydrogenase Huc from Mycobacterium smegmatis - catalytic dimer (Huc2S2L)
+6YKB,1,HER,1.12,hydrogenase,1.12.98.2,"5,10-methenyltetrahydromethanopterin [Fe]-hydrogenase",Methanolacinia paynteri G-2000,1.55,X-ray,[Fe]-hydrogenase from Methanolacinia paynteri in complex with GMP at 1.55-A resolution
+5XVD,2,HER,1.12,hydrogenase,,Hydrogenase-2 small chain,Citrobacter sp. MGH106,1.57,X-ray,[NiFe]-hydrogenase (Hyb-type) from Citrobacter sp. S-77 in an air-oxidized condition
+9R52,1,HER,1.12,hydrogenase,1.12.98.1,F420-reducing [NiFe]-hydrogenase from Methanothermococcus thermolithotrophicus alpha subunit,Methanothermococcus thermolithotrophicus DSM 2095,1.65,X-ray,Dimeric state of the F420-reducing hydrogenase from Methanothermococcus thermolithotrophicus in crystalline form 2
+9R52,2,HER,1.12,hydrogenase,1.12.98.1,F420-reducing [NiFe]-hydrogenase from Methanothermococcus thermolithotrophicus beta subunit,Methanothermococcus thermolithotrophicus DSM 2095,1.65,X-ray,Dimeric state of the F420-reducing hydrogenase from Methanothermococcus thermolithotrophicus in crystalline form 2
+9R52,3,HER,1.12,hydrogenase,1.12.98.1,F420-reducing [NiFe]-hydrogenase from Methanothermococcus thermolithotrophicus gamma subunit,Methanothermococcus thermolithotrophicus DSM 2095,1.65,X-ray,Dimeric state of the F420-reducing hydrogenase from Methanothermococcus thermolithotrophicus in crystalline form 2
+4OMF,1,HER,1.12,hydrogenase,1.12.98.1,"F420-reducing hydrogenase, subunit gamma",Methanothermobacter marburgensis,1.71,X-ray,"The F420-reducing [NiFe]-hydrogenase complex from Methanothermobacter marburgensis, the first X-ray structure of a group 3 family member"
+4OMF,2,HER,1.12,hydrogenase,1.12.98.1,"F420-reducing hydrogenase, subunit alpha",Methanothermobacter marburgensis,1.71,X-ray,"The F420-reducing [NiFe]-hydrogenase complex from Methanothermobacter marburgensis, the first X-ray structure of a group 3 family member"
+4OMF,3,HER,1.12,hydrogenase,1.12.98.1,"F420-reducing hydrogenase, subunit beta",Methanothermobacter marburgensis,1.71,X-ray,"The F420-reducing [NiFe]-hydrogenase complex from Methanothermobacter marburgensis, the first X-ray structure of a group 3 family member"
+2B0J,1,HER,1.12,hydrogenase,1.12.98.2,"5,10-methenyltetrahydromethanopterin hydrogenase",Methanocaldococcus jannaschii,1.75,X-ray,The crystal structure of the apoenzyme of the iron-sulfur-cluster-free hydrogenase (Hmd)
+1E3D,1,HER,1.12,hydrogenase,,[NiFe] hydrogenase small subunit,Desulfovibrio desulfuricans,1.8,X-ray,[NiFe] Hydrogenase from Desulfovibrio desulfuricans ATCC 27774
+1E3D,2,HER,1.12,hydrogenase,,[NiFe] hydrogenase large subunit,Desulfovibrio desulfuricans,1.8,X-ray,[NiFe] Hydrogenase from Desulfovibrio desulfuricans ATCC 27774
+6QGR,1,HER,1.12,hydrogenase,1.12.98.1,Coenzyme F420 hydrogenase subunit gamma,Methanosarcina barkeri MS,1.839,X-ray,The F420-reducing [NiFe] hydrogenase complex from Methanosarcina barkeri at the Nia-S state
+6QGR,2,HER,1.12,hydrogenase,,Coenzyme F420 hydrogenase subunit alpha,Methanosarcina barkeri MS,1.839,X-ray,The F420-reducing [NiFe] hydrogenase complex from Methanosarcina barkeri at the Nia-S state
+6QGR,3,HER,1.12,hydrogenase,1.12.98.1,Coenzyme F420 hydrogenase subunit beta,Methanosarcina barkeri MS,1.839,X-ray,The F420-reducing [NiFe] hydrogenase complex from Methanosarcina barkeri at the Nia-S state
+3MYR,1,HER,1.12,hydrogenase,1.12.99.6,Hydrogenase (NiFe) small subunit HydA,Allochromatium vinosum,2.1,X-ray,Crystal structure of [NiFe] hydrogenase from Allochromatium vinosum in its Ni-A state
+3MYR,2,HER,1.12,hydrogenase,,Nickel-dependent hydrogenase large subunit,Allochromatium vinosum,2.1,X-ray,Crystal structure of [NiFe] hydrogenase from Allochromatium vinosum in its Ni-A state
+5ODQ,5,HER,1.12,hydrogenase,1.12.99.6,"Methyl-viologen reducing hydrogenase, subunit G",Methanothermococcus thermolithotrophicus DSM 2095,2.15,X-ray,Heterodisulfide reductase / [NiFe]-hydrogenase complex from Methanothermococcus thermolithotrophicus soaked with bromoethanesulfonate.
+5ODQ,6,HER,1.12,hydrogenase,1.12.99.6,"Methyl-viologen reducing hydrogenase, subunit A",Methanothermococcus thermolithotrophicus DSM 2095,2.15,X-ray,Heterodisulfide reductase / [NiFe]-hydrogenase complex from Methanothermococcus thermolithotrophicus soaked with bromoethanesulfonate.
+9SW2,4,HER,1.12,hydrogenase,1.12.99,F420-non-reducing hydrogenase iron-sulfur subunit D,Methanothermobacter marburgensis str. Marburg,2.19,EM,Structure of the MvhAGD-HdrABC dimer of M. marburgensis under state 2 substate a (composite structure)
+9SW2,5,HER,1.12,hydrogenase,1.12.99,F420-non-reducing hydrogenase subunit G,Methanothermobacter marburgensis str. Marburg,2.19,EM,Structure of the MvhAGD-HdrABC dimer of M. marburgensis under state 2 substate a (composite structure)
+9SW2,6,HER,1.12,hydrogenase,1.12.99,F420-non-reducing hydrogenase subunit A,Methanothermobacter marburgensis str. Marburg,2.19,EM,Structure of the MvhAGD-HdrABC dimer of M. marburgensis under state 2 substate a (composite structure)
+6HUY,1,HER,1.12,hydrogenase,1.12.98.2,"Coenzyme F420-dependent N(5),N(10)-methenyltetrahydromethanopterin reductase-related protein",Desulfurobacterium thermolithotrophum DSM 11699,2.25,X-ray,HmdII from Desulfurobacterium thermolithotrophum reconstitued with Fe-guanylylpyridinol (FeGP) cofactor and co-crystallized with methenyl-tetrahydrofolate form A
+7P5H,1,HER,1.12,hydrogenase,1.12.1.4,"Fe-hydrogenase, subunit alpha",Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),2.3,EM,TmHydABC- D2 map
+7P5H,2,HER,1.12,hydrogenase,1.12.1.4,"Fe-hydrogenase, subunit beta",Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),2.3,EM,TmHydABC- D2 map
+7P5H,3,HER,1.12,hydrogenase,1.12.1.4,"Fe-hydrogenase, subunit gamma",Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),2.3,EM,TmHydABC- D2 map
+1YQ9,1,HER,1.12,hydrogenase,1.12.2.1,Periplasmic [NiFe] hydrogenase small subunit,Desulfovibrio gigas,2.35,X-ray,Structure of the unready oxidized form of [NiFe] hydrogenase
+1YQ9,2,HER,1.12,hydrogenase,1.12.2.1,Periplasmic [NiFe] hydrogenase large subunit,Desulfovibrio gigas,2.35,X-ray,Structure of the unready oxidized form of [NiFe] hydrogenase
+5AA5,1,HER,1.12,hydrogenase,1.12.99.6,"NIFE-HYDROGENASE SMALL SUBUNIT, HOFK",CUPRIAVIDUS NECATOR,2.497,X-ray,Actinobacterial-type NiFe-hydrogenase from Ralstonia eutropha H16 at 2.85 Angstrom resolution
+5AA5,2,HER,1.12,hydrogenase,1.12.99.6,"NIFE-HYDROGENASE LARGE SUBUNIT, HOFG",CUPRIAVIDUS NECATOR,2.497,X-ray,Actinobacterial-type NiFe-hydrogenase from Ralstonia eutropha H16 at 2.85 Angstrom resolution
+6HUX,1,HER,1.12,hydrogenase,1.12.98.2,H(2)-forming methylenetetrahydromethanopterin dehydrogenase-related protein MJ1338,Methanocaldococcus jannaschii DSM 2661,2.5,X-ray,HmdII from Methanocaldococcus jannaschii reconstitued with Fe-guanylylpyridinol (FeGP) cofactor and co-crystallized with methenyl-tetrahydromethanopterin at 2.5 A resolution
+3U7Q,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase molybdenum-iron protein alpha chain,Azotobacter vinelandii,1.0,X-ray,A. vinelandii nitrogenase MoFe protein at atomic resolution
+3U7Q,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase molybdenum-iron protein beta chain,Azotobacter vinelandii,1.0,X-ray,A. vinelandii nitrogenase MoFe protein at atomic resolution
+7ADR,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase vanadium-iron protein alpha chain,Azotobacter vinelandii,1.0,X-ray,CO bound as bridging ligand at the active site of vanadium nitrogenase VFe protein
+7ADR,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase vanadium-iron protein beta chain,Azotobacter vinelandii,1.0,X-ray,CO bound as bridging ligand at the active site of vanadium nitrogenase VFe protein
+7ADR,3,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase vanadium-iron protein delta chain,Azotobacter vinelandii,1.0,X-ray,CO bound as bridging ligand at the active site of vanadium nitrogenase VFe protein
+4WES,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase molybdenum-iron protein alpha chain,Clostridium pasteurianum,1.08,X-ray,Nitrogenase molybdenum-iron protein from Clostridium pasteurianum at 1.08 A resolution
+4WES,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase molybdenum-iron protein beta chain,Clostridium pasteurianum,1.08,X-ray,Nitrogenase molybdenum-iron protein from Clostridium pasteurianum at 1.08 A resolution
+6N4L,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron protein 1,Azotobacter vinelandii,1.13,X-ray,Dithionite-reduced ADP-bound form of the nitrogenase Fe-protein from A. vinelandii
+9SQ3,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase protein alpha chain,Methanocaldococcus infernus ME,1.21,X-ray,Crystal structure of the Molybdenum-containing nitrogenase from Methanocaldococcus infernus refined to 1.21 A resolution - crystalline form B.
+9SQ3,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase,Methanocaldococcus infernus ME,1.21,X-ray,Crystal structure of the Molybdenum-containing nitrogenase from Methanocaldococcus infernus refined to 1.21 A resolution - crystalline form B.
+8BOQ,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase protein alpha chain,Azotobacter vinelandii DJ,1.547,X-ray,A. vinelandii Fe-nitrogenase FeFe protein
+8BOQ,2,NRR,1.18.6.1,nitrogenase,,"Fe-only nitrogenase, beta subunit",Azotobacter vinelandii DJ,1.547,X-ray,A. vinelandii Fe-nitrogenase FeFe protein
+8BOQ,3,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron-iron protein delta chain,Azotobacter vinelandii DJ,1.547,X-ray,A. vinelandii Fe-nitrogenase FeFe protein
+1QGU,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,PROTEIN (NITROGENASE MOLYBDENUM IRON PROTEIN),Klebsiella pneumoniae,1.6,X-ray,"NITROGENASE MO-FE PROTEIN FROM KLEBSIELLA PNEUMONIAE, DITHIONITE-REDUCED STATE"
+1QGU,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,PROTEIN (NITROGENASE MOLYBDENUM IRON PROTEIN),Klebsiella pneumoniae,1.6,X-ray,"NITROGENASE MO-FE PROTEIN FROM KLEBSIELLA PNEUMONIAE, DITHIONITE-REDUCED STATE"
+8Q5X,1,NRR,1.18.6.1,nitrogenase,,Nitrogenase iron protein,Methanococcus maripaludis S2,1.7,X-ray,MgADP-bound Fe protein of the molybdenum nitrogenase from Methanococcus maripaludis
+7QQA,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron protein,Azotobacter vinelandii,1.79,X-ray,MgADP-bound Fe protein of the iron-only nitrogenase from Azotobacter vinelandii
+9HBC,1,NRR,1.18.6.1,nitrogenase,,MoFe nitrogenase subunit D,Azotobacter vinelandii DJ,1.816,X-ray,A. vinelandii nitrogenase MoFe protein Anc2
+9HBN,1,NRR,1.18.6.1,nitrogenase,,MoFe nitrogenase subunit D,Azotobacter vinelandii DJ,1.824,X-ray,A. vinelandii nitrogenase MoFe protein Anc1b
+9HBN,2,NRR,1.18.6.1,nitrogenase,,MoFe nitrogenase subunit K,Azotobacter vinelandii DJ,1.824,X-ray,A. vinelandii nitrogenase MoFe protein Anc1b
+5KOH,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase protein alpha chain,Gluconacetobacter diazotrophicus (strain ATCC 49037 / DSM 5601 / PAl5),1.83,X-ray,Nitrogenase MoFeP from Gluconacetobacter diazotrophicus in dithionite reduced state
+5KOH,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase FeMo beta subunit protein NifK,Gluconacetobacter diazotrophicus (strain ATCC 49037 / DSM 5601 / PAl5),1.83,X-ray,Nitrogenase MoFeP from Gluconacetobacter diazotrophicus in dithionite reduced state
+8Q50,1,NRR,1.18.6.1,nitrogenase,,Nitrogenase iron protein 1,Methanothermococcus thermolithotrophicus DSM 2095,1.91,X-ray,"Nitrogenase Fe protein from Methanothermococcus thermolithotrophicus, tetragonal crystalline form at 1.91-A resolution"
+1CP2,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,NITROGENASE IRON PROTEIN,Clostridium pasteurianum,1.93,X-ray,NITROGENASE IRON PROTEIN FROM CLOSTRIDIUM PASTEURIANUM
+6Q93,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron protein,Azotobacter vinelandii (strain DJ / ATCC BAA-1303),2.2,X-ray,MgADP-bound Fe protein of Vanadium nitrogenase from Azotobacter vinelandii
+10ZM,3,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron protein,Gluconacetobacter diazotrophicus PA1 5,2.22,EM,CryoEM structure of heterologous nitrogenase complex (2:1 G. diazotrophicus-FeP:A. vinelandii-MoFeP) inhibited by BeFx (C2 symmetry)
+8OIE,1,NRR,1.18.6.1,nitrogenase,,Nitrogenase protein alpha chain,Rhodobacter capsulatus SB 1003,2.35,EM,Iron Nitrogenase Complex from Rhodobacter capsulatus
+8OIE,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron-iron protein delta chain,Rhodobacter capsulatus SB 1003,2.35,EM,Iron Nitrogenase Complex from Rhodobacter capsulatus
+8OIE,3,NRR,1.18.6.1,nitrogenase,1.18.6.1,"Nitrogenase iron-iron protein, beta subunit",Rhodobacter capsulatus SB 1003,2.35,EM,Iron Nitrogenase Complex from Rhodobacter capsulatus
+8OIE,4,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron protein,Rhodobacter capsulatus SB 1003,2.35,EM,Iron Nitrogenase Complex from Rhodobacter capsulatus
+9D9U,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase,Rhodospirillum rubrum ATCC 11170,2.35,EM,Rhodospirillum rubrum Nitrogenase-like Methylthio-alkane Reductase Complex with an Oxidized P-cluster
+9D9U,2,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase,Rhodospirillum rubrum ATCC 11170,2.35,EM,Rhodospirillum rubrum Nitrogenase-like Methylthio-alkane Reductase Complex with an Oxidized P-cluster
+6NZJ,1,NRR,1.18.6.1,nitrogenase,1.18.6.1,Nitrogenase iron protein,Methanosarcina acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A),2.4,X-ray,Structural Analysis of a Nitrogenase Iron Protein from Methanosarcina acetivorans: Implications for CO2 Capture by a Surface-Exposed [Fe4S4] Cluster
+9HAZ,1,NRR,1.18.6.1,nitrogenase,,Fe protein NifH,Azotobacter vinelandii DJ,2.434,X-ray,A. vinelandii nitrogenase Fe protein Anc1b
+8Q5W,1,NRR,1.18.6.1,nitrogenase,,Nitrogenase iron protein,Methanocaldococcus infernus ME,2.49,X-ray,MgADP-bound Fe protein of the molybdenum nitrogenase from Methanocaldococcus infernus
+1AOZ,1,ORR,1.10.3.3,ascorbate oxidase,1.10.3.3,ASCORBATE OXIDASE,Cucurbita pepo var. melopepo,1.9,X-ray,REFINED CRYSTAL STRUCTURE OF ASCORBATE OXIDASE AT 1.9 ANGSTROMS RESOLUTION
+6IQX,1,ORR,1.3.3.5,bilirubin oxidase,1.3.3.5,Bilirubin oxidase,Myrothecium verrucaria,1.432,X-ray,"High resolution structure of bilirubin oxidase from Myrothecium verrucaria - M467Q mutant, aerobically prepared"
+2WSD,1,ORR,1.10.3.2;1.3.3.5,bilirubin oxidase;laccase,1.10.3.2,SPORE COAT PROTEIN A,BACILLUS SUBTILIS,1.6,X-ray,Proximal mutations at the type 1 Cu site of CotA-laccase: I494A mutant
+7OY2,1,ORR,7.1.1.3,bo3 quinol oxidase,7.1.1.3,Cytochrome bd-II ubiquinol oxidase subunit 2,Escherichia coli K-12,2.06,EM,High resolution structure of cytochrome bd-II oxidase from E. coli
+7OY2,2,ORR,7.1.1.3,bo3 quinol oxidase,7.1.1.3,Cytochrome bd-II ubiquinol oxidase subunit 1,Escherichia coli K-12,2.06,EM,High resolution structure of cytochrome bd-II oxidase from E. coli
+7N9Z,1,ORR,7.1.1.3,bo3 quinol oxidase,1.10.3,"Cytochrome o ubiquinol oxidase, subunit I",Escherichia coli,2.19,EM,E. coli cytochrome bo3 in MSP nanodisc
+9RZV,1,ORR,7.1.1.7,cytochrome bd oxidase,7.1.1.7,Cytochrome bd-I ubiquinol oxidase subunit 1,Escherichia coli K-12,2.23,EM,E. coli cytochrome bd-I dimer bound to menaquinone
+9RZV,2,ORR,7.1.1.7,cytochrome bd oxidase,7.1.1.7,Cytochrome bd-I ubiquinol oxidase subunit 2,Escherichia coli K-12,2.23,EM,E. coli cytochrome bd-I dimer bound to menaquinone
+9RZV,4,ORR,7.1.1.7,cytochrome bd oxidase,7.1.1.7,Cytochrome bd-I ubiquinol oxidase subunit X,Escherichia coli K-12,2.23,EM,E. coli cytochrome bd-I dimer bound to menaquinone
+1W2L,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,CYTOCHROME OXIDASE SUBUNIT II,RHODOTHERMUS MARINUS,1.3,X-ray,Cytochrome c domain of caa3 oxygen oxidoreductase
+4W9Z,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 2,Bradyrhizobium diazoefficiens,1.3,X-ray,Crystal structure of the periplasmic domain of subunit II of cytochrome oxidase (CoxB) of Bradyrhizobium japonicum
+7COH,1,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 1,Bos taurus,1.3,X-ray,Dimeric Form of Bovine Heart Cytochrome c Oxidase in the Fully Oxidized State
+7COH,2,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 2,Bos taurus,1.3,X-ray,Dimeric Form of Bovine Heart Cytochrome c Oxidase in the Fully Oxidized State
+7COH,3,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 3,Bos taurus,1.3,X-ray,Dimeric Form of Bovine Heart Cytochrome c Oxidase in the Fully Oxidized State
+7W3E,7,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,"Cytochrome c oxidase subunit 6A2, mitochondrial",Bos taurus,1.45,X-ray,Bovine cytochrome c oxidese in CN-bound fully reduced state at 50 K
+5B1A,1,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 1,Bos taurus,1.5,X-ray,Bovine heart cytochrome c oxidase in the fully oxidized state at 1.5 angstrom resolution
+2CUA,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,PROTEIN (CUA),Thermus thermophilus,1.6,X-ray,THE CUA DOMAIN OF CYTOCHROME BA3 FROM THERMUS THERMOPHILUS
+1V54,10,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide VIIa-heart,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,11,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide VIIb,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,12,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide VIIc,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,13,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide VIII-heart,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,2,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide II,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,3,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide III,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,4,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit IV isoform 1,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,5,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide Va,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,6,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide Vb,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,8,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide VIb,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+1V54,9,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide VIc,Bos taurus,1.8,X-ray,Bovine heart cytochrome c oxidase at the fully oxidized state
+3S8F,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 1,Thermus thermophilus,1.8,X-ray,1.8 A structure of ba3 cytochrome c oxidase from Thermus thermophilus in lipid environment
+3S8F,3,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase polypeptide 2A,Thermus thermophilus,1.8,X-ray,1.8 A structure of ba3 cytochrome c oxidase from Thermus thermophilus in lipid environment
+6PTT,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 2,Thermus thermophilus,1.84,X-ray,Soluble model of Arabidopsis thaliana CuA (Tt3LAt)
+3VRJ,3,ORR,7.1.1.9,cytochrome c oxidase,,10-mer peptide,,1.9,X-ray,HLA-B*57:01-LTTKLTNTNI in complex with abacavir
+2GSM,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 1,Rhodobacter sphaeroides,2.0,X-ray,Catalytic Core (Subunits I and II) of Cytochrome c oxidase from Rhodobacter sphaeroides
+2GSM,2,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 2,Rhodobacter sphaeroides,2.0,X-ray,Catalytic Core (Subunits I and II) of Cytochrome c oxidase from Rhodobacter sphaeroides
+8UGH,57,ORR,7.1.1.9,cytochrome c oxidase,,Cytochrome c oxidase subunit 3,Sus scrofa,2.1,EM,In-situ structure of typeA supercomplex with lipids in respiratory chain (composite)
+9FQ8,17,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 1,Perkinsus marinus,2.2,EM,Perkinsus marinus Respiratory complex CIV
+3HB3,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 1-beta,Paracoccus denitrificans,2.25,X-ray,High resolution crystal structure of Paracoccus denitrificans cytochrome c oxidase
+3HB3,2,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,Cytochrome c oxidase subunit 2,Paracoccus denitrificans,2.25,X-ray,High resolution crystal structure of Paracoccus denitrificans cytochrome c oxidase
+9WCY,11,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase polypeptide 4,Mycobacteroides abscessus,2.26,EM,Cryo-EM structure of the Mycobacterium abscessus cytochrome bcc:aa3 supercomplex in the presence of ND-011458
+9WCY,2,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 1,Mycobacteroides abscessus,2.26,EM,Cryo-EM structure of the Mycobacterium abscessus cytochrome bcc:aa3 supercomplex in the presence of ND-011458
+9WCY,7,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,cytochrome-c oxidase,Mycobacteroides abscessus,2.26,EM,Cryo-EM structure of the Mycobacterium abscessus cytochrome bcc:aa3 supercomplex in the presence of ND-011458
+9WCY,8,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Probable cytochrome c oxidase subunit 3,Mycobacteroides abscessus,2.26,EM,Cryo-EM structure of the Mycobacterium abscessus cytochrome bcc:aa3 supercomplex in the presence of ND-011458
+1M56,3,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,CYTOCHROME C OXIDASE,Rhodobacter sphaeroides,2.3,X-ray,Structure of cytochrome c oxidase from Rhodobactor sphaeroides (Wild Type)
+1M56,4,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,CYTOCHROME C OXIDASE,Rhodobacter sphaeroides,2.3,X-ray,Structure of cytochrome c oxidase from Rhodobactor sphaeroides (Wild Type)
+8OVD,5,ORR,7.1.1.9,cytochrome c oxidase,,Probable cytochrome c oxidase subunit 3,Mycolicibacterium smegmatis,2.3,EM,Respiratory supercomplex (III2-IV2) from Mycobacterium smegmatis
+8OVD,6,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase polypeptide 4,Mycolicibacterium smegmatis,2.3,EM,Respiratory supercomplex (III2-IV2) from Mycobacterium smegmatis
+8OVD,7,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 1,Mycolicibacterium smegmatis,2.3,EM,Respiratory supercomplex (III2-IV2) from Mycobacterium smegmatis
+8OVD,8,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,cytochrome-c oxidase,Mycolicibacterium smegmatis,2.3,EM,Respiratory supercomplex (III2-IV2) from Mycobacterium smegmatis
+2YEV,1,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,CYTOCHROME C OXIDASE POLYPEPTIDE I+III,THERMUS THERMOPHILUS,2.36,X-ray,Structure of caa3-type cytochrome oxidase
+2YEV,2,ORR,1.9.3.1;7.1.1.9,cytochrome c oxidase,1.9.3.1,CYTOCHROME C OXIDASE SUBUNIT 2,THERMUS THERMOPHILUS,2.36,X-ray,Structure of caa3-type cytochrome oxidase
+2YEV,3,ORR,1.9.3.1,cytochrome c oxidase,1.9.3.1,CAA3-TYPE CYTOCHROME OXIDASE SUBUNIT IV,THERMUS THERMOPHILUS,2.36,X-ray,Structure of caa3-type cytochrome oxidase
+9F60,1,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 1,Chlamydomonas reinhardtii,2.39,EM,Structure of the Chlamydomonas reinhardtii respiratory complex IV from respiratory supercomplex
+9F60,3,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,cytochrome-c oxidase,Chlamydomonas reinhardtii,2.39,EM,Structure of the Chlamydomonas reinhardtii respiratory complex IV from respiratory supercomplex
+7ATE,3,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 3,Paracoccus denitrificans,2.4,EM,Cytochrome c oxidase structure in P-state
+7ATE,4,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 4,Paracoccus denitrificans,2.4,EM,Cytochrome c oxidase structure in P-state
+9ETZ,11,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 1,Saccharomyces cerevisiae,2.4,EM,III2IV respiratory supercomplex from Saccharomyces cerevisiae
+9ETZ,12,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 2,Saccharomyces cerevisiae,2.4,EM,III2IV respiratory supercomplex from Saccharomyces cerevisiae
+9ETZ,13,ORR,7.1.1.9,cytochrome c oxidase,7.1.1.9,Cytochrome c oxidase subunit 3,Saccharomyces cerevisiae,2.4,EM,III2IV respiratory supercomplex from Saccharomyces cerevisiae
+6B8F,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin heavy chain,Homo sapiens,1.06,X-ray,Contracted Human Heavy-Chain Ferritin Crystal-Hydrogel Hybrid
+8RQB,1,ORR,1.16.3.1,ferroxidase,,"Ferritin heavy chain, N-terminally processed",Mus musculus,1.09,EM,Cryo-EM structure of mouse heavy-chain apoferritin
+4CVR,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,BACTERIOFERRITIN,ESCHERICHIA COLI,1.1,X-ray,Structure of Apobacterioferritin Y25F variant
+5J93,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,"Ferritin, middle subunit",Lithobates catesbeiana,1.1,X-ray,Five minutes iron loaded Rana Catesbeiana H' ferritin variant E57A/E136A/D140A
+3T3L,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,"Frataxin, mitochondrial",Homo sapiens,1.15,X-ray,1.15 A structure of human frataxin variant Q153A
+6A4U,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Marsupenaeus japonicus,1.16,X-ray,The first crystal structure of crustacean ferritin that is a hybrid type of H and L ferritin
+7O63,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,"Ferritin, mitochondrial",Homo sapiens,1.16,X-ray,High resolution crystal structure of human mitochondrial ferritin (hMTF)
+8W1D,1,ORR,1.16.3.1,ferroxidase,,DPS-LIKE PROTEIN,Pseudomonas aeruginosa PAO1,1.3,X-ray,CRYSTAL STRUCTURE OF DPS-LIKE PROTEIN PA4880 FROM PSEUDOMONAS AERUGINOSA (DIMERIC FORM)
+6LBD,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Penaeus japonicus,1.386,X-ray,shrimp ferritin T158R G159R
+7N9I,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,"Frataxin homolog, mitochondrial",Drosophila melanogaster,1.4,X-ray,1.4A Structure of Drosophila melanogaster Frataxin
+6NLF,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferroxidase,Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228),1.45,X-ray,1.45 A resolution structure of apo BfrB from Pseudomonas aeruginosa
+7URH,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Caenorhabditis elegans,1.468,X-ray,"Crystal structure of Ferritin 2 from Caenorhabditis elegans, FTN-2"
+3BVF,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Helicobacter pylori,1.5,X-ray,Structural basis for the iron uptake mechanism of Helicobacter pylori ferritin
+3R2K,1,ORR,1.16.3.1,ferroxidase,,Bacterioferritin,Pseudomonas aeruginosa,1.55,X-ray,1.55A resolution structure of As-Isolated FtnA from Pseudomonas aeruginosa (pH 7.5)
+8PP3,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin heavy chain,Homo sapiens,1.55,X-ray,Binary crystal structure of positively supercharged ferritin variant Ftn(pos) and crystal contact tuned negatively supercharged ferritin variant Ftn(neg)-m1 (Mg formate condition)
+8SQO,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Bacterioferritin,Brucella abortus 2308,1.55,X-ray,"Crystal Structure of Bacterioferritin (Bfr) from Brucella abortus (magnesium bound, F16L mutant)"
+5WPN,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Chaetopterus variopedatus,1.57,X-ray,Zn-bound Structure of Chaetopterus variopedatus Ferritin
+4AM5,1,ORR,1.16.3.1,ferroxidase,,BACTERIOFERRITIN,BLASTOCHLORIS VIRIDIS,1.58,X-ray,Bacterioferritin from Blastochloris viridis
+4IWK,1,ORR,1.16.3.1,ferroxidase,,Ferritin,Pseudo-nitzschia multiseries,1.65,X-ray,Crystal structure of iron soaked (overnight) ferritin from Pseudo-nitzschia multiseries
+6N63,1,ORR,1.16.3.1,ferroxidase,,ENCAPSULIN CARGO PROTEIN,Bacillus thermotolerans,1.72,X-ray,Crystal structure of an Iron binding protein
+6L55,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Tegillarca granosa,1.78304866205,X-ray,Recombinant Tegillarca granosa ferritin
+7USN,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Caenorhabditis elegans,1.789,X-ray,"Crystal structure of ferritin 1 from Caenorhabditis elegans, FTN-1"
+9TCM,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin BfrB,Mycobacterium tuberculosis H37Rv,1.79,EM,1.79 A cryo-EM structure of Mycobacterium tuberculosis BfrB prepared under natural isotope abundance
+6LJG,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Crassostrea gigas,1.799,X-ray,Crassostrea gigas ferritin mutant-D119G
+3A68,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,"Ferritin-4, chloroplastic",Glycine max,1.8,X-ray,Crystal structure of plant ferritin reveals a novel metal binding site that functions as a transit site for metal transfer in ferritin
+1BG7,1,ORR,1.16.3.1,ferroxidase,,FERRITIN,Rana catesbeiana,1.85,X-ray,LOCALIZED UNFOLDING AT THE JUNCTION OF THREE FERRITIN SUBUNITS. A MECHANISM FOR IRON RELEASE?
+4DYX,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin heavy chain,Homo sapiens,1.85,X-ray,Crystal Structure of the Cu-adduct of Human H-Ferritin variant 4His-delta C-star
+9BTS,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Bacterioferritin (Bfr),Acinetobacter baumannii ATCC 17978,1.85,X-ray,Crystal structure of the bacterioferritin (Bfr) and ferritin (Ftn) heterooligomer complex from Acinetobacter baumannii
+9BTS,2,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin (Ftn),Acinetobacter baumannii ATCC 17978,1.85,X-ray,Crystal structure of the bacterioferritin (Bfr) and ferritin (Ftn) heterooligomer complex from Acinetobacter baumannii
+26RV,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Bacterioferritin,Escherichia coli,1.89,X-ray,E coli BFR variant 4QY
+3UOI,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Bacterioferritin,Mycobacterium tuberculosis,1.9,X-ray,"Mycobacterium tuberculosis bacterioferritin, BfrA"
+8GY1,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Dendrorhynchus,1.9,X-ray,Crystal structure of Ag+ binding to Dendrorhynchus zhejiangensis ferritin
+9VOF,1,ORR,1.16.3.1,ferroxidase,,"Ferritin heavy chain, N-terminally processed",Homo sapiens,1.9,X-ray,Crystal strucrue of HuHF-C2-ALY complex
+1Z6O,2,ORR,1.16.3.1,ferroxidase,,Ferritin heavy chain,Trichoplusia ni,1.91,X-ray,Crystal Structure of Trichoplusia ni secreted ferritin
+8IQV,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Asterias forbesi,1.91,X-ray,Asterias forbesii ferritin
+2WLU,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,DPS-LIKE PEROXIDE RESISTANCE PROTEIN,STREPTOCOCCUS PYOGENES,1.94,X-ray,Iron-bound crystal structure of Streptococcus pyogenes Dpr
+1NFV,1,ORR,1.16.3.1,ferroxidase,,bacterioferritin,Desulfovibrio desulfuricans,1.95,X-ray,X-ray structure of Desulfovibrio desulfuricans bacterioferritin: the diiron centre in different catalytic states (as-isolated structure)
+6LP5,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Sinonovacula constricta,1.98,X-ray,Structure of Sinonovacula constricta ferritin
+7Y74,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Apostichopus japonicus,1.98,X-ray,Apostichopus japonicus ferritin mutant-D129A/E132A
+5XGO,1,ORR,1.16.3.1,ferroxidase,"1.16,1.16.3.1","DNA protection during starvation protein,Bacterioferritin",Escherichia coli (strain K12),1.99,X-ray,The Ferritin E-Domain: Toward Understanding Its Role in Protein Cage Assembly Through the Crystal Structure of a Maxi-/Mini-Ferritin Chimera
+6LPE,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Phascolosoma esculenta,1.99,X-ray,Phascolosoma esculenta ferritin
+2FKZ,1,ORR,1.16.3.1,ferroxidase,,Bacterioferritin,Azotobacter vinelandii,2.0,X-ray,Reduced (All Ferrous) form of the Azotobacter vinelandii bacterioferritin
+5N5E,1,ORR,1.16.3.1,ferroxidase,,PFC_05175,Pyrococcus furiosus COM1,2.026,X-ray,Crystal structure of encapsulated ferritin domain from Pyrococcus furiosus PFC_05175
+6FCO,1,ORR,1.16.3.1,ferroxidase,,Mitochondrial frataxin-like protein,Chaetomium thermophilum var. thermophilum DSM 1495,2.03,X-ray,Structural and functional characterisation of Frataxin (FXN) like protein from Chaetomium thermophilum
+8W95,1,ORR,1.16.3.1,ferroxidase,,Ferritin,Azumapecten farreri,2.03,X-ray,Azumapecten Farreri homopolymeric ferritin (ApF) mutant-H2KE exposed to H2O2 for 20 s
+4PT4,1,ORR,1.16.3.1,ferroxidase,,DNA-binding protein HU homolog,Mycobacterium tuberculosis H37Ra,2.04,X-ray,Crystal structure Analysis of N terminal region containing the dimerization domain and DNA binding domain of HU protein(Histone like protein-DNA binding) from Mycobacterium tuberculosis [H37Ra]
+7RVB,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Artemia franciscana,2.04,EM,High resolution map of molecular chaperone Artemin
+5N5F,1,ORR,1.16.3.1,ferroxidase,,encapsulated ferritin,Haliangium ochraceum,2.057,X-ray,Crystal structure of Haliangium ochraceum encapsulated ferritin
+9P35,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Artemia franciscana,2.06,EM,Artemia ferritin in cell-free lysate with reverse His purification
+5DA5,1,ORR,1.16.3.1,ferroxidase,,Rru_A0973,Rhodospirillum rubrum,2.064,X-ray,Crystal structure of Rhodospirillum rubrum Rru_A0973
+6J4J,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Glycine max,2.101,X-ray,soybean seed H-2 ferritin
+9X0L,1,ORR,1.16.3.1,ferroxidase,,TsFerB,Turbo sazae,2.17,EM,Cryo-EM Structure of Turbo sazae ferritin chain B
+9X0K,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,TsFerA,Turbo sazae,2.19,EM,Cryo-EM Structure of Turbo sazae ferritin chain A
+7XZ4,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Setaria italica,2.2,X-ray,Crystal structure of ferritin from Setaria italica
+5N0K,1,ORR,1.16.3.1,ferroxidase,,Ceruloplasmin,Rattus norvegicus,2.3,X-ray,Rat ceruloplasmin orthorhombic form
+6KE4,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin heavy chain,Homo sapiens,2.3,X-ray,ABloop reengineered Ferritin Nanocage
+3VNX,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,ferritin,Ulva pertusa,2.4,X-ray,"Crystal structure of ferritin from multicellular green algae, Ulva pertusa."
+4REU,1,ORR,1.16.3.1,ferroxidase,1.16.3.1,Ferritin,Escherichia coli str. K-12 substr. MDS42,2.5,X-ray,Revelation of Endogenously bound Fe2+ ions in the Crystal Structure of Ferritin from Escherichia coli
+9VON,1,ORR,1.16.3.1,ferroxidase,,"Ferritin heavy chain, N-terminally processed",Homo sapiens,2.5,X-ray,Crystal strucrue of HuHF-71-Cur complex
+6RI6,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase 2,Steccherinum murashkinskyi,0.93,X-ray,Single crystal serial study of the inhibition of laccases from Steccherinum murashkinskyi by fluoride anions at sub-atomic resolution. Second structure of the series with 400 KGy dose.
+6EVG,1,ORR,1.10.3.2,laccase,1.10.3.2,Multi-copper Oxidase CueO,Ochrobactrum,1.1,X-ray,Structural and Functional Characterisation of a Bacterial Laccase-like Multi-copper Oxidase CueO from Lignin-Degrading Bacterium Ochrobactrum sp. with Oxidase Activity towards Lignin Model Compounds and Lignosulfonate
+3PXL,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Trametes hirsuta,1.2,X-ray,Type-2 Cu-depleted fungus laccase from Trametes hirsuta
+2Q9O,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase-1,Melanocarpus albomyces,1.3,X-ray,Near-atomic resolution structure of a Melanocarpus albomyces laccase
+7PUH,1,ORR,1.10.3.2,laccase,1.10.3.2,Two-domain laccase,Streptomyces griseoflavus,1.3,X-ray,Crystal Structure of Two-Domain Laccase mutant H165A/R240H from Streptomyces griseoflavus
+5Z1X,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Cerrena sp. RSD1,1.38,X-ray,Crystal Structure of Laccase from Cerrena sp. RSD1
+5LWX,1,ORR,1.10.3.2,laccase,1.10.3.2,Multicopper oxidase,Aspergillus niger,1.49,X-ray,Crystal structure of the H253D mutant of McoG from Aspergillus niger
+2QT6,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Lentinus tigrinus,1.5,X-ray,Crystal Structure Determination of a Blue Laccase from Lentinus Tigrinus
+3T9W,1,ORR,1.10.3.2,laccase,1.10.3.2,"small laccase, multi-copper oxidase",Amycolatopsis sp. ATCC 39116,1.5,X-ray,Small laccase from Amycolatopsis sp. ATCC 39116
+5A7E,1,ORR,1.10.3.2,laccase,,CORIOLOPSIS GALLICA LACCASE,CORIOLOPSIS GALLICA,1.5,X-ray,Crystallographic Structural Determination of a Trigonal Laccase from Coriolopsis Gallica (CgL) to 1.5 A resolution
+5K7A,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Thermus thermophilus (strain HB27 / ATCC BAA-163 / DSM 7039),1.5,X-ray,Crystal structure of laccase fron Thermus thermophilus HB27 (sodium nitrate 1.5 min)
+4JHV,1,ORR,1.10.3.2,laccase,,LACCASE,Coriolopsis caperata,1.6,X-ray,T2-depleted laccase from Coriolopsis caperata
+7PEN,1,ORR,1.10.3.2,laccase,1.10.3.2,Two-domain laccase,Streptomyces griseoflavus,1.6,X-ray,Crystal Structure of Two-Domain Laccase mutant Y230A from Streptomyces griseoflavus
+8PAQ,1,ORR,1.10.3.2,laccase,1.10.3.2,POXA3b laccase small subunit,Pleurotus eryngii,1.6,X-ray,Structure of the small subunit of the laccase-like Nlac protein from Pleurotus eryngii
+9CPM,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Thermus thermophilus HB27,1.6,X-ray,Thermus thermophilus HB27 laccase (Tth-Lac) mutant with partial deletion of beta-hairpin sequence
+6F5K,1,ORR,1.10.3.2,laccase,,"Extracellular laccase, lcc1",Myceliophthora thermophila,1.62,X-ray,Crystal structure of laccase from Myceliophthora thermophila
+3SQR,1,ORR,1.10.3.2,laccase,1.10.3.2,laccase,Botrytis aclada,1.67,X-ray,Crystal structure of laccase from Botrytis aclada at 1.67 A resolution
+1HFU,1,ORR,1.10.3.2,laccase,1.10.3.2,LACCASE 1,COPRINUS CINEREUS,1.68,X-ray,TYPE-2 CU-DEPLETED LACCASE FROM COPRINUS CINEREUS at 1.68 A resolution
+1V10,1,ORR,1.10.3.2,laccase,1.10.3.2,LACCASE,RIGIDOPORUS LIGNOSUS,1.7,X-ray,Structure of Rigidoporus lignosus laccase from hemihedrally twinned crystals
+2XYB,1,ORR,1.10.3.2,laccase,1.10.3.2,LACCASE,PYCNOPORUS CINNABARINUS,1.75,X-ray,CRYSTAL STRUCTURE OF A FULLY FUNCTIONAL LACCASE FROM THE LIGNINOLYTIC FUNGUS PYCNOPORUS CINNABARINUS
+5EHF,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Antrodiella faginea,1.75,X-ray,Laccase from Antrodiella faginea
+3DIV,1,ORR,1.10.3.2,laccase,1.10.3.2,LACCASE,Cerrena,1.76,X-ray,Crystal structure of laccase from Cerrena maxima at 1.76A resolution
+3GDC,1,ORR,1.10.3.2,laccase,1.10.3.2,Multicopper oxidase,Arthrobacter sp. FB24,1.8,X-ray,Crystal structure of multicopper oxidase
+3X1B,1,ORR,1.10.3.2,laccase,1.10.3.2,laccase,Lentinus,1.8,X-ray,Crystal structure of laccase from Lentinus sp. at 1.8 A resolution
+6KLI,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Zea mays,1.8,X-ray,Crystal Structure of the Zea Mays laccase 3 complexed with sinapyl
+8R7I,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase BP76,Neocapritermes taracua,1.8,X-ray,X-ray structure of blue laccase BP76 from the termite Neocapritermes taracua
+1GYC,1,ORR,1.10.3.2,laccase,1.10.3.2,LACCASE 2,TRAMETES VERSICOLOR,1.9,X-ray,CRYSTAL STRUCTURE DETERMINATION AT ROOM TEMPERATURE OF A LACCASE FROM TRAMETES VERSICOLOR IN ITS OXIDISED FORM CONTAINING A FULL COMPLEMENT OF COPPER IONS
+7ZN6,1,ORR,1.10.3.2,laccase,"1,1.10.3.2",Laccase-like multicopper oxidase 1,Thermothelomyces thermophilus ATCC 42464,1.9,X-ray,Crystal structure of laccase-like multicopper oxidase (LMCO) from Thermothelomyces thermophilus
+7RAB,1,ORR,1.10.3.2,laccase,1.10.3.2,multicopper oxidase,Marinithermus hydrothermalis,1.92,X-ray,Crystal structure of a dodecameric multicopper oxidase from M. hydrothermalis in a cubic lattice
+3AW5,1,ORR,1.10.3.2,laccase,1.10.3.2,Multicopper oxidase,Pyrobaculum aerophilum,2.0,X-ray,Structure of a multicopper oxidase from the hyperthermophilic archaeon Pyrobaculum aerophilum
+3T6V,1,ORR,1.10.3.2,laccase,,Laccase,STECCHERINUM OCHRACEUM,2.0,X-ray,Crystal Structure of Laccase from Steccherinum ochraceum
+5NQ8,1,ORR,1.10.3.2,laccase,,Laccase,Pycnoporus coccineus,2.0,X-ray,"Crystal structure of laccases from Pycnoporus sanguineus, izoform II"
+4F7K,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,uncultured bacterium,2.2,X-ray,Crystal structure of Lac15 from a marine microbial metagenome
+3KW8,1,ORR,1.10.3.2,laccase,1.10.3.2,Putative copper oxidase,Streptomyces coelicolor,2.29,X-ray,Two-domain laccase from Streptomyces coelicolor at 2.3 A resolution
+1KYA,1,ORR,1.10.3.2,laccase,1.10.3.2,LACCASE,Trametes versicolor,2.4,X-ray,"ACTIVE LACCASE FROM TRAMETES VERSICOLOR COMPLEXED WITH 2,5-XYLIDINE"
+5ANH,1,ORR,1.10.3.2,laccase,1.10.3.2,LACCASE,BASIDIOMYCETE PM1,2.492,X-ray,CRYSTAL STRUCTURE OF LACCASE FROM BASIDIOMYCETE PM1 (CECT 2971)
+3PPS,1,ORR,1.10.3.2,laccase,1.10.3.2,Laccase,Thielavia arenaria,2.5,X-ray,Crystal structure of an ascomycete fungal laccase from Thielavia arenaria

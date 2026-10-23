@@ -1,0 +1,48 @@
+# Publishes notebooks/sacred.py as a WebAssembly app on GitHub Pages (Settings -> Pages -> Source: GitHub Actions).
+name: notebook on GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+        with:
+          enable-cache: false   # no lock file to key a cache on
+      - name: Data next to the notebook (notebooks/public is served with the page)
+        run: |
+          mkdir -p notebooks/public
+          cp data/dgh_graphene.csv data/stability_graphene.csv data/xtb_scan.csv data/xtb_offsets.csv \
+             data/xtb_supports.csv data/xtb_reactions.csv data/literature_check_final.json \
+             notebooks/assets/gallery.json notebooks/assets/sacred_logo.webp notebooks/assets/md_pyrolysis_1500K.mp4 \
+             site/zoom_viewer.html notebooks/public/
+      - name: Export
+        working-directory: notebooks
+        run: uvx marimo@0.25.2 export html-wasm sacred.py -o ../build --mode run --no-sandbox
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

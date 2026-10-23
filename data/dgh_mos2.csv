@@ -1,0 +1,5 @@
+run,host,E_eV,magnetization,dE_H,dG_H,charge_e
+31_mos2_h,02_mos2_flatcell,-243330.8197,0.9600,1.8488,2.0888,
+34_mos2_fe_h,33_mos2_fe,-246736.5958,3.0000,-0.1303,0.1097,
+36_gate_mos2_fe_h/q_+0.30,35_gate_mos2_fe/q_+0.30,,,,,0.3000
+36_gate_mos2_fe_h/q_-0.30,35_gate_mos2_fe/q_-0.30,,,,,-0.3000

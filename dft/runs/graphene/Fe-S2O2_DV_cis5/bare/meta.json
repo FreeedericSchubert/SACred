@@ -1,0 +1,16 @@
+{
+ "motif": "Fe-S2O2:DV:cis5",
+ "enzyme": "xTB scan: calibrated dG_H +0.08 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  67
+ ],
+ "state": "bare",
+ "start": "GFN2-xTB geometry"
+}

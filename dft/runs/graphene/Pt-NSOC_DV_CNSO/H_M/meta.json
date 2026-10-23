@@ -1,0 +1,17 @@
+{
+ "motif": "Pt-NSOC:DV:CNSO",
+ "enzyme": "xTB library: raw dG_H -0.04 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "start": "GFN2-xTB geometry",
+ "ih": 71
+}

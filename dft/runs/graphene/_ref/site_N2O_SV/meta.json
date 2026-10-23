@@ -1,0 +1,14 @@
+{
+ "motif": "N2O:SV",
+ "state": "ref",
+ "from": "Ni-N2O:SV",
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

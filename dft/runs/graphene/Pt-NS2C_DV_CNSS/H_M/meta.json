@@ -1,0 +1,17 @@
+{
+ "motif": "Pt-NS2C:DV:CNSS",
+ "enzyme": "xTB library: raw dG_H +0.03 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  68
+ ],
+ "state": "H_M",
+ "start": "GFN2-xTB geometry",
+ "ih": 71
+}

@@ -1,0 +1,20 @@
+{
+ "motif": "Co-N2OC:DV:NONC",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  67
+ ],
+ "state": "CH_HM",
+ "enzyme": "operating conditions: H on Co with the C donor hydrogenated (below) (Li et al. arXiv 2602.04475; Meng & Zhong, Angew. 2026)",
+ "ih": [
+  71,
+  72
+ ],
+ "start": "relaxed DFT structure + H"
+}

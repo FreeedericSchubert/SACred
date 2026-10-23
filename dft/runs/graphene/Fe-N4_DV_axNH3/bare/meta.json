@@ -1,0 +1,15 @@
+{
+ "motif": "Fe-N4:DV:ax=NH3",
+ "enzyme": "heme with proximal His (NH3 as the axial N)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

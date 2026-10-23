@@ -1,0 +1,22 @@
+{
+ "note": "Final energy (Ry) of the relaxed clean MoS2 host from an earlier MoS2 project on Curta (QE_MOS2 in dft/curta/mos2_h.py, <step>/pw.out, last '!' line; converged). Same pslibrary PAW 50/400 Ry PBE-D3(BJ) 6x6 MoS2 Gamma settings as runs/mos2.",
+ "hosts": {
+  "31_mos2_h": {
+   "host": "02_mos2_flatcell",
+   "E_Ry": -17883.4545583,
+   "pw_out_mtime_utc": "2026-10-13T20:21Z"
+  }
+ },
+ "h2": "30_h2_alone",
+ "computed": {
+  "34_mos2_fe_h": [
+   "33_mos2_fe",
+   "33h_mos2_fe_hollow"
+  ]
+ },
+ "note_computed": "Hosts computed in runs/mos2 with the same settings (Fe-S3 site, mos2_fe.py): the lowest finished of the listed relaxations is the reference, as for the graphene sites.",
+ "gate": {
+  "36_gate_mos2_fe_h": "35_gate_mos2_fe"
+ },
+ "note_gate": "Sheet charged against a plate below (QE gate): each q_<q> directory of the H run takes the same q of the host; energies corrected for the QE 7.1 plate-constant artefact (dft/analyse.py, gate_energy)."
+}

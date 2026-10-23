@@ -1,0 +1,16 @@
+{
+ "motif": "Ni-S3O:DV",
+ "enzyme": "[NiFe]/[NiFeSe] hydrogenase Ni with an O ligand, 6 entries (4UQL)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_S",
+ "ih": 71
+}

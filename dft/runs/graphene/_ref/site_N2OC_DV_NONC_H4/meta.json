@@ -1,0 +1,21 @@
+{
+ "motif": "N2OC:DV:NONC+H4",
+ "state": "ref",
+ "from": "Co-N2OC:DV:NONC",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "relaxed DFT site (relax.out) + H on N, O, N, C",
+ "ih": [
+  70,
+  71,
+  72,
+  73
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "motif": "Zn-O3:SV",
+ "enzyme": "xTB scan: calibrated dG_H +0.02 eV (H_M)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  69
+ ],
+ "state": "H_M",
+ "start": "GFN2-xTB geometry",
+ "ih": 72
+}

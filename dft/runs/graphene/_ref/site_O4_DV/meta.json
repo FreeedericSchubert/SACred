@@ -1,0 +1,15 @@
+{
+ "motif": "O4:DV",
+ "state": "ref",
+ "from": "Fe-O4:DV",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

@@ -1,0 +1,14 @@
+{
+ "motif": "Cu-N2S:SV",
+ "enzyme": "T1 Cu of laccase (2 His + Cys)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

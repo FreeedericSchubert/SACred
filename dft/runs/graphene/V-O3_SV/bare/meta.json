@@ -1,0 +1,15 @@
+{
+ "motif": "V-O3:SV",
+ "enzyme": "xTB calibration anchor: raw dG_H -1.60 eV (H_M)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  69
+ ],
+ "state": "bare",
+ "start": "GFN2-xTB geometry"
+}

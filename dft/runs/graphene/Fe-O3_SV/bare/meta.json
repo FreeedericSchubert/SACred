@@ -1,0 +1,14 @@
+{
+ "motif": "Fe-O3:SV",
+ "enzyme": "non-heme Fe, carboxylate/water shell, 12 entries (6B8F)",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

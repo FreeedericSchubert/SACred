@@ -1,0 +1,474 @@
+[
+ {
+  "motif": "Fe-NS2",
+  "dg": "-0.20",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "No paper found reporting a single Fe atom with exactly one N and two S donors (Fe-NS2) on carbon. Eight abstracts checked. All are Fe-N3S1 or Fe-N4 with S in a second shell, or FeNnS4-n series with four donors. No hydrogen-evolution dG_H value for Fe-NS2 was reported in any of them.",
+   "closest": [
+    {
+     "title": "Enhanced Electrocatalytic CO2 Reduction Reactivity of S- and N-Doped Fe-Embedded Graphene",
+     "coordination": "Fe on graphene (DFT) with FeNnS4-n, n=1-4 (FeN3S1, FeN2S2, FeN1S3, FeN4, FeS4); four donors, so FeN1S3 and FeN2S2 are the nearest but neither is NS2; CO2 reduction, computational",
+     "doi": "10.1002/cplu.202300306",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Constructing N,S and N,P Co-Coordination in Fe Single-Atom Catalyst for High-Performance Oxygen Redox Reaction",
+     "coordination": "Fe with FeSxN4-x (x=1-4), DFT; highlights FeSN3; four donors; ORR/OER, computational",
+     "doi": "10.1002/cssc.202300637",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Vacancy Defects Inductive Effect of Asymmetrically Coordinated Single-Atom Fe-N3S1 Active Sites for Robust Electrocatalytic Oxygen Reduction",
+     "coordination": "Fe single atoms with Fe-N3S1 (three N, one S) on N,S co-doped carbon with vacancy defects; experimental",
+     "doi": "10.1002/adma.202308243",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Nitrogen, sulfur co-coordinated iron single-atom catalysts with the optimized electronic structure for highly efficient oxygen reduction in Zn-air battery and fuel cell",
+     "coordination": "Fe single atom with N,S co-coordinated Fe-N3S site (three N, one S); experimental",
+     "doi": "10.1016/j.jcis.2024.05.197",
+     "year": 2024,
+     "match": "related"
+    },
+    {
+     "title": "Atomically Dispersed Fe-N4 Modified with Precisely Located S for Highly Efficient Oxygen Reduction",
+     "coordination": "Fe(N3)(N-C-S) by XANES, i.e. Fe-N4 with S in the second sphere, not a direct Fe-S donor; experimental",
+     "doi": "10.1007/s40820-020-00456-8",
+     "year": 2020,
+     "match": "related"
+    }
+   ],
+   "summary": "Eight abstracts were opened, from the title-search candidates. None describes an isolated Fe atom with one N and two S donors on carbon, so Fe-NS2 is not reported by this definition. The closest are Fe-N3S1 catalysts (Fe-N3S site, Fe-N3S1 on N,S-doped carbon) and DFT series on graphene with four donors (FeNnS4-n, FeSxN4-x). Those series contain N1S3 and N2S2 but not N1S2. Three other papers (Fe-ISA/SNC, the S-doped Fe-N-C spin-state paper, and the Ir-S pair on N-doped graphene screening) either give no discrete first-shell count or use a different metal, so they do not count. The remaining candidates, including the other three I did not open, are Fe-N4-type or different-metal systems. Search coverage is limited to title-search candidates plus abstracts, so a paper outside this set may exist. A direct search with the name variants (FeNS2, FeN1S2, FeS2N1) would raise confidence. Draft for expert review.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [
+    {
+     "title": "Enhanced Electrocatalytic CO2 Reduction Reactivity of S- and N-Doped Fe-Embedded Graphene",
+     "year": 2023,
+     "doi": "10.1002/cplu.202300306",
+     "why": "RELATED only. DFT on Fe in graphene with FeNnS4-n (n=1-4), explicitly FeN3S1, FeN2S2 and FeN1S3. This series has four donors and no N1S2 (three donors), so it is not the same donor count."
+    },
+    {
+     "title": "Regulating electronic structure of Fe single-atom site by S/N dual-coordination for efficient Fenton-like catalysis",
+     "year": 2024,
+     "doi": "10.1016/j.jhazmat.2023.133399",
+     "why": "RELATED only. Fe-S1N3 on carbon (Fe-SN-C), a different donor count (S1N3, not N1S2)."
+    },
+    {
+     "title": "Constructing N,S and N,P Co-Coordination in Fe Single-Atom Catalyst for High-Performance Oxygen Redox Reaction",
+     "year": 2023,
+     "doi": "10.1002/cssc.202300637",
+     "why": "RELATED only. DFT on FeSxN4-x (x=1-4) with four donors, highlighting FeSN3. No N1S2 motif is named in the abstract."
+    },
+    {
+     "title": "Creating Hybrid Coordination Environment in Fe-Based Single Atom Catalyst for Efficient Oxygen Reduction",
+     "year": 2022,
+     "doi": "10.1002/cssc.202200195",
+     "why": "Not matching. The active site is N/S-Fe-N4 (Fe phthalocyanine anchored on N,S co-doped graphene oxide). The first shell is N4, with S in the support rather than a donor set of N1S2."
+    }
+   ],
+   "notes": "Not refuted. I ran 6 new searches (of 8 allowed) and opened 4 abstracts (35244341, 37232090, 37787416, 38163411). The searches used other phrasings: Fe-N1S2 on carbon, \"Fe-N/S co-doped\" for HER, Fe1-NS2 on graphene vacancy with dG_H, Fe-S2N1 by abstract keyword, FeS2N with EXAFS, and graphene single-vacancy S,N-coordinated DFT screening. None returned an abstract that states one Fe atom with exactly one N and two S donors on carbon. The abstract keyword search for \"Fe-S2N1\" returned only unrelated Fe-S cluster and nitrogenase model chemistry. Closest hits are the Fe-N3S1 experimental papers and the four-donor DFT series (FeNnS4-n, FeSxN4-x), which include N1S3 and N2S2 but not N1S2, so Fe-NS2 stays RELATED, not reported. Other hits were different metals (Co, Ni, Zn, Ir) or Fe-N4-type sites. Limits: the search tool indexes mostly PubMed and arXiv abstracts. A paper that names the motif only in its full text or in a supporting-information table would not appear, and \"Fe-NS2\" is not a standard label, so some residual chance remains. Draft for expert review."
+  }
+ },
+ {
+  "motif": "Fe-NO3",
+  "dg": "-0.12",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "None of the 8 abstracts I opened describes Fe-NO3 (one Fe atom with 1 N and 3 O in a graphene double vacancy). I found no HER dG_H value for this motif.",
+   "closest": [
+    {
+     "title": "Construction of Single-Atom Catalysts for N, O Synergistic Coordination and Application to Electrocatalytic O2 Reduction",
+     "coordination": "TM-N2O2 units (TM=Sc-Zn, including Fe) on carbon (TM-N2O2Cx), DFT, ORR. This is N2O2, not NO3.",
+     "match": "related",
+     "doi": "10.3390/molecules28217264",
+     "year": 2023
+    },
+    {
+     "title": "Oxygen Coordination on Fe-N-C to Boost Oxygen Reduction Catalysis",
+     "coordination": "Atomically dispersed Fe with O-Fe-N2C2 moieties: N2C2 in-plane plus an axial O, penta-coordinated Fe, experiment and theory. Not NO3.",
+     "match": "related",
+     "doi": "10.1021/acs.jpclett.0c02812",
+     "year": 2020
+    },
+    {
+     "title": "Systematic exploration of N, C configurational effects on the ORR performance of Fe-N doped graphene catalysts based on DFT calculations",
+     "coordination": "Fe-N(x)/C configurations in single and double vacancy graphene, with N and C donors only. No O donors.",
+     "match": "related",
+     "doi": "10.1039/c9ra02822f",
+     "year": 2019
+    },
+    {
+     "title": "Support effects on adsorption and catalytic activation of O2 in single atom iron catalysts with graphene-based substrates",
+     "coordination": "Single Fe atom on single- and double-vacancy graphene, with some N-modified variants (for example three N atoms). O2 is an adsorbate, not a framework donor. No NO3 coordination.",
+     "match": "related",
+     "doi": "10.1039/c7cp08301g",
+     "year": 2018
+    }
+   ],
+   "summary": "I opened 8 abstracts and found no paper that reports a single Fe atom with exactly N1O3 first-shell coordination on graphene or doped carbon. The closest are Fe-N2O2 on carbon (DFT ORR screening) and O-Fe-N2C2 (axial O). Both have a different donor count, so they are related, not reported. Fe-N-doped graphene vacancy studies (N and C donors only), Fe1/NC for HER (generic Fe-Nx), N/S-Fe-N4, N-doped graphene-Fe for NO/CO oxidation, and Fe-SAC vacancy engineering for CO2RR do not match either. The 4 unopened candidates (FeN5 CO2RR, FeN3 spin transition, atomic Fe3+ CO2RR, Fe-cluster/divacancy) are N-only coordination or clusters by title and were not checked. This is a title/abstract-level check only, so a paper that names the coordination only in its full text could be missed. All output is a draft; the check and responsibility rest with the user.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [
+    {
+     "title": "Metal-NO2 Anchored Graphene Single-Atom Catalysts for Hydrogen Evolution Reaction: A Density Functional Theory Study.",
+     "why": "Closest new hit (TM = Co, Cu, Fe, Mn, Ni; HER; graphene). Abstract describes an NO2 functional-group anchor, i.e. N1O2-type donors, not N1O3, and no first-shell count is given. Related, not reported.",
+     "year": 2026,
+     "doi": "10.1002/cphc.70486"
+    },
+    {
+     "title": "A theoretical investigation on the OER and ORR activity of graphene-based TM-N3 and TM-N2X (X = B, C, O, P) single atom catalysts by density functional theory calculations.",
+     "why": "Title-level only (not opened): TM-N2O is N2O, a different donor count. Related at most.",
+     "year": 2024,
+     "doi": "10.1039/d4cp03779k"
+    }
+   ],
+   "notes": "I ran 7 new searches and opened 2 abstracts. No abstract states a single Fe atom with exactly N1O3 first-shell coordination on graphene or doped carbon, so the verdict stays related_only. Searches covered: Fe N1O3 on graphene, oxygen-rich carbon with N,O co-coordination, M-N1O3 graphene oxide HER, a keyword search for \"Fe-N1O3\", graphene double-vacancy N/O SACs for HER, EXAFS Fe-O3/Fe-N1 counts, and metal bonded to N and O groups in a vacancy. Related only: Metal-NO2/graphene HER (opened, N1O2-type anchor), the Fe-Ru N-defect graphene HER DFT study (title only), Fe-N4-C6O2 PMS activation (title only, N4O2), O-doped single Fe site in hydrophilic carbon (title only), epoxy-rich Fe sites (title only), and Fe-N4-O axial O (title only). The Dalton Trans. 2026 SAC stability study (opened) is generic, with vacancy and N-doping only. Only title and abstract were checked, so a full-text-only mention could be missed. All output is a draft; the check and responsibility rest with the user. Reminder, once per conversation: texts for publications or proposals must be labeled in line with the rules of good scientific practice if AI-assisted."
+  }
+ },
+ {
+  "motif": "Zn-N3O",
+  "dg": "+0.12",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "No. None of the 8 abstracts I opened reports an isolated Zn atom with a first shell of exactly three N and one O (Zn-N3O) on carbon, for HER or any other reaction. The only HER paper on a Zn single atom on carbon describes ZnN4S1.",
+   "closest": [
+    {
+     "title": "Dynamic Asymmetry in O/N-Coordinated Zn Single-Atom Catalysts Promotes Sabatier-Favorable Urea and Urea Peroxide Electrosynthesis",
+     "coordination": "Isolated Zn with 3 O + 1 N (Zn-O3N1-C), confirmed by XAS. The donor ratio is the reverse of N3O, and the reactions are CO2/nitrate co-reduction and 2e- ORR, not HER.",
+     "match": "related",
+     "doi": "10.1002/anie.3649572",
+     "year": 2026
+    },
+    {
+     "title": "Axial Oxygen Ligands Regulating Electronic and Geometric Structure of Zn-N-C Sites to Boost Oxygen Reduction Reaction",
+     "coordination": "Isolated Zn with 4 in-plane N plus 1 axial O (Zn-N4-O), five-fold coordinated. This is N4O, not N3O, and the reaction is ORR.",
+     "match": "related",
+     "doi": "10.1002/advs.202302152",
+     "year": 2023
+    },
+    {
+     "title": "Boosted hydrogen evolution kinetics of heteroatom-doped carbons with isolated Zn as an accelerant",
+     "coordination": "Isolated Zn with 4 N + 1 S (ZnN4S1) in a carbon matrix. This is the closest HER paper on a carbon-supported Zn single atom, but the donors differ (N4S, no O).",
+     "match": "related",
+     "doi": "10.1073/pnas.2315362121",
+     "year": 2024
+    },
+    {
+     "title": "Construction of Single-Atom Catalysts for N, O Synergistic Coordination and Application to Electrocatalytic O2 Reduction",
+     "coordination": "DFT study of TM-N2O2 units (TM = Sc-Zn) for ORR. The count is N2O2, not N3O, and no HER is reported.",
+     "match": "related",
+     "year": 2023,
+     "doi": "10.3390/molecules28217264"
+    },
+    {
+     "title": "Turning on Zn 4s Electrons in a N2-Zn-B2 Configuration to Stimulate Remarkable ORR Performance",
+     "coordination": "Isolated Zn with 2 N + 2 B (N2-Zn-B2) on carbon, for ORR. The donors are N and B, with no O.",
+     "match": "related",
+     "doi": "10.1002/anie.202009991",
+     "year": 2020
+    }
+   ],
+   "summary": "I opened 8 abstracts via get_paper_by_id and none reports Zn-N3O (3 N + 1 O) on a carbon support. The closest are three carbon-supported Zn single-atom papers with different first shells: Zn-O3N1 (O3N), Zn-N4-O (N4 plus one axial O) and ZnN4S1. Zn-N2O2 appears only as part of a DFT series. The remaining abstracts concern ZnN4, N2-Zn-B2, a ZnO monolayer support and a Zn-Co dual-atom SNC catalyst, none with N3O. I did not open the abstracts of four of the 12 candidates, which are the Zn-N2 structure paper, the ZnN4 CO2RR paper and the two graphene HER DFT screening papers. Their titles do not suggest N3O, but I did not check them, and neither did any search beyond the supplied candidate list. This is a negative result within the checked set, not proof that no such paper exists. The abstracts report only the coordination, so I could not confirm the HER numbers, including our +0.12 eV, against any of them.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [
+    {
+     "title": "Dynamic Asymmetry in O/N-Coordinated Zn Single-Atom Catalysts Promotes Sabatier-Favorable Urea and Urea Peroxide Electrosynthesis",
+     "year": 2026,
+     "doi": "10.1002/anie.3649572",
+     "why": "Zn-O3N1-C, i.e. O3N, not N3O. Related only (the same paper the reviewer already listed)."
+    },
+    {
+     "title": "Single-Atom Zinc Sites with Synergetic Multiple Coordination Shells for Electrochemical H2O2 Production",
+     "year": 2023,
+     "doi": "10.1002/anie.202313914",
+     "why": "Zn-N2O2 (-S in the second shell) in hollow carbon. Wrong donor count (N2O2), so related only."
+    },
+    {
+     "title": "Axial and Asymmetric Coordination Coupling Adjust the Electronic Structure of Single-Atom Zinc Sites for Efficient Electroreduction of Carbon Dioxide",
+     "year": 2025,
+     "doi": "10.1002/advs.202509698",
+     "why": "ZnN3S1Cl/C. Three N plus S plus axial Cl, so the fourth donor is S, not O. Related only."
+    },
+    {
+     "title": "Zinc-Coordinated Nitrogen-Codoped Graphene as an Efficient Catalyst for Selective Electrochemical Reduction of CO2 to CO",
+     "year": 2018,
+     "doi": "10.1002/cssc.201800925",
+     "why": "Isolated Zn-Nx moieties on graphene with no oxygen donor stated. Not N3O."
+    }
+   ],
+   "notes": "The negative result stands (refuted=false). I ran 7 new searches, 5 semantic and 2 abstract-keyword, with different phrasings: N3O1 asymmetric, ZnN3O1 and Zn-N3O phrase-mode keyword, Zn-X3 heteroatom screening, HER on N/O-co-coordinated graphene, and O-doped Zn-N-C with XAFS. I opened 4 abstracts: 42733952, 37789565, 40946189 and 29956488. None states Zn with exactly 3 N and 1 O on carbon. Unopened and not N3O by title: 39981894 is a Zn-MOF (a different support) that matched the phrase-mode \"Zn-N3O\" query only weakly, with a keyword rank of 0.38. I did not open its abstract. 39508484 (graphene TM-N3 and TM-N2X, X = B/C/O/P) covers N3 and N2O only, and its abstract was not opened. Zn-containing hits from the other searches were also not N3O by title: ZnO monolayer SACs for HER, Zn-N2, N2-Zn-B2, Zn-Co dual atoms and ZnN4. This is a negative result within the retrieved set, not proof that no such paper exists. The search index looks PubMed-heavy, so papers in other databases or with unusual notation could be missing. The abstracts give coordination only, so the HER numbers, including our +0.12 eV, could not be checked against any of them."
+  }
+ },
+ {
+  "motif": "Co-N2OC",
+  "dg": "+0.03",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "No paper found reporting an isolated Co atom with exactly N2, O1, C1 first-shell donors on carbon. The closest, Small 2022, reports Co/NC with a penta-coordinated OCoN2C2 site (2 N, 2 C, 1 O), which has a different donor count (C2 instead of C1).",
+   "closest": [
+    {
+     "title": "Boosting Oxygen Reduction for High-Efficiency H2O2 Electrosynthesis on Oxygen-Coordinated CoNC Catalysts",
+     "coordination": "Single Co atom, penta-coordinated OCoN2C2: two N, two C and one O (carbon-supported Co/NC)",
+     "doi": "10.1002/smll.202200730",
+     "year": 2022,
+     "match": "related"
+    },
+    {
+     "title": "Single Co Atoms Implanted into N-Doped Hollow Carbon Nanoshells with Non-Planar Co-N4-1-O2 Sites for Efficient Oxygen Electrochemistry",
+     "coordination": "Single Co atoms on N-doped hollow carbon; XAFS gives Co-N4 (four N). The abstract says the DFT-active site is Co-N4-1-O2, i.e. N4 plus O2 from adsorbed O2, not a first-shell O donor",
+     "doi": "10.1021/acs.inorgchem.1c00824",
+     "year": 2021,
+     "match": "related"
+    },
+    {
+     "title": "A computational study of CO oxidation reactions on metal impurities in graphene divacancies",
+     "coordination": "Co in a graphene divacancy (Co-DG), computational. The abstract states no N or O donors, so this is only the same vacancy type",
+     "doi": "10.1039/c7cp07397f",
+     "year": 2018,
+     "match": "related"
+    },
+    {
+     "title": "Identification of catalytic sites in cobalt-nitrogen-carbon materials for the oxygen reduction reaction",
+     "coordination": "Atomically dispersed Co in Co-N-C: CoN4C12, CoN3C10 (porphyrinic) and CoN2C5. No O donor",
+     "doi": "10.1038/s41467-017-01100-7",
+     "year": 2017,
+     "match": "related"
+    }
+   ],
+   "summary": "I opened the abstracts of 8 candidates and ran one extra semantic search. None describes Co with exactly 2 N, 1 O and 1 C in a graphene double vacancy. The closest is the Small 2022 paper (OCoN2C2, Co/NC), which has the right metal and the right N and O donors on carbon but two C donors instead of one, so it is RELATED, not reported. The Inorg. Chem. 2021 paper reports Co-N4 by XAFS, and its O2 belongs to the adsorbate. The graphene divacancy paper (PCCP 2018) is for Co-DG with no heteroatom donors stated. The Co-N-C paper (Nat. Commun. 2017) has N-only moieties. The remaining abstracts (PCCP 2024 OER on N-doped graphene, PCCP 2024 ORR screening, Angew. 2016 Co-Nx, Nanoscale 2017 CoNx clusters) give no O or C donor motif. The extra search returned no new exact match, but I did not open those abstracts. The Co-N2OC motif is not found in the abstracts I checked. Full texts may describe it differently, for example as a Co-N2C2 site with an O, so those would need checking. This is a draft screening result and needs your own check.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [
+    {
+     "title": "Construction of Single-Atom Catalysts for N, O Synergistic Coordination and Application to Electrocatalytic O2 Reduction",
+     "why": "RELATED. DFT study of TM-N2O2Cx single-atom catalysts, including Co. The donor set is N2O2, not N2OC.",
+     "doi": "10.3390/molecules28217264",
+     "year": 2023
+    },
+    {
+     "title": "Electron-Coupling Effect Modulating the d-Band Center of Asymmetric Cobalt Single-Atom Sites for Electrocatalytic Oxygen Reduction",
+     "why": "RELATED. Co-N3O sites on a hollow N-doped carbon matrix. The donor set is N3O, with no C donor.",
+     "doi": "10.1021/acs.jpclett.4c03638",
+     "year": 2025
+    },
+    {
+     "title": "Boosting Oxygen Reduction for High-Efficiency H2O2 Electrosynthesis on Oxygen-Coordinated CoNC Catalysts",
+     "why": "RELATED, already known from the earlier review. Co/NC with OCoN2C2: two N, two C and one O, so the C count is 2 and not 1.",
+     "doi": "10.1002/smll.202200730",
+     "year": 2022
+    }
+   ],
+   "notes": "This was a draft screening, so please check it yourself. I ran 4 new semantic searches (include_abstract=false, limit 12) and opened 4 abstracts. The searches covered these phrasings: Co-N2O1C1 for HER, 2N+1O asymmetric Co on graphene, Co1-N2O1 on O/N-doped graphene, and DFT dG_H for Co with N,O on a divacancy. No abstract states one Co atom with exactly 2 N, 1 O and 1 C on a carbon support, so the motif is not refuted and stays related_only.\n\nAbstracts opened:\n- 37959686: TM-N2O2Cx, including Co, DFT for ORR. Donors are N2O2.\n- 35324078: Co/NC OCoN2C2 (Small 2022), already known. It has 2 C donors.\n- 40052881: Co-N3O on hollow carbon, for ORR. Donors are N3O.\n- 41649254: Co-Nx with x = 3 to 5, built from molecular catalysts on carbon nanotubes. No O donor in the first shell.\n\nPapers seen in results but not opened, so no claim about their donor sets:\n- 32959493 (Angew. 2020, M-N3C1)\n- 37994382 (Angew. 2023, N3C1)\n- 38996698 (JCIS 2024, asymmetric N/C-coordinated sites)\n- 31960551 (Angew. 2020, Co-N4-xCx)\n- 38555288 (Nat. Commun. 2024, heteroatom transfer for HER)\n\nThe N3C1 and Co-N4-xCx titles suggest no O donor. The Nat. Commun. 2024 paper might hold a related heteroatom set, but nothing in the titles points to N2OC. Full texts could still describe Co-N2OC under another notation, for example as a Co-N2C2 site with an adsorbed or bridging O. That cannot be ruled out from abstracts."
+  }
+ },
+ {
+  "motif": "Cu-N3",
+  "dg": "+0.18",
+  "verdict": {
+   "verdict": "reported_experimental",
+   "her_reported": "Cu-N3 (one Cu, three N) on carbon is reported experimentally, including EXAFS-confirmed Cu-N3-C sites on carbon nanosheets. The abstracts I read give no dG_H for HER on Cu-N3. Cu-N3 on graphene has only been studied by DFT, for ORR/OER, and the abstracts report no hydrogen-evolution dG_H.",
+   "closest": [
+    {
+     "title": "Guanosine-derived atomically dispersed Cu-N3-C sites for efficient electroreduction of carbon dioxide",
+     "coordination": "Single Cu atoms on carbon nanosheets; Cu-N3-C sites (tricoordinated Cu with N) proved by EXAFS and supported by DFT",
+     "doi": "10.1016/j.jcis.2023.05.100",
+     "year": 2023,
+     "match": "exact"
+    },
+    {
+     "title": "Atomically Dispersed Cu-N3 Sites in N-Doped Porous Carbon for Enhanced Vanadium Flow Battery Performance",
+     "coordination": "Atomically dispersed Cu in N-doped porous carbon; abstract states a Cu-N3 coordination structure",
+     "doi": "10.1021/prechem.5c00420",
+     "year": 2026,
+     "match": "exact"
+    },
+    {
+     "title": "Dynamic Behavior of Single-Atom Catalysts in Electrocatalysis: Identification of Cu-N3 as an Active Site for the Oxygen Reduction Reaction",
+     "coordination": "Cu-N-C single-atom catalyst; starts as Cu2+-N4 and operando XAS shows it becoming Cu+-N3 (then HO-Cu-N2) under ORR conditions, with Cu+-N3 identified as the active site",
+     "doi": "10.1021/jacs.1c03788",
+     "year": 2021,
+     "match": "exact"
+    },
+    {
+     "title": "A theoretical investigation on the OER and ORR activity of graphene-based TM-N3 and TM-N2X (X = B, C, O, P) single atom catalysts by density functional theory calculations",
+     "coordination": "DFT only: graphene-based TM-N3 including Cu (CuN3), one metal atom with three N; OER/ORR overpotentials of 0.31 V and 0.44 V for CuN3",
+     "doi": "10.1039/d4cp03779k",
+     "year": 2024,
+     "match": "related"
+    },
+    {
+     "title": "CuN3 doped graphene as an active electrocatalyst for oxygen reduction reaction in fuel cells: A DFT study",
+     "coordination": "DFT only: Cu embedded in graphene with three N (CuN3-Gra), ORR mechanism",
+     "doi": "10.1016/j.jmgm.2020.107537",
+     "year": 2020,
+     "match": "related"
+    }
+   ],
+   "summary": "I read the abstracts of 8 candidates. The Cu-N3 motif on carbon counts as reported experimentally. Two papers state Cu-N3 outright. In 10.1016/j.jcis.2023.05.100 the Cu-N3-C sites on carbon nanosheets are proved by EXAFS. In 10.1021/prechem.5c00420 single Cu atoms in N-doped porous carbon have a Cu-N3 coordination. In 10.1021/jacs.1c03788 the Cu starts as Cu-N4 and operando XAS shows it becoming Cu+-N3 under ORR conditions. That makes it a looser match, because N3 appears only as a potential-driven working state. Four papers are related only. 10.1016/j.jmgm.2020.107537 and 10.1039/d4cp03779k are DFT-only studies of CuN3 in graphene (ORR/OER, not HER). 10.1021/acsomega.2c01562 is a computed 2D C3N3Cu sheet, and the two carbon-nitride papers (10.1021/acsami.1c17782 and 10.1038/s41467-026-73151-8) use Cu-N3 on a carbon nitride support. I did not open the Cu-S1N3 (N3 plus an S donor) or Cu-N4-C (four N) papers, because their donor sets differ and they are related at most. Cu-N3 sites on carbon are therefore not new. None of these abstracts reports hydrogen evolution or dG_H on Cu-N3, so the HER data for the graphene single-vacancy model (dG_H = +0.18 eV) may still be new. The abstracts do not show whether the experimental N3 sites sit in a graphene single vacancy. This is a draft and needs expert checking.",
+   "confidence": "medium"
+  },
+  "challenge": null
+ },
+ {
+  "motif": "Mo-NS3",
+  "dg": "+0.21",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "No HER result found for Mo-NS3 (1 N + 3 S) on graphene. The closest HER reports are Mo1N1C2 on N-doped carbon (Angew. 2017) and Mo-O1N1C2 on carbon nanofibers (ACS Nano 2021). Neither has S donors, and neither is an NS3 motif.",
+   "closest": [
+    {
+     "title": "Sulfur-Coordinated Transition Metal Atom in Graphene for Electrocatalytic Nitrogen Reduction with an Electronic Descriptor",
+     "year": 2022,
+     "doi": "10.1021/acs.jpclett.2c02105",
+     "coordination": "Single TM atoms (Mo among 25 metals) coordinated to four S in graphene (TM-S4-G); first-principles study for N2 reduction. This is S4, not N1S3.",
+     "match": "related"
+    },
+    {
+     "title": "Rational Design of Single Molybdenum Atoms Anchored on N-Doped Carbon for Effective Hydrogen Evolution Reaction",
+     "year": 2017,
+     "doi": "10.1002/anie.201710599",
+     "coordination": "Single Mo atoms with one N and two C (Mo1N1C2) on N-doped carbon, shown by XAFS; HER. No S donors.",
+     "match": "related"
+    },
+    {
+     "title": "Atomically Dispersed Mo Sites Anchored on Multichannel Carbon Nanofibers toward Superior Electrocatalytic Hydrogen Evolution",
+     "year": 2021,
+     "doi": "10.1021/acsnano.1c07694",
+     "coordination": "Single Mo atoms with one O, one N and two C (Mo-O1N1C2) on N-doped carbon nanofibers; HER. No S donors.",
+     "match": "related"
+    },
+    {
+     "title": "Coordination Tunes Selectivity: Two-Electron Oxygen Reduction on High-Loading Molybdenum Single-Atom Catalysts",
+     "year": 2020,
+     "doi": "10.1002/anie.202003842",
+     "coordination": "Mo single atoms with O,S coordination at over 10 wt% loading; ORR. The abstract gives no donor counts and no N donors.",
+     "match": "related"
+    },
+    {
+     "title": "Tuning the catalytic activity of a single Mo atom supported on graphene for nitrogen reduction via Se atom doping",
+     "year": 2019,
+     "doi": "10.1039/c9cp02733e",
+     "coordination": "Single Mo atom on graphene doped with B, N, P, S or Se; DFT study of N2 reduction. The abstract gives no N1S3 first shell.",
+     "match": "related"
+    }
+   ],
+   "summary": "I opened the abstracts of 8 candidates and ran one extra targeted semantic search (Mo-N1S3 in graphene or carbon, HER). None describes one Mo atom with exactly one N and three S donors on a carbon support, so the motif is not reported. The closest papers share only part of the motif. The TM-S4 graphene paper has Mo with S donors but four S and no N, and it studies N2 reduction. The two Mo HER papers have N donors and no S. The O,S-coordinated Mo ORR paper is not a match, since its abstract gives no counts and no N. The Mo/NG Li-S paper is Mo-N2O2-C, and the Mo-N6 NRR paper is all N. The ORR screening paper is S/Ir on N-doped graphene (SIr@N8), so it is a different metal. The extra search returned only MoS2 edge and nanoparticle HER papers, not single-atom Mo with NS3. Caveat: Valency covers abstracts only, and a paper might mention an NS3 site only in its full text or in a supporting-information screening table. Our DFT dG_H of +0.21 eV therefore has no direct literature comparison here. All outputs are drafts, and the scientific check is yours.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [
+    {
+     "title": "Sulfur-Coordinated Transition Metal Atom in Graphene for Electrocatalytic Nitrogen Reduction with an Electronic Descriptor",
+     "year": 2022,
+     "doi": "10.1021/acs.jpclett.2c02105",
+     "why": "Mo is on graphene with S donors, but the abstract gives TM-S4 (four S, no N). RELATED, not reported."
+    },
+    {
+     "title": "Tuning the catalytic activity of a single Mo atom supported on graphene for nitrogen reduction via Se atom doping",
+     "year": 2019,
+     "doi": "10.1039/c9cp02733e",
+     "why": "Single Mo on graphene with Se doping, not S. I read the title only, not the abstract. RELATED at most."
+    },
+    {
+     "title": "Designing N, P-doped graphene surface-supported Mo single-atom catalysts for efficient conversion of nitrogen into ammonia: a computational guideline",
+     "year": 2024,
+     "doi": "10.1039/d4na00298a",
+     "why": "Mo on N,P-doped graphene, so P rather than S. I read the title only. RELATED."
+    },
+    {
+     "title": "Coordination Tunes Selectivity: Two-Electron Oxygen Reduction on High-Loading Molybdenum Single-Atom Catalysts",
+     "year": 2020,
+     "doi": "10.1002/anie.202003842",
+     "why": "Mo single atoms with tuned O/S coordination, already judged by the reviewer to have no N and no S3 count. I did not reopen it. It does not match."
+    }
+   ],
+   "notes": "I ran 4 new searches, all with abstracts off and limit 12. The phrasings were Mo-N/S co-doped graphene with 1 N and 3 S, Mo1 sulfur-rich N-doped carbon Mo-S3N, high-throughput DFT on S,N co-doped graphene for HER, and Mo on S,N dual-doped graphene for N2 reduction, CO2 reduction or HER. I opened 1 abstract (PMID 36005734, the TM-S4 paper), which confirms four S and no N. No result states one Mo atom with exactly one N and three S on carbon, so the verdict stays related_only. Other S/N-containing hits were for other metals: Co-N3S in ORR papers (41661140, 38502568), Co with S coordination for HER (36183270), and Fe-N4 with S (34138133). A TM-N2@C30N10S6 screening paper for HER, OER and ORR (38145890) has a different donor set, and I did not open its abstract. Caveat: Valency covers abstracts only, so an NS3 site could still appear in the full text or SI of a DFT screening paper. For example, 38145890 or other TM-S/N graphene screenings might list Mo with a one N, three S site that the abstract does not mention. Drafts only. The scientific check is yours."
+  }
+ },
+ {
+  "motif": "Fe-S2C2",
+  "dg": "+0.21",
+  "verdict": {
+   "verdict": "related_only",
+   "her_reported": "Fe-S2C2 (one Fe atom, two S and two C donors, in a graphene double vacancy) as an HER site, dG_H = +0.21 eV (our DFT)",
+   "closest": [
+    {
+     "title": "Enhanced Electrocatalytic CO2 Reduction Reactivity of S- and N-Doped Fe-Embedded Graphene",
+     "coordination": "Fe in graphene with FeNnS4-n (n=1-4) first shells (N and S donors, DFT); no carbon donors",
+     "doi": "10.1002/cplu.202300306",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Sulfur-Coordinated Transition Metal Atom in Graphene for Electrocatalytic Nitrogen Reduction with an Electronic Descriptor",
+     "coordination": "25 single TM atoms (Mo, Sc, Cr, V, W, Ti, Nb, Mn, Re and others) with S4 coordination in graphene (TM-S4-G, DFT); the abstract does not name Fe among the metals",
+     "doi": "10.1021/acs.jpclett.2c02105",
+     "year": 2022,
+     "match": "related"
+    },
+    {
+     "title": "Constructing N,S and N,P Co-Coordination in Fe Single-Atom Catalyst for High-Performance Oxygen Redox Reaction",
+     "coordination": "Fe with FeSxN4-x (x=1-4) first shells (DFT); N and S donors, no carbon donors",
+     "doi": "10.1002/cssc.202300637",
+     "year": 2023,
+     "match": "related"
+    },
+    {
+     "title": "Atomically Dispersed Fe-N4 Modified with Precisely Located S for Highly Efficient Oxygen Reduction",
+     "coordination": "Fe(N3)(N-C-S) by XANES; Fe-N4 first shell with S in the periphery",
+     "doi": "10.1007/s40820-020-00456-8",
+     "year": 2020,
+     "match": "related"
+    },
+    {
+     "title": "Unraveling the Origin of Sulfur-Doped Fe-N-C Single-Atom Catalyst for Enhanced Oxygen Reduction Activity: Effect of Iron Spin-State Tuning",
+     "coordination": "C-FeN4-S moiety, with S in the second coordination sphere of Fe-N-C",
+     "doi": "10.1002/anie.202110243",
+     "year": 2021,
+     "match": "related"
+    }
+   ],
+   "summary": "I opened the abstracts of 8 candidates and ran one extra targeted semantic search. None describes a single Fe atom with an S2C2 first shell (two S, two C) on carbon. The closest papers use other donor sets. FeNnS4-n and FeSxN4-x on graphene are DFT studies with N and S donors. TM-S4 on graphene lists other metals in its abstract. The Fe-NSC and S-doped Fe-N-C papers have Fe-N4 first shells with S in the periphery or second sphere. The Fe1/NC HER paper is Fe-Nx only. Axial S on FeN4 is not S2C2 either. The extra search returned no S2C2 hit. Only abstracts and titles were checked, not full texts or SI, so a paper that mentions S2C2 only in its main text could be missed. This is a draft and needs your own check. The motif looks unreported, with related work only.",
+   "confidence": "medium"
+  },
+  "challenge": {
+   "refuted": false,
+   "counter_evidence": [
+    {
+     "title": "Enhanced Electrocatalytic CO2 Reduction Reactivity of S- and N-Doped Fe-Embedded Graphene",
+     "year": 2023,
+     "doi": "10.1002/cplu.202300306",
+     "why": "Related only. Abstract covers Fe-N(n)S(4-n) (n=1-4) in graphene. These are N and S donors and no C donors, so there is no Fe-S2C2. FeN2S2 is the closest, but it has a different donor set."
+    },
+    {
+     "title": "Sulfur-Coordinated Transition Metal Atom in Graphene for Electrocatalytic Nitrogen Reduction with an Electronic Descriptor",
+     "year": 2022,
+     "doi": "10.1021/acs.jpclett.2c02105",
+     "why": "Related only. Abstract describes TM-S4 on graphene for 25 transition metals, with an S4 first shell. It does not describe S2C2 and does not name Fe as a highlighted case."
+    },
+    {
+     "title": "Stability of graphene-based single-atom catalysts across the first-row transition series: the interplay of coordination, composition, and metal identity",
+     "year": 2026,
+     "doi": "10.1039/d6dt01022a",
+     "why": "Related only. Abstract covers first-row metals on mono- and divacancy graphene, with and without N doping. It does not mention S, so no S2C2 donor set."
+    }
+   ],
+   "notes": "Not refuted. I ran 5 new semantic searches (of the 8 allowed) and opened 3 abstracts (of the 4 allowed). The searches covered Fe-N/S co-doped graphene with S2C2, Fe1S2C2 with EXAFS, Fe-S coordination without N, MS2C2 double vacancy DFT, and Fe/S-doped graphene HER dG_H. No abstract states a single Fe atom with two S and two C donors on carbon. The other hits were Fe-N4 with peripheral or second-shell S (Fe-N-C, S-doped Fe-N-C), Fe-N3S, Fe-NS dual-doped carbon, S-bridged dual-Fe or Fe2S2 clusters, and Co-S/N-C for HER. All of these are related only. Limitation: only titles and abstracts were checked, so a paper that gives S2C2 only in its main text or SI could still be missed. The verdict stays related_only, and this is a draft for your own check."
+  }
+ }
+]

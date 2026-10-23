@@ -1,0 +1,16 @@
+{
+ "motif": "Ni-N2S2:DV:cis5",
+ "enzyme": "acetyl-CoA synthase Ni_d (2 amide N, 2 Cys, cis)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_S",
+ "ih": 71
+}

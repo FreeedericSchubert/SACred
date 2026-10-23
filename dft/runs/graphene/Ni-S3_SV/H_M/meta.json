@@ -1,0 +1,15 @@
+{
+ "motif": "Ni-S3:SV",
+ "enzyme": "Ni-Fe CO dehydrogenase C-cluster Ni",
+ "imetal": 71,
+ "idonors": [
+  41,
+  42,
+  31
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_M",
+ "ih": 72
+}

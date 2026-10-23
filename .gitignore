@@ -1,0 +1,69 @@
+# local environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# downloaded structures and caches (re-fetched by the scripts)
+data/pdb/
+data/cache/
+
+# complete d-block sweep (too large for git; released via Zenodo)
+data/complete/
+*.cif.gz
+*.cif
+
+# DFT bulk output (kept on Curta; only inputs, logs of energies and summaries go to git)
+dft/runs/**/*.save/
+dft/runs/**/*.wfc*
+dft/runs/**/*.mix*
+dft/runs/**/*.cube
+dft/runs/**/*.cube.gz
+dft/runs/**/*.hub*
+dft/runs/**/charge-density*
+dft/runs/**/*.out
+dft/runs/**/*.out.*
+
+# secrets
+*.token
+.env
+
+# logs of background runs
+data/*.log
+
+# personal Claude Code settings (session-end push hook)
+.claude/settings.local.json
+
+# credentials kept next to the project (never commit)
+token/
+
+# figure intermediates
+figures/tmp/
+
+# built release files (rebuilt by db/build.py; published via Zenodo, not git)
+data/release/
+
+# xTB scan structures (per-structure JSON/xyz; the table data/xtb_scan.csv is in git)
+data/screen/
+
+# validation intermediates (summary and CSVs are in git)
+data/validation/*.parquet
+data/validation/*.npy
+.claude/launch.json
+data/export/
+data/zenodo/
+
+# fine-tuning data (rebuilt by ml/adaption_dataset.py)
+data/adaption/
+
+# test site for a separate public repo (own git history)
+/marimo-pages-test/
+
+# MoS2 runs 32*: not part of this project (kept locally and on Curta)
+dft/runs/mos2/32*/
+
+# marimo session cache (cell outputs)
+__marimo__/
+
+# data copied next to the notebook by the Pages workflow
+notebooks/public/

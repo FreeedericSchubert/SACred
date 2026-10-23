@@ -1,0 +1,15 @@
+{
+ "motif": "C2S2:DV:cis5",
+ "state": "ref",
+ "from": "Fe-C2S2:DV:cis5",
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "start": "builder geometry without the metal"
+}

@@ -1,0 +1,15 @@
+{
+ "motif": "Fe-C2S2:DV:cis5",
+ "enzyme": "[NiFe]/[FeFe] hydrogenase Fe (CN/CO carbons + 2 bridging S)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "bare"
+}

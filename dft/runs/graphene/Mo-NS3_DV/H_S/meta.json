@@ -1,0 +1,16 @@
+{
+ "motif": "Mo-NS3:DV",
+ "enzyme": "nitrogenase FeMo-co Mo (3 S + His N)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  14
+ ],
+ "state": "H_S",
+ "ih": 71
+}

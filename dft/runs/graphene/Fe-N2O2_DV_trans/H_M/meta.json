@@ -1,0 +1,17 @@
+{
+ "motif": "Fe-N2O2:DV:trans",
+ "enzyme": "xTB scan: calibrated dG_H -0.07 eV (H_M)",
+ "imetal": 70,
+ "idonors": [
+  41,
+  31,
+  50,
+  40
+ ],
+ "fixed": [
+  67
+ ],
+ "state": "H_M",
+ "start": "GFN2-xTB geometry",
+ "ih": 71
+}

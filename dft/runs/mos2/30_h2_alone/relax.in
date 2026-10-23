@@ -1,0 +1,47 @@
+&CONTROL
+  calculation = 'relax'
+  prefix = 'h'
+  pseudo_dir = '~/<earlier_mos2_project>/pseudo'
+  tprnfor = .true.
+  forc_conv_thr = 7.8d-4
+  etot_conv_thr = 1.0d-5
+  nstep = 300
+  max_seconds = 70200
+  tefield = .true.
+  dipfield = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 2
+  ntyp = 1
+  ecutwfc = 50
+  ecutrho = 400
+  vdw_corr = 'dft-d3'
+  dftd3_version = 4
+  dftd3_threebody = .false.
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.0037
+  edir = 3
+  emaxpos = 0.9896
+  eopreg = 0.0500
+  eamp = 0.0
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.3
+  electron_maxstep = 200
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+ATOMIC_SPECIES
+  H      1.008  H.pbe-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  18.96000000 0.00000000 0.00000000
+  -9.48000000 16.41984166 0.00000000
+  0.00000000 0.00000000 35.00000000
+ATOMIC_POSITIONS angstrom
+  H   4.74000000 8.20992083 17.63426330
+  H   4.74000000 8.20992083 18.38426330
+K_POINTS gamma

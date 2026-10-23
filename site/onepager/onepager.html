@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Enzyme sites as single-atom catalysts</title>
+<style>
+  @page { size: 8.5in 11in; margin: 0.5in 0.6in 0.45in 0.6in; }
+  body { font-family: "Liberation Sans", "DejaVu Sans", Arial, sans-serif; font-size: 8.4pt; line-height: 1.25; color: #1c2427; }
+  h1, h2 { font-family: "Liberation Sans", "DejaVu Sans", Arial, sans-serif; }
+  h1 { font-size: 13pt; margin: 0 0 1pt 0; }
+  .by { font-size: 8pt; color: #59666b; margin: 0 0 4pt 0; }
+  h2 { font-size: 10pt; margin: 6pt 0 2pt 0; color: #1c2427; }
+  p { margin: 0 0 3pt 0; }
+  ul, ol { margin: 0 0 2pt 0; padding-left: 14pt; }
+  li { margin: 0 0 1.5pt 0; }
+  td { vertical-align: top; }
+  .cap { font-size: 7pt; color: #59666b; }
+</style>
+</head>
+<body>
+<h1><img src="logo.png" width="52" height="52" style="width:0.45in;height:0.45in;vertical-align:middle" alt="SACred logo"> SACred: turning enzyme active sites into usable single-atom catalysts</h1>
+<p class="by">Hackathon submission · 22 October 2026 · Team: [names] · data and code: Zenodo package v0.4, repository [link]</p>
+
+<h2>What we built</h2>
+<p>An automated pipeline from every metal site in the Protein Data Bank to ranked single-atom catalyst (SAC) candidates, tested for activity and for survival in synthesis.</p>
+<ol>
+  <li><b>Sweep:</b> 291,977 metal sites from 53,940 PDB entries, reduced to first coordination shells (94–98 % agreement with the PDB's own metal-link annotation).</li>
+  <li><b>Mapping:</b> each shell rebuilt as a site in a graphene vacancy, with examples on MoS<sub>2</sub> and silica.</li>
+  <li><b>Funnel:</b> GFN2-xTB for 1,155 sites, DFT for the best 71, judged by descriptors for activity (ΔG<sub>H</sub>; O<sub>2</sub>, CO<sub>2</sub>, N<sub>2</sub> steps) and for synthesis (formation energy, dissolution, pyrolysis escape barrier, acid demetalation).</li>
+  <li><b>Products:</b> an open database (Zenodo), an interactive explorer with a 3D enzyme-to-catalyst zoom and an SQL chat agent, and about 10,000 DFT frames for force fields.</li>
+</ol>
+
+<h2>Results</h2>
+<p>Of 71 sites computed in DFT, 24 bind hydrogen within 0.2 eV of the optimum, but only two cobalt sites also keep their metal.</p>
+<p align="center"><img src="figure.png" width="326" height="222" style="width:2.95in;height:2.01in" alt="Hydrogen binding against metal stability for 45 DFT sites"><br><span class="cap">Hydrogen binding (ΔG<sub>H</sub>) against formation energy (E<sub>f</sub>) for 45 DFT sites; grey box: target region, blue: the two sites that pass.</span></p>
+<ul>
+  <li><b>Stability is the bottleneck:</b> 41 of 46 sites would rather form metal particles; N and C donors hold the metal, S and O let it go.</li>
+  <li><b>Candidates:</b> Co–N<sub>2</sub>OC (ΔG<sub>H</sub> +0.03 eV, E<sub>f</sub> −1.57 eV, escape barrier 6.0 eV, enough to survive pyrolysis at 1000 °C; no earlier report) and Co–N<sub>3</sub>C (−0.05 eV, −2.67 eV). Our own checks show the limits: under H<sub>2</sub> evolution the C donor of Co–N<sub>2</sub>OC takes up H (−0.02 eV), which weakens H on Co to +0.61 eV, and in acid protons would replace the Co.</li>
+  <li><b>Validation:</b> our DFT reproduces the published O<sub>2</sub>-reduction potential of Co–N<sub>4</sub> (0.93 V); calibrated xTB predicts ΔG<sub>H</sub> on Fe, Co, Ni, Cu and Zn to about 0.4 eV; the screen independently finds Ni–N<sub>3</sub>, which has been made for H<sub>2</sub> evolution.</li>
+  <li><b>Dynamics:</b> MD with a MACE force field fine-tuned on our DFT frames confirms the barriers: at 1500 K Zn–NS<sub>2</sub> loses its donors within 0.15 ps, Co–N<sub>2</sub>OC keeps all four over 5 ps.</li>
+</ul>
+
+<h2>What we used</h2>
+<p>RCSB PDB (gemmi); GFN2-xTB (tblite, ASE); Quantum ESPRESSO (PBE-D3) on the FU Berlin Curta cluster; Modal GPUs; Valency for literature screening (reported SACs, benchmark data, known synthesis problems); marimo apps, DuckDB and 3Dmol.js for the explorer.</p>
+
+<h2>How we used AI</h2>
+<p>Claude was our research partner throughout; we set the questions, made the scientific decisions and checked the results.</p>
+<ul>
+  <li><b>Claude Opus 5.5 in Claude Code:</b> wrote and ran the pipeline (PDB parsing, structure builders, xTB and DFT inputs, analysis, database), submitted and monitored more than 230 DFT runs on the HPC cluster, and built the explorer, website and reports.</li>
+  <li><b>Literature agents on Valency:</b> about 100 agent runs in six rounds; Claude Haiku 5.5 and 4.5 triage titles, Claude Sonnet 5.5 judges abstracts and tries to refute novelty claims, Claude Opus 5.5 reads the flagged papers in full.</li>
+  <li><b>Chat agent:</b> Claude Opus 5.5 answers questions about the database with read-only SQL.</li>
+  <li><b>Machine-learned force field:</b> the MACE-MP-0 foundation model (small), fine-tuned on our ~9,400 DFT frames on Modal GPUs, for MD at 1500 K.</li>
+</ul>
+
+<h2>Future directions</h2>
+<ul>
+  <li><b>Scale:</b> all 29 transition metals (2,784 sites, about a day of compute); the pipeline reruns with every PDB release.</li>
+  <li><b>Realism:</b> the enzyme's second coordination sphere with the force field; stability under pH and potential, and against small clusters and metal sulfides or oxides.</li>
+  <li><b>Synthesis:</b> Co–N<sub>2</sub>OC first, with experimental partners; a stability model for mixed N/S/O/C shells trained on the open dataset.</li>
+</ul>
+</body>
+</html>
