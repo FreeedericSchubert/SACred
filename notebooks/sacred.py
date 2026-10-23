@@ -8,6 +8,7 @@ app = marimo.App(width="medium", app_title="SACred", css_file="sac_pitch.css",
 @app.cell
 def _():
     import base64
+    import io
     import os
 
     import altair as alt
@@ -33,11 +34,11 @@ def _():
     COLORS = ["#c4682f", "#3f6fc0", "#3f9a6a", "#1f8f8a", "#7a8796", "#b0427a", "#8a68b0", "#5d5a93", "#b28a12",
               "#6b7f2a", "#a5523f", "#6f7c86"]
     metal_color = alt.Scale(domain=METALS, range=COLORS)
-    return alt, base64, metal_color, mo, os, pd, pretty
+    return alt, base64, io, metal_color, mo, os, pd, pretty
 
 
 @app.cell
-def _(base64, mo, os, pd):
+def _(base64, io, mo, os, pd):
     # On GitHub Pages (WebAssembly) the files sit in notebooks/public/ next to the page (copied there by the Pages
     # workflow); locally they are read from data/, notebooks/assets/ and site/.
     _loc = mo.notebook_location()
@@ -56,14 +57,21 @@ def _(base64, mo, os, pd):
             return "public/" + name
         return "data:%s;base64,%s" % (mime, base64.b64encode(open(src(name), "rb").read()).decode())
 
-    dgh = pd.read_csv(src("dgh_graphene.csv"))
-    stab = pd.read_csv(src("stability_graphene.csv"))
-    xtb = pd.read_csv(src("xtb_scan.csv"))
-    offsets = pd.read_csv(src("xtb_offsets.csv"))
-    supports = pd.read_csv(src("xtb_supports.csv"))
-    reactions = pd.read_csv(src("xtb_reactions.csv"))
-    literature = pd.read_json(src("literature_check_final.json"))
-    gallery = pd.read_json(src("gallery.json"), typ="series").to_dict()
+    def text(name):
+        # fetched by hand on the web: GitHub Pages serves gzip, the browser unpacks it, and pandas would try again
+        if WEB:
+            from pyodide.http import open_url
+            return io.StringIO(open_url(src(name)).read())
+        return src(name)
+
+    dgh = pd.read_csv(text("dgh_graphene.csv"))
+    stab = pd.read_csv(text("stability_graphene.csv"))
+    xtb = pd.read_csv(text("xtb_scan.csv"))
+    offsets = pd.read_csv(text("xtb_offsets.csv"))
+    supports = pd.read_csv(text("xtb_supports.csv"))
+    reactions = pd.read_csv(text("xtb_reactions.csv"))
+    literature = pd.read_json(text("literature_check_final.json"))
+    gallery = pd.read_json(text("gallery.json"), typ="series").to_dict()
     assets = {"logo": embed("sacred_logo.webp", "image/webp"), "md": embed("md_pyrolysis_1500K.mp4", "video/mp4"),
               "zoom": src("zoom_viewer.html") if WEB else open(src("zoom_viewer.html")).read()}
     return WEB, assets, dgh, gallery, literature, offsets, reactions, stab, supports, xtb
