@@ -30,6 +30,8 @@ and asks two questions per site: is it active, and can it be made?
 | DFT (Quantum ESPRESSO, PBE-D3, GBRV 40/200 Ry): ΔG_H, formation energy and dissolution potential, ORR, operating conditions, escape paths | `dft/make_inputs.py`, `dft/qe.py`, `dft/curta/`, `dft/analyse.py`, `dft/orr.py`, `dft/conditions.py`, `dft/points.py` |
 | Calibration of xTB against DFT (per-metal offsets, leave-one-out error) | `screen/calibrate.py` |
 | Second coordination sphere and MD start structures for a MACE force field | `screen/second_sphere.py`, `screen/md_escape.py`, `data/md_start/` |
+| MACE force field: MACE-MP-0 (small) fine-tuned on the DFT relaxation frames (Modal GPUs), held-out test | `ml/mace/`, `models/GrapheneSAC_v2_run-42.model`, `results/results/mace/` |
+| MD at 1500 K (pyrolysis) and second-sphere optimisation with the force field | `md/`, `results/results/md_1500K/`, `scripts/` |
 | Literature checks (OpenAlex/Europe PMC counts; Valency multi-agent screens, results in `data/literature_*.json`) | `lit/novelty.py` |
 | Release database (SQLite, Parquet, CSV) and Zenodo package | `db/build.py`, `db/release.py`, `db/DATASHEET.md`, `db/SCHEMA.md` |
 | Notebooks, website, figures | `notebooks/`, `site/`, `figures/` |
@@ -45,8 +47,17 @@ Zenodo record.
   metal, S and O let it go. The pipeline ranks activity and stability together.
 - **Validation:** our DFT reproduces the published O₂-reduction potential of Co–N₄ (0.93 V), and the screen
   independently finds Ni–N₃, which has been made and tested for H₂ evolution.
-- **Synthesis:** MD with a MACE force field fine-tuned on our DFT at 1500 K: Zn–NS₂ loses its metal within 0.15 ps,
-  Co–N₂OC keeps its donors over 5 ps, as the escape barriers predicted.
+- **Synthesis:** MD with a MACE force field fine-tuned on our DFT at 1500 K: Zn–NS₂ starts losing its donors at 0.15 ps
+  and has lost all of them by 0.25 ps, while Co–N₂OC keeps all four over 5 ps, as the escape barriers predicted.
+
+## Force field and MD
+
+`models/GrapheneSAC_v2_run-42.model` is MACE-MP-0 (small) fine-tuned on 9,413 DFT frames of our graphene sites
+(motif-disjoint split; held-out test: energy RMSE 4.9 meV/atom, force RMSE 80 meV/Å, larger for some metals). The
+1500 K runs (`md/run_1500K_modal.py`, `md/run_zn_bonded_modal.py`) are exploratory: one trajectory per site, different
+run lengths and starting geometries, and the force field is not validated for metal-escape transition states. Read
+`md/README.md`, `ml/README.md` and the READMEs in `results/results/` for provenance and known gaps before reusing
+the numbers. The Modal launchers expect the model in a Modal volume.
 
 ## Notebooks
 

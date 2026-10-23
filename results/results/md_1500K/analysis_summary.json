@@ -1,0 +1,49 @@
+{
+  "source_file": "res.zip",
+  "bonded_zn": {
+    "frames": 64,
+    "range_ps": [
+      0.0,
+      3.15
+    ],
+    "initial_distances_A": [
+      2.578872038328788,
+      2.849320482189933,
+      3.0171756576640916
+    ],
+    "initial_contacts": 3,
+    "final_contacts": 0,
+    "escape_start_ps_from_log": 0.15,
+    "escape_confirm_ps_from_log": 1.15,
+    "zero_contacts_at_ps_from_saved_frames": 0.25
+  },
+  "ni": {
+    "frames": 339,
+    "range_ps": [
+      3.1,
+      20.0
+    ],
+    "first_contacts": 3,
+    "final_contacts": 2,
+    "missing_early_frames": true
+  },
+  "co": {
+    "xyz_in_uploaded_archive": false,
+    "log_contacts": 4,
+    "log_time_range_ps": [
+      0.25,
+      5.0
+    ]
+  },
+  "original_zn": {
+    "frames": 62,
+    "comment": "Original Zn DFT starting geometry already detached; excluded from comparison."
+  },
+  "limitations": [
+    "Single simulation seed per site",
+    "Zn starts at bonded xTB NEB image, not DFT-minimized minimum",
+    "Ni coordinates before 3.1 ps missing",
+    "Co complete trajectory not included in ZIP",
+    "MACE trained mostly on relaxation data; metal escape energetics not validated"
+  ]
+}

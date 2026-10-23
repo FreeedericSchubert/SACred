@@ -1,0 +1,1210 @@
+site,time_ps,metal_index,donor_index,donor_element,distance_A,cutoff_A,bonded,source
+Zn–NS2 (bonded NEB start),0.0,71,41,N,2.578872,3.1,1,extxyz
+Zn–NS2 (bonded NEB start),0.0,71,42,S,2.84932,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.0,71,31,S,3.017176,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.05,71,41,N,2.805622,3.1,1,extxyz
+Zn–NS2 (bonded NEB start),0.05,71,42,S,2.739013,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.05,71,31,S,3.152137,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.1,71,41,N,3.305025,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.1,71,42,S,3.012387,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.1,71,31,S,3.023489,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.15,71,41,N,3.190834,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.15,71,42,S,3.107991,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.15,71,31,S,3.358769,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.2,71,41,N,3.396002,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.2,71,42,S,3.230113,3.3,1,extxyz
+Zn–NS2 (bonded NEB start),0.2,71,31,S,3.575013,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.25,71,41,N,3.614527,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.25,71,42,S,3.438138,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.25,71,31,S,3.72127,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.3,71,41,N,3.782711,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.3,71,42,S,3.750574,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.3,71,31,S,3.89314,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.35,71,41,N,3.895621,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.35,71,42,S,3.833718,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.35,71,31,S,3.901164,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.4,71,41,N,4.135386,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.4,71,42,S,4.260617,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.4,71,31,S,4.465208,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.45,71,41,N,3.937866,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.45,71,42,S,4.267437,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.45,71,31,S,4.513949,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.5,71,41,N,4.739315,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.5,71,42,S,4.765222,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.5,71,31,S,4.685743,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.55,71,41,N,4.859413,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.55,71,42,S,4.503332,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.55,71,31,S,4.793102,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.6,71,41,N,4.626869,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.6,71,42,S,4.726518,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.6,71,31,S,4.671982,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.65,71,41,N,4.587794,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.65,71,42,S,5.247246,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.65,71,31,S,5.082532,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.7,71,41,N,5.511751,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.7,71,42,S,5.449727,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.7,71,31,S,5.42545,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.75,71,41,N,5.939251,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.75,71,42,S,5.23137,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.75,71,31,S,5.749406,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.8,71,41,N,6.083643,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.8,71,42,S,5.669457,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.8,71,31,S,6.107669,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.85,71,41,N,6.281134,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.85,71,42,S,5.494081,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.85,71,31,S,6.274175,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.9,71,41,N,6.808419,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.9,71,42,S,5.636586,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.9,71,31,S,6.467327,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.95,71,41,N,6.755588,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),0.95,71,42,S,5.767139,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),0.95,71,31,S,6.337913,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.0,71,41,N,6.995862,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.0,71,42,S,5.963385,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.0,71,31,S,6.297812,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.05,71,41,N,6.581172,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.05,71,42,S,6.543586,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.05,71,31,S,6.540984,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.1,71,41,N,6.931309,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.1,71,42,S,6.910765,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.1,71,31,S,7.079756,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.15,71,41,N,7.555769,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.15,71,42,S,7.04891,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.15,71,31,S,7.349708,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.2,71,41,N,7.418321,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.2,71,42,S,7.234237,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.2,71,31,S,7.519805,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.25,71,41,N,7.271762,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.25,71,42,S,7.311529,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.25,71,31,S,7.802895,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.3,71,41,N,7.74589,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.3,71,42,S,7.27295,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.3,71,31,S,7.536149,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.35,71,41,N,7.707068,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.35,71,42,S,7.133768,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.35,71,31,S,7.600814,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.4,71,41,N,8.072862,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.4,71,42,S,7.559582,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.4,71,31,S,7.939799,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.45,71,41,N,8.238069,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.45,71,42,S,7.845816,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.45,71,31,S,8.138744,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.5,71,41,N,8.456672,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.5,71,42,S,8.29796,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.5,71,31,S,8.45133,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.55,71,41,N,8.542451,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.55,71,42,S,8.596906,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.55,71,31,S,8.378125,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.6,71,41,N,9.282676,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.6,71,42,S,8.836842,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.6,71,31,S,8.424697,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.65,71,41,N,9.945326,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.65,71,42,S,9.269518,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.65,71,31,S,9.098808,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.7,71,41,N,9.830028,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.7,71,42,S,9.481531,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.7,71,31,S,9.342108,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.75,71,41,N,10.375813,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.75,71,42,S,9.398846,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.75,71,31,S,9.632044,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.8,71,41,N,10.144354,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.8,71,42,S,9.256297,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.8,71,31,S,9.872139,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.85,71,41,N,9.930858,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.85,71,42,S,9.609469,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.85,71,31,S,9.983592,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.9,71,41,N,10.554722,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.9,71,42,S,9.628631,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.9,71,31,S,10.056688,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.95,71,41,N,10.584707,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),1.95,71,42,S,10.187816,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),1.95,71,31,S,10.472217,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.0,71,41,N,10.238082,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.0,71,42,S,10.273739,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.0,71,31,S,11.052965,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.05,71,41,N,9.729603,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.05,71,42,S,10.584647,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.05,71,31,S,11.352024,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.1,71,41,N,9.995641,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.1,71,42,S,10.61094,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.1,71,31,S,11.185782,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.15,71,41,N,10.169719,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.15,71,42,S,10.324349,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.15,71,31,S,10.919573,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.2,71,41,N,10.191044,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.2,71,42,S,9.835921,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.2,71,31,S,10.343087,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.25,71,41,N,9.780709,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.25,71,42,S,9.515852,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.25,71,31,S,9.913663,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.3,71,41,N,10.102268,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.3,71,42,S,9.8381,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.3,71,31,S,10.303427,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.35,71,41,N,9.767885,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.35,71,42,S,9.871953,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.35,71,31,S,10.182922,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.4,71,41,N,10.113403,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.4,71,42,S,9.841457,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.4,71,31,S,10.020112,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.45,71,41,N,9.785569,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.45,71,42,S,10.083047,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.45,71,31,S,10.355643,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.5,71,41,N,9.870935,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.5,71,42,S,10.111936,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.5,71,31,S,10.156344,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.55,71,41,N,9.658737,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.55,71,42,S,9.995445,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.55,71,31,S,10.03288,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.6,71,41,N,9.697732,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.6,71,42,S,9.993934,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.6,71,31,S,9.931073,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.65,71,41,N,9.777291,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.65,71,42,S,9.821806,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.65,71,31,S,9.729859,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.7,71,41,N,9.786566,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.7,71,42,S,9.178901,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.7,71,31,S,9.865142,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.75,71,41,N,9.254507,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.75,71,42,S,9.498664,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.75,71,31,S,9.98737,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.8,71,41,N,8.651874,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.8,71,42,S,10.045067,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.8,71,31,S,10.33366,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.85,71,41,N,7.777118,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.85,71,42,S,9.633949,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.85,71,31,S,9.505636,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.9,71,41,N,7.744042,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.9,71,42,S,9.484342,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.9,71,31,S,9.316504,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.95,71,41,N,7.758611,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),2.95,71,42,S,9.703675,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),2.95,71,31,S,9.210401,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.0,71,41,N,8.330692,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),3.0,71,42,S,9.370568,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.0,71,31,S,9.350301,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.05,71,41,N,8.325314,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),3.05,71,42,S,9.120721,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.05,71,31,S,9.681415,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.1,71,41,N,8.474143,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),3.1,71,42,S,9.044365,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.1,71,31,S,9.681631,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.15,71,41,N,8.471514,3.1,0,extxyz
+Zn–NS2 (bonded NEB start),3.15,71,42,S,9.25173,3.3,0,extxyz
+Zn–NS2 (bonded NEB start),3.15,71,31,S,9.76157,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.1,71,41,N,1.994475,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.1,71,42,S,2.12057,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.1,71,31,S,2.36822,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.15,71,41,N,2.051348,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.15,71,42,S,2.438874,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.15,71,31,S,2.331595,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.2,71,41,N,1.895221,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.2,71,42,S,2.197873,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.2,71,31,S,2.255865,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.25,71,41,N,1.950833,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.25,71,42,S,2.28902,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.25,71,31,S,2.912802,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.3,71,41,N,1.854127,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.3,71,42,S,2.024994,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.3,71,31,S,3.159028,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.35,71,41,N,1.864038,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.35,71,42,S,2.260741,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.35,71,31,S,3.513486,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.4,71,41,N,1.922359,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.4,71,42,S,2.063925,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.4,71,31,S,3.356904,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.45,71,41,N,1.968726,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.45,71,42,S,2.265618,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.45,71,31,S,3.221594,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.5,71,41,N,2.004861,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.5,71,42,S,2.173174,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.5,71,31,S,3.329586,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.55,71,41,N,1.943055,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.55,71,42,S,2.220582,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.55,71,31,S,3.728813,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.6,71,41,N,2.002895,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.6,71,42,S,2.27801,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.6,71,31,S,4.000919,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.65,71,41,N,1.912176,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.65,71,42,S,1.896303,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.65,71,31,S,4.682955,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.7,71,41,N,2.280355,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.7,71,42,S,2.394148,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.7,71,31,S,4.88315,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.75,71,41,N,1.876914,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.75,71,42,S,1.993297,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.75,71,31,S,5.072416,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.8,71,41,N,1.982192,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.8,71,42,S,2.293918,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.8,71,31,S,5.044798,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.85,71,41,N,2.129608,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.85,71,42,S,2.032777,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.85,71,31,S,5.199682,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.9,71,41,N,1.876995,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.9,71,42,S,2.342608,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.9,71,31,S,4.917568,3.3,0,extxyz
+Ni–NS2 (partial trajectory),3.95,71,41,N,1.993502,3.1,1,extxyz
+Ni–NS2 (partial trajectory),3.95,71,42,S,2.187494,3.3,1,extxyz
+Ni–NS2 (partial trajectory),3.95,71,31,S,5.161901,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.0,71,41,N,1.895428,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.0,71,42,S,2.362235,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.0,71,31,S,5.223245,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.05,71,41,N,1.971989,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.05,71,42,S,2.272534,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.05,71,31,S,5.379963,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.1,71,41,N,2.076009,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.1,71,42,S,1.97606,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.1,71,31,S,5.572688,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.15,71,41,N,1.909589,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.15,71,42,S,2.294446,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.15,71,31,S,5.70603,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.2,71,41,N,1.947598,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.2,71,42,S,2.209756,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.2,71,31,S,5.765499,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.25,71,41,N,1.936102,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.25,71,42,S,2.304166,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.25,71,31,S,5.696112,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.3,71,41,N,1.962777,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.3,71,42,S,2.045078,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.3,71,31,S,5.668967,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.35,71,41,N,2.044165,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.35,71,42,S,2.196438,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.35,71,31,S,5.741479,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.4,71,41,N,2.051825,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.4,71,42,S,2.25422,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.4,71,31,S,5.791757,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.45,71,41,N,1.983699,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.45,71,42,S,2.203261,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.45,71,31,S,6.114503,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.5,71,41,N,1.966185,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.5,71,42,S,2.369012,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.5,71,31,S,6.456723,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.55,71,41,N,2.055562,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.55,71,42,S,2.133657,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.55,71,31,S,6.538436,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.6,71,41,N,1.868937,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.6,71,42,S,2.164001,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.6,71,31,S,6.634484,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.65,71,41,N,2.073831,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.65,71,42,S,2.291993,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.65,71,31,S,6.762366,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.7,71,41,N,1.910577,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.7,71,42,S,2.096919,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.7,71,31,S,6.316694,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.75,71,41,N,2.089944,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.75,71,42,S,2.266598,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.75,71,31,S,6.247617,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.8,71,41,N,2.022787,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.8,71,42,S,2.078771,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.8,71,31,S,6.388521,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.85,71,41,N,1.90829,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.85,71,42,S,2.147898,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.85,71,31,S,6.3689,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.9,71,41,N,2.208123,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.9,71,42,S,2.333227,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.9,71,31,S,6.494784,3.3,0,extxyz
+Ni–NS2 (partial trajectory),4.95,71,41,N,2.023284,3.1,1,extxyz
+Ni–NS2 (partial trajectory),4.95,71,42,S,2.143146,3.3,1,extxyz
+Ni–NS2 (partial trajectory),4.95,71,31,S,6.295538,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.0,71,41,N,2.071181,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.0,71,42,S,2.048706,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.0,71,31,S,6.41865,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.05,71,41,N,1.895312,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.05,71,42,S,2.203378,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.05,71,31,S,6.228696,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.1,71,41,N,2.15125,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.1,71,42,S,2.199361,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.1,71,31,S,6.577663,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.15,71,41,N,2.036378,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.15,71,42,S,2.244071,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.15,71,31,S,6.730732,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.2,71,41,N,1.73464,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.2,71,42,S,2.220027,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.2,71,31,S,6.502387,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.25,71,41,N,1.941722,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.25,71,42,S,2.135188,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.25,71,31,S,6.914031,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.3,71,41,N,1.835832,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.3,71,42,S,2.264205,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.3,71,31,S,7.071869,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.35,71,41,N,1.937685,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.35,71,42,S,2.164356,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.35,71,31,S,7.372543,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.4,71,41,N,2.081085,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.4,71,42,S,2.081749,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.4,71,31,S,7.349777,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.45,71,41,N,1.841441,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.45,71,42,S,2.214667,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.45,71,31,S,7.407372,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.5,71,41,N,1.862703,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.5,71,42,S,2.284515,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.5,71,31,S,7.3863,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.55,71,41,N,2.070053,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.55,71,42,S,2.088935,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.55,71,31,S,7.82518,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.6,71,41,N,1.974432,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.6,71,42,S,2.431278,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.6,71,31,S,7.847172,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.65,71,41,N,2.053509,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.65,71,42,S,1.967385,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.65,71,31,S,7.509705,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.7,71,41,N,1.908708,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.7,71,42,S,2.206773,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.7,71,31,S,7.186004,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.75,71,41,N,2.050051,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.75,71,42,S,2.106999,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.75,71,31,S,7.203699,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.8,71,41,N,1.784914,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.8,71,42,S,2.284913,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.8,71,31,S,7.164709,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.85,71,41,N,1.925847,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.85,71,42,S,2.034722,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.85,71,31,S,7.023182,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.9,71,41,N,2.013006,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.9,71,42,S,2.174434,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.9,71,31,S,7.002819,3.3,0,extxyz
+Ni–NS2 (partial trajectory),5.95,71,41,N,1.908801,3.1,1,extxyz
+Ni–NS2 (partial trajectory),5.95,71,42,S,2.3032,3.3,1,extxyz
+Ni–NS2 (partial trajectory),5.95,71,31,S,7.290823,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.0,71,41,N,2.011481,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.0,71,42,S,2.045117,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.0,71,31,S,7.101472,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.05,71,41,N,2.054929,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.05,71,42,S,2.154146,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.05,71,31,S,6.775572,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.1,71,41,N,2.098087,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.1,71,42,S,2.118286,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.1,71,31,S,6.555057,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.15,71,41,N,2.218621,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.15,71,42,S,2.276073,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.15,71,31,S,6.309786,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.2,71,41,N,2.045053,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.2,71,42,S,2.054739,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.2,71,31,S,6.351392,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.25,71,41,N,1.848163,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.25,71,42,S,2.420079,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.25,71,31,S,6.197653,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.3,71,41,N,1.925338,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.3,71,42,S,1.968246,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.3,71,31,S,6.519825,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.35,71,41,N,2.06916,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.35,71,42,S,2.455879,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.35,71,31,S,6.000898,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.4,71,41,N,2.008786,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.4,71,42,S,2.188026,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.4,71,31,S,5.727885,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.45,71,41,N,1.978335,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.45,71,42,S,2.181399,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.45,71,31,S,5.561698,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.5,71,41,N,1.960894,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.5,71,42,S,2.227824,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.5,71,31,S,6.009541,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.55,71,41,N,1.985275,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.55,71,42,S,2.137724,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.55,71,31,S,6.87441,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.6,71,41,N,1.87471,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.6,71,42,S,2.183972,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.6,71,31,S,6.988957,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.65,71,41,N,1.911023,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.65,71,42,S,2.145377,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.65,71,31,S,7.608429,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.7,71,41,N,2.079492,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.7,71,42,S,2.244279,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.7,71,31,S,8.071371,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.75,71,41,N,1.920284,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.75,71,42,S,1.90996,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.75,71,31,S,7.480707,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.8,71,41,N,2.25528,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.8,71,42,S,2.328243,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.8,71,31,S,7.066452,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.85,71,41,N,2.020395,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.85,71,42,S,2.193916,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.85,71,31,S,6.793399,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.9,71,41,N,2.211876,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.9,71,42,S,2.193014,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.9,71,31,S,6.396894,3.3,0,extxyz
+Ni–NS2 (partial trajectory),6.95,71,41,N,2.165163,3.1,1,extxyz
+Ni–NS2 (partial trajectory),6.95,71,42,S,2.293294,3.3,1,extxyz
+Ni–NS2 (partial trajectory),6.95,71,31,S,6.32539,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.0,71,41,N,2.186755,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.0,71,42,S,2.199641,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.0,71,31,S,6.613324,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.05,71,41,N,1.991856,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.05,71,42,S,2.269664,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.05,71,31,S,7.079346,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.1,71,41,N,2.036539,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.1,71,42,S,2.073634,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.1,71,31,S,6.892244,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.15,71,41,N,1.968767,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.15,71,42,S,2.347275,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.15,71,31,S,6.907832,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.2,71,41,N,2.026409,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.2,71,42,S,2.010637,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.2,71,31,S,6.643021,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.25,71,41,N,2.217639,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.25,71,42,S,2.404096,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.25,71,31,S,7.365695,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.3,71,41,N,2.072248,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.3,71,42,S,2.125367,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.3,71,31,S,7.201333,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.35,71,41,N,2.077567,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.35,71,42,S,2.222753,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.35,71,31,S,7.556106,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.4,71,41,N,1.920253,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.4,71,42,S,2.402769,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.4,71,31,S,7.422794,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.45,71,41,N,2.083141,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.45,71,42,S,2.045589,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.45,71,31,S,7.199623,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.5,71,41,N,1.971167,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.5,71,42,S,2.225492,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.5,71,31,S,7.249482,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.55,71,41,N,2.115758,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.55,71,42,S,2.138345,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.55,71,31,S,6.898483,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.6,71,41,N,2.18715,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.6,71,42,S,2.254702,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.6,71,31,S,6.856636,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.65,71,41,N,1.997059,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.65,71,42,S,2.328175,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.65,71,31,S,6.932797,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.7,71,41,N,1.949275,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.7,71,42,S,2.151309,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.7,71,31,S,6.997002,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.75,71,41,N,1.976891,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.75,71,42,S,2.497374,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.75,71,31,S,6.992362,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.8,71,41,N,2.018995,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.8,71,42,S,2.069875,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.8,71,31,S,6.189255,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.85,71,41,N,2.083832,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.85,71,42,S,2.231156,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.85,71,31,S,6.425745,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.9,71,41,N,1.942392,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.9,71,42,S,2.065453,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.9,71,31,S,6.852472,3.3,0,extxyz
+Ni–NS2 (partial trajectory),7.95,71,41,N,1.982195,3.1,1,extxyz
+Ni–NS2 (partial trajectory),7.95,71,42,S,2.357892,3.3,1,extxyz
+Ni–NS2 (partial trajectory),7.95,71,31,S,7.100532,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.0,71,41,N,1.913416,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.0,71,42,S,2.117308,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.0,71,31,S,6.923555,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.05,71,41,N,2.251669,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.05,71,42,S,2.138909,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.05,71,31,S,6.674958,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.1,71,41,N,1.830626,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.1,71,42,S,2.321467,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.1,71,31,S,6.862952,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.15,71,41,N,2.071248,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.15,71,42,S,2.31473,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.15,71,31,S,6.835269,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.2,71,41,N,1.979626,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.2,71,42,S,2.261149,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.2,71,31,S,7.052119,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.25,71,41,N,1.998039,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.25,71,42,S,2.061273,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.25,71,31,S,7.045877,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.3,71,41,N,1.82147,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.3,71,42,S,2.433876,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.3,71,31,S,7.177663,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.35,71,41,N,2.022694,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.35,71,42,S,2.125224,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.35,71,31,S,7.260181,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.4,71,41,N,2.005709,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.4,71,42,S,2.276128,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.4,71,31,S,7.55944,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.45,71,41,N,2.053602,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.45,71,42,S,2.191929,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.45,71,31,S,7.409231,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.5,71,41,N,1.863696,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.5,71,42,S,2.178989,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.5,71,31,S,7.276994,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.55,71,41,N,1.893609,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.55,71,42,S,2.206186,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.55,71,31,S,6.896972,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.6,71,41,N,1.908425,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.6,71,42,S,2.029411,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.6,71,31,S,6.957929,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.65,71,41,N,1.985294,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.65,71,42,S,2.388547,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.65,71,31,S,7.045524,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.7,71,41,N,2.056685,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.7,71,42,S,2.235068,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.7,71,31,S,7.333413,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.75,71,41,N,1.949124,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.75,71,42,S,2.209823,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.75,71,31,S,7.572296,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.8,71,41,N,1.926803,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.8,71,42,S,2.100305,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.8,71,31,S,7.776809,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.85,71,41,N,2.003189,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.85,71,42,S,2.241031,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.85,71,31,S,8.288971,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.9,71,41,N,2.124627,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.9,71,42,S,2.194942,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.9,71,31,S,8.098873,3.3,0,extxyz
+Ni–NS2 (partial trajectory),8.95,71,41,N,1.84245,3.1,1,extxyz
+Ni–NS2 (partial trajectory),8.95,71,42,S,2.159843,3.3,1,extxyz
+Ni–NS2 (partial trajectory),8.95,71,31,S,7.960919,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.0,71,41,N,2.227858,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.0,71,42,S,2.253315,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.0,71,31,S,7.564807,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.05,71,41,N,1.853191,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.05,71,42,S,2.004424,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.05,71,31,S,7.261955,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.1,71,41,N,1.949658,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.1,71,42,S,2.148675,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.1,71,31,S,6.575866,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.15,71,41,N,1.970407,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.15,71,42,S,2.164316,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.15,71,31,S,6.699516,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.2,71,41,N,2.050382,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.2,71,42,S,2.170001,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.2,71,31,S,6.9405,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.25,71,41,N,2.007252,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.25,71,42,S,2.213373,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.25,71,31,S,7.401923,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.3,71,41,N,1.904399,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.3,71,42,S,2.427324,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.3,71,31,S,7.597909,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.35,71,41,N,1.860651,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.35,71,42,S,2.335096,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.35,71,31,S,7.460504,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.4,71,41,N,2.124617,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.4,71,42,S,2.388101,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.4,71,31,S,7.460396,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.45,71,41,N,2.112402,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.45,71,42,S,2.084057,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.45,71,31,S,6.937157,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.5,71,41,N,2.010352,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.5,71,42,S,2.13515,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.5,71,31,S,6.711421,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.55,71,41,N,1.882639,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.55,71,42,S,2.252859,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.55,71,31,S,6.764717,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.6,71,41,N,2.029612,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.6,71,42,S,2.182389,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.6,71,31,S,6.323706,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.65,71,41,N,1.96518,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.65,71,42,S,2.220292,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.65,71,31,S,6.186337,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.7,71,41,N,1.919134,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.7,71,42,S,2.201236,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.7,71,31,S,5.751461,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.75,71,41,N,1.967783,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.75,71,42,S,2.417468,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.75,71,31,S,5.942508,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.8,71,41,N,2.011465,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.8,71,42,S,2.100327,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.8,71,31,S,6.311327,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.85,71,41,N,1.874956,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.85,71,42,S,2.331359,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.85,71,31,S,6.765833,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.9,71,41,N,1.958704,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.9,71,42,S,2.211457,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.9,71,31,S,6.581855,3.3,0,extxyz
+Ni–NS2 (partial trajectory),9.95,71,41,N,2.113093,3.1,1,extxyz
+Ni–NS2 (partial trajectory),9.95,71,42,S,2.305732,3.3,1,extxyz
+Ni–NS2 (partial trajectory),9.95,71,31,S,6.08878,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.0,71,41,N,1.748214,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.0,71,42,S,2.157407,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.0,71,31,S,5.886385,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.05,71,41,N,1.982141,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.05,71,42,S,2.23288,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.05,71,31,S,5.966064,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.1,71,41,N,2.009875,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.1,71,42,S,2.273623,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.1,71,31,S,6.779766,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.15,71,41,N,2.040741,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.15,71,42,S,2.087301,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.15,71,31,S,7.037394,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.2,71,41,N,1.965761,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.2,71,42,S,2.27285,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.2,71,31,S,7.561321,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.25,71,41,N,2.339216,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.25,71,42,S,2.094479,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.25,71,31,S,7.161859,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.3,71,41,N,1.877545,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.3,71,42,S,2.507826,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.3,71,31,S,7.709516,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.35,71,41,N,1.984692,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.35,71,42,S,2.950236,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.35,71,31,S,7.793903,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.4,71,41,N,2.068221,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.4,71,42,S,1.88071,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.4,71,31,S,8.000142,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.45,71,41,N,1.936675,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.45,71,42,S,2.478968,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.45,71,31,S,7.589309,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.5,71,41,N,1.944621,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.5,71,42,S,2.094294,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.5,71,31,S,7.415605,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.55,71,41,N,1.870302,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.55,71,42,S,2.221536,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.55,71,31,S,7.329419,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.6,71,41,N,1.891808,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.6,71,42,S,2.110228,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.6,71,31,S,7.569817,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.65,71,41,N,2.067266,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.65,71,42,S,2.19745,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.65,71,31,S,7.647401,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.7,71,41,N,1.959139,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.7,71,42,S,2.244805,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.7,71,31,S,7.421518,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.75,71,41,N,2.060707,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.75,71,42,S,2.072264,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.75,71,31,S,7.718861,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.8,71,41,N,2.031264,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.8,71,42,S,2.206603,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.8,71,31,S,8.182918,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.85,71,41,N,1.910554,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.85,71,42,S,2.072442,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.85,71,31,S,8.790776,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.9,71,41,N,1.985514,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.9,71,42,S,2.223732,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.9,71,31,S,8.858135,3.3,0,extxyz
+Ni–NS2 (partial trajectory),10.95,71,41,N,1.978543,3.1,1,extxyz
+Ni–NS2 (partial trajectory),10.95,71,42,S,2.233994,3.3,1,extxyz
+Ni–NS2 (partial trajectory),10.95,71,31,S,8.99612,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.0,71,41,N,1.933029,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.0,71,42,S,2.142192,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.0,71,31,S,8.821,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.05,71,41,N,2.086117,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.05,71,42,S,2.072444,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.05,71,31,S,8.265837,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.1,71,41,N,1.966962,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.1,71,42,S,2.320074,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.1,71,31,S,7.636944,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.15,71,41,N,1.927613,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.15,71,42,S,2.069867,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.15,71,31,S,7.301311,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.2,71,41,N,2.103185,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.2,71,42,S,2.470743,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.2,71,31,S,7.6233,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.25,71,41,N,2.008386,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.25,71,42,S,1.999557,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.25,71,31,S,7.215866,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.3,71,41,N,2.11063,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.3,71,42,S,2.276291,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.3,71,31,S,7.327602,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.35,71,41,N,1.830357,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.35,71,42,S,2.123865,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.35,71,31,S,6.985063,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.4,71,41,N,2.252918,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.4,71,42,S,2.314631,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.4,71,31,S,6.998927,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.45,71,41,N,1.85246,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.45,71,42,S,2.071034,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.45,71,31,S,6.589375,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.5,71,41,N,2.033932,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.5,71,42,S,2.359791,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.5,71,31,S,7.017818,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.55,71,41,N,1.95873,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.55,71,42,S,2.063638,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.55,71,31,S,7.023468,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.6,71,41,N,1.89622,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.6,71,42,S,2.195725,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.6,71,31,S,6.75883,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.65,71,41,N,1.990084,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.65,71,42,S,2.1237,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.65,71,31,S,7.280775,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.7,71,41,N,2.080281,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.7,71,42,S,2.161017,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.7,71,31,S,7.309247,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.75,71,41,N,1.802116,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.75,71,42,S,2.453531,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.75,71,31,S,7.081354,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.8,71,41,N,1.978425,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.8,71,42,S,2.176701,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.8,71,31,S,7.568618,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.85,71,41,N,1.997261,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.85,71,42,S,2.278024,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.85,71,31,S,7.589624,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.9,71,41,N,2.11483,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.9,71,42,S,2.410302,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.9,71,31,S,7.671823,3.3,0,extxyz
+Ni–NS2 (partial trajectory),11.95,71,41,N,1.842841,3.1,1,extxyz
+Ni–NS2 (partial trajectory),11.95,71,42,S,2.033029,3.3,1,extxyz
+Ni–NS2 (partial trajectory),11.95,71,31,S,7.567325,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.0,71,41,N,1.89055,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.0,71,42,S,2.4281,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.0,71,31,S,7.532498,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.05,71,41,N,1.910975,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.05,71,42,S,2.158521,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.05,71,31,S,7.377488,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.1,71,41,N,1.905237,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.1,71,42,S,2.231011,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.1,71,31,S,6.886309,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.15,71,41,N,1.8535,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.15,71,42,S,2.20855,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.15,71,31,S,7.150809,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.2,71,41,N,2.10415,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.2,71,42,S,2.249179,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.2,71,31,S,7.378599,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.25,71,41,N,1.984049,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.25,71,42,S,2.064842,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.25,71,31,S,7.656246,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.3,71,41,N,2.115726,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.3,71,42,S,2.338572,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.3,71,31,S,7.556968,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.35,71,41,N,1.779324,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.35,71,42,S,2.122323,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.35,71,31,S,7.61491,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.4,71,41,N,2.035601,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.4,71,42,S,2.23032,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.4,71,31,S,6.782848,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.45,71,41,N,1.937267,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.45,71,42,S,2.303078,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.45,71,31,S,6.110971,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.5,71,41,N,2.132433,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.5,71,42,S,2.030881,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.5,71,31,S,6.168074,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.55,71,41,N,1.798712,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.55,71,42,S,2.243136,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.55,71,31,S,6.30971,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.6,71,41,N,2.08982,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.6,71,42,S,2.035027,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.6,71,31,S,5.885728,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.65,71,41,N,2.007128,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.65,71,42,S,2.430395,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.65,71,31,S,6.30107,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.7,71,41,N,1.993253,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.7,71,42,S,2.197697,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.7,71,31,S,6.876369,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.75,71,41,N,2.082691,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.75,71,42,S,2.138377,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.75,71,31,S,7.189798,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.8,71,41,N,1.936539,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.8,71,42,S,2.099802,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.8,71,31,S,7.492101,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.85,71,41,N,1.989777,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.85,71,42,S,2.405765,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.85,71,31,S,7.408616,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.9,71,41,N,1.902635,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.9,71,42,S,2.092202,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.9,71,31,S,7.506629,3.3,0,extxyz
+Ni–NS2 (partial trajectory),12.95,71,41,N,2.007322,3.1,1,extxyz
+Ni–NS2 (partial trajectory),12.95,71,42,S,2.310301,3.3,1,extxyz
+Ni–NS2 (partial trajectory),12.95,71,31,S,7.041325,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.0,71,41,N,2.027577,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.0,71,42,S,2.052775,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.0,71,31,S,6.775979,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.05,71,41,N,1.756045,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.05,71,42,S,2.833367,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.05,71,31,S,6.914154,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.1,71,41,N,2.071679,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.1,71,42,S,1.98255,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.1,71,31,S,6.400721,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.15,71,41,N,1.984279,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.15,71,42,S,2.144077,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.15,71,31,S,6.504895,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.2,71,41,N,1.849718,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.2,71,42,S,2.233414,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.2,71,31,S,6.736967,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.25,71,41,N,1.895976,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.25,71,42,S,2.178335,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.25,71,31,S,7.397804,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.3,71,41,N,1.983381,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.3,71,42,S,2.223203,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.3,71,31,S,7.638513,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.35,71,41,N,2.064177,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.35,71,42,S,2.12363,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.35,71,31,S,7.899505,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.4,71,41,N,1.929176,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.4,71,42,S,2.272689,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.4,71,31,S,7.8188,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.45,71,41,N,2.13821,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.45,71,42,S,2.054632,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.45,71,31,S,7.772849,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.5,71,41,N,1.807818,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.5,71,42,S,2.227552,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.5,71,31,S,7.636792,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.55,71,41,N,2.01889,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.55,71,42,S,2.118298,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.55,71,31,S,7.901956,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.6,71,41,N,2.008588,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.6,71,42,S,2.299962,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.6,71,31,S,7.647408,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.65,71,41,N,1.873889,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.65,71,42,S,2.121257,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.65,71,31,S,7.821308,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.7,71,41,N,2.179827,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.7,71,42,S,2.25613,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.7,71,31,S,7.865119,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.75,71,41,N,1.789345,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.75,71,42,S,2.187125,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.75,71,31,S,7.197608,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.8,71,41,N,1.852535,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.8,71,42,S,2.093941,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.8,71,31,S,7.017471,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.85,71,41,N,1.813206,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.85,71,42,S,2.17334,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.85,71,31,S,7.391487,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.9,71,41,N,1.962427,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.9,71,42,S,2.09709,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.9,71,31,S,7.448221,3.3,0,extxyz
+Ni–NS2 (partial trajectory),13.95,71,41,N,1.962089,3.1,1,extxyz
+Ni–NS2 (partial trajectory),13.95,71,42,S,2.317766,3.3,1,extxyz
+Ni–NS2 (partial trajectory),13.95,71,31,S,7.542497,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.0,71,41,N,1.978966,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.0,71,42,S,2.118058,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.0,71,31,S,6.943964,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.05,71,41,N,2.291784,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.05,71,42,S,2.359454,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.05,71,31,S,7.321795,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.1,71,41,N,1.894653,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.1,71,42,S,2.173363,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.1,71,31,S,7.374702,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.15,71,41,N,2.083534,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.15,71,42,S,2.138138,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.15,71,31,S,7.49113,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.2,71,41,N,2.048241,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.2,71,42,S,2.271981,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.2,71,31,S,7.647522,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.25,71,41,N,2.080155,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.25,71,42,S,2.341558,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.25,71,31,S,7.692618,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.3,71,41,N,1.873325,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.3,71,42,S,2.212003,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.3,71,31,S,7.845719,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.35,71,41,N,2.253964,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.35,71,42,S,2.073896,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.35,71,31,S,7.324136,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.4,71,41,N,1.907219,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.4,71,42,S,2.262875,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.4,71,31,S,7.326804,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.45,71,41,N,1.865634,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.45,71,42,S,2.353547,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.45,71,31,S,7.395739,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.5,71,41,N,2.19677,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.5,71,42,S,2.113512,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.5,71,31,S,7.025101,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.55,71,41,N,1.949204,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.55,71,42,S,2.184201,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.55,71,31,S,7.207148,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.6,71,41,N,2.0766,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.6,71,42,S,2.137796,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.6,71,31,S,7.136708,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.65,71,41,N,1.871994,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.65,71,42,S,2.154093,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.65,71,31,S,7.190253,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.7,71,41,N,2.257493,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.7,71,42,S,2.26734,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.7,71,31,S,7.491892,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.75,71,41,N,1.905753,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.75,71,42,S,1.993389,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.75,71,31,S,7.995753,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.8,71,41,N,1.909185,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.8,71,42,S,2.430698,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.8,71,31,S,8.322681,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.85,71,41,N,2.038041,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.85,71,42,S,2.04945,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.85,71,31,S,8.523813,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.9,71,41,N,1.945177,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.9,71,42,S,2.362715,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.9,71,31,S,8.796227,3.3,0,extxyz
+Ni–NS2 (partial trajectory),14.95,71,41,N,1.964741,3.1,1,extxyz
+Ni–NS2 (partial trajectory),14.95,71,42,S,2.029047,3.3,1,extxyz
+Ni–NS2 (partial trajectory),14.95,71,31,S,8.742966,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.0,71,41,N,2.045835,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.0,71,42,S,2.13775,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.0,71,31,S,9.203797,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.05,71,41,N,2.157163,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.05,71,42,S,2.288774,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.05,71,31,S,9.141378,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.1,71,41,N,1.882407,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.1,71,42,S,2.134628,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.1,71,31,S,9.097779,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.15,71,41,N,2.132818,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.15,71,42,S,2.315228,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.15,71,31,S,8.719776,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.2,71,41,N,2.007924,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.2,71,42,S,2.004366,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.2,71,31,S,8.437099,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.25,71,41,N,2.273999,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.25,71,42,S,2.20589,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.25,71,31,S,8.816102,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.3,71,41,N,1.882002,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.3,71,42,S,2.226264,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.3,71,31,S,8.965664,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.35,71,41,N,2.041424,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.35,71,42,S,2.090847,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.35,71,31,S,8.406174,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.4,71,41,N,2.090223,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.4,71,42,S,2.116005,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.4,71,31,S,8.015039,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.45,71,41,N,1.932824,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.45,71,42,S,2.114981,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.45,71,31,S,7.901773,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.5,71,41,N,2.012379,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.5,71,42,S,2.193314,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.5,71,31,S,7.587946,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.55,71,41,N,2.053956,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.55,71,42,S,2.260427,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.55,71,31,S,7.199478,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.6,71,41,N,1.933904,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.6,71,42,S,2.06038,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.6,71,31,S,7.155372,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.65,71,41,N,2.026725,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.65,71,42,S,2.069718,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.65,71,31,S,6.554266,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.7,71,41,N,1.980657,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.7,71,42,S,2.230508,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.7,71,31,S,6.782732,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.75,71,41,N,2.315977,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.75,71,42,S,2.206021,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.75,71,31,S,6.773563,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.8,71,41,N,2.030506,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.8,71,42,S,2.252272,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.8,71,31,S,6.777753,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.85,71,41,N,1.986562,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.85,71,42,S,2.053542,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.85,71,31,S,6.887477,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.9,71,41,N,2.215482,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.9,71,42,S,2.139287,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.9,71,31,S,6.909162,3.3,0,extxyz
+Ni–NS2 (partial trajectory),15.95,71,41,N,1.892658,3.1,1,extxyz
+Ni–NS2 (partial trajectory),15.95,71,42,S,2.198812,3.3,1,extxyz
+Ni–NS2 (partial trajectory),15.95,71,31,S,7.42234,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.0,71,41,N,1.933304,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.0,71,42,S,2.291312,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.0,71,31,S,8.110531,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.05,71,41,N,2.128717,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.05,71,42,S,2.109113,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.05,71,31,S,8.239794,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.1,71,41,N,2.015626,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.1,71,42,S,2.212144,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.1,71,31,S,7.775557,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.15,71,41,N,2.159744,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.15,71,42,S,2.137528,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.15,71,31,S,7.742783,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.2,71,41,N,1.808405,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.2,71,42,S,2.344322,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.2,71,31,S,7.83679,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.25,71,41,N,2.082012,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.25,71,42,S,2.581821,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.25,71,31,S,8.067076,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.3,71,41,N,2.224448,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.3,71,42,S,2.06362,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.3,71,31,S,8.23624,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.35,71,41,N,2.087603,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.35,71,42,S,2.288702,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.35,71,31,S,7.967226,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.4,71,41,N,2.00492,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.4,71,42,S,2.103269,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.4,71,31,S,7.090158,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.45,71,41,N,1.963974,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.45,71,42,S,2.387271,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.45,71,31,S,6.584833,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.5,71,41,N,2.106976,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.5,71,42,S,1.9722,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.5,71,31,S,6.192363,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.55,71,41,N,2.16362,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.55,71,42,S,2.341029,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.55,71,31,S,5.630338,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.6,71,41,N,2.130934,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.6,71,42,S,2.119961,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.6,71,31,S,5.13025,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.65,71,41,N,2.194821,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.65,71,42,S,2.26606,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.65,71,31,S,4.850305,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.7,71,41,N,1.879137,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.7,71,42,S,2.177465,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.7,71,31,S,4.912009,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.75,71,41,N,1.966586,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.75,71,42,S,2.340163,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.75,71,31,S,4.988808,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.8,71,41,N,1.983033,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.8,71,42,S,2.052305,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.8,71,31,S,4.702957,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.85,71,41,N,1.879239,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.85,71,42,S,2.132609,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.85,71,31,S,4.549191,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.9,71,41,N,2.448162,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.9,71,42,S,2.185064,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.9,71,31,S,4.512595,3.3,0,extxyz
+Ni–NS2 (partial trajectory),16.95,71,41,N,1.93667,3.1,1,extxyz
+Ni–NS2 (partial trajectory),16.95,71,42,S,2.18421,3.3,1,extxyz
+Ni–NS2 (partial trajectory),16.95,71,31,S,5.103476,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.0,71,41,N,1.981833,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.0,71,42,S,2.103613,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.0,71,31,S,5.221228,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.05,71,41,N,1.917261,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.05,71,42,S,2.1023,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.05,71,31,S,4.891254,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.1,71,41,N,2.217954,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.1,71,42,S,2.198962,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.1,71,31,S,4.290247,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.15,71,41,N,1.85508,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.15,71,42,S,2.396134,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.15,71,31,S,4.497287,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.2,71,41,N,1.836889,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.2,71,42,S,2.083473,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.2,71,31,S,4.71581,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.25,71,41,N,1.966956,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.25,71,42,S,2.186232,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.25,71,31,S,4.913285,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.3,71,41,N,1.960869,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.3,71,42,S,1.978488,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.3,71,31,S,4.81536,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.35,71,41,N,2.008991,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.35,71,42,S,2.396109,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.35,71,31,S,4.799553,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.4,71,41,N,1.939167,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.4,71,42,S,2.046176,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.4,71,31,S,5.109659,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.45,71,41,N,2.184952,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.45,71,42,S,2.235652,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.45,71,31,S,4.805301,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.5,71,41,N,2.275801,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.5,71,42,S,2.13976,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.5,71,31,S,4.355361,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.55,71,41,N,2.035661,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.55,71,42,S,2.107297,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.55,71,31,S,4.591888,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.6,71,41,N,2.025626,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.6,71,42,S,2.369309,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.6,71,31,S,5.078499,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.65,71,41,N,2.283652,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.65,71,42,S,2.133076,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.65,71,31,S,4.76552,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.7,71,41,N,2.011959,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.7,71,42,S,2.507628,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.7,71,31,S,4.795018,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.75,71,41,N,1.887584,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.75,71,42,S,2.329101,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.75,71,31,S,4.907076,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.8,71,41,N,2.105873,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.8,71,42,S,2.153945,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.8,71,31,S,4.742011,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.85,71,41,N,2.117712,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.85,71,42,S,2.203502,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.85,71,31,S,5.233054,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.9,71,41,N,1.85124,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.9,71,42,S,2.253106,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.9,71,31,S,5.433086,3.3,0,extxyz
+Ni–NS2 (partial trajectory),17.95,71,41,N,2.018319,3.1,1,extxyz
+Ni–NS2 (partial trajectory),17.95,71,42,S,2.117343,3.3,1,extxyz
+Ni–NS2 (partial trajectory),17.95,71,31,S,5.35405,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.0,71,41,N,1.978938,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.0,71,42,S,2.344307,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.0,71,31,S,5.484596,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.05,71,41,N,1.767434,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.05,71,42,S,2.066701,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.05,71,31,S,5.836395,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.1,71,41,N,1.886028,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.1,71,42,S,2.13022,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.1,71,31,S,6.168895,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.15,71,41,N,2.022575,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.15,71,42,S,2.349394,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.15,71,31,S,6.794375,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.2,71,41,N,1.945926,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.2,71,42,S,2.148806,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.2,71,31,S,7.727794,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.25,71,41,N,2.024608,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.25,71,42,S,2.305883,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.25,71,31,S,8.444128,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.3,71,41,N,1.980728,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.3,71,42,S,2.172076,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.3,71,31,S,8.111628,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.35,71,41,N,2.176809,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.35,71,42,S,2.281281,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.35,71,31,S,7.317829,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.4,71,41,N,1.95099,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.4,71,42,S,2.43314,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.4,71,31,S,6.46187,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.45,71,41,N,2.028409,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.45,71,42,S,2.056003,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.45,71,31,S,5.971758,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.5,71,41,N,2.097707,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.5,71,42,S,2.301499,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.5,71,31,S,5.830335,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.55,71,41,N,2.12226,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.55,71,42,S,2.301022,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.55,71,31,S,5.637934,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.6,71,41,N,1.978435,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.6,71,42,S,2.346655,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.6,71,31,S,5.748124,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.65,71,41,N,2.03212,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.65,71,42,S,2.030729,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.65,71,31,S,5.661507,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.7,71,41,N,1.965083,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.7,71,42,S,2.254078,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.7,71,31,S,5.384944,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.75,71,41,N,1.898507,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.75,71,42,S,2.147989,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.75,71,31,S,5.262239,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.8,71,41,N,1.918527,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.8,71,42,S,2.190747,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.8,71,31,S,5.341446,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.85,71,41,N,1.997166,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.85,71,42,S,2.216268,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.85,71,31,S,5.446435,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.9,71,41,N,2.118754,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.9,71,42,S,2.086815,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.9,71,31,S,5.245115,3.3,0,extxyz
+Ni–NS2 (partial trajectory),18.95,71,41,N,2.055475,3.1,1,extxyz
+Ni–NS2 (partial trajectory),18.95,71,42,S,2.319768,3.3,1,extxyz
+Ni–NS2 (partial trajectory),18.95,71,31,S,5.04175,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.0,71,41,N,2.023527,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.0,71,42,S,2.050376,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.0,71,31,S,4.861977,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.05,71,41,N,2.060261,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.05,71,42,S,2.034209,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.05,71,31,S,4.888205,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.1,71,41,N,2.200504,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.1,71,42,S,2.436962,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.1,71,31,S,5.270303,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.15,71,41,N,1.969936,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.15,71,42,S,2.07632,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.15,71,31,S,4.942991,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.2,71,41,N,2.096452,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.2,71,42,S,2.309883,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.2,71,31,S,5.014384,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.25,71,41,N,1.963442,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.25,71,42,S,2.232649,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.25,71,31,S,5.63217,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.3,71,41,N,1.896965,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.3,71,42,S,2.184808,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.3,71,31,S,5.986434,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.35,71,41,N,1.998325,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.35,71,42,S,2.247494,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.35,71,31,S,5.951508,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.4,71,41,N,2.092354,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.4,71,42,S,2.051421,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.4,71,31,S,5.965748,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.45,71,41,N,1.999403,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.45,71,42,S,2.426463,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.45,71,31,S,5.981182,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.5,71,41,N,2.15322,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.5,71,42,S,2.109641,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.5,71,31,S,5.983889,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.55,71,41,N,1.984385,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.55,71,42,S,1.944752,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.55,71,31,S,5.936123,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.6,71,41,N,2.122803,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.6,71,42,S,2.383877,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.6,71,31,S,6.155778,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.65,71,41,N,1.902585,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.65,71,42,S,2.01068,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.65,71,31,S,5.764946,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.7,71,41,N,1.961586,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.7,71,42,S,2.297403,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.7,71,31,S,4.874202,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.75,71,41,N,1.880896,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.75,71,42,S,2.104948,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.75,71,31,S,4.541346,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.8,71,41,N,2.033366,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.8,71,42,S,2.203765,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.8,71,31,S,4.735493,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.85,71,41,N,1.897205,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.85,71,42,S,2.158145,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.85,71,31,S,4.763225,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.9,71,41,N,1.983988,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.9,71,42,S,2.229411,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.9,71,31,S,5.01909,3.3,0,extxyz
+Ni–NS2 (partial trajectory),19.95,71,41,N,1.943213,3.1,1,extxyz
+Ni–NS2 (partial trajectory),19.95,71,42,S,2.294114,3.3,1,extxyz
+Ni–NS2 (partial trajectory),19.95,71,31,S,5.001439,3.3,0,extxyz
+Ni–NS2 (partial trajectory),20.0,71,41,N,1.922279,3.1,1,extxyz
+Ni–NS2 (partial trajectory),20.0,71,42,S,2.098205,3.3,1,extxyz
+Ni–NS2 (partial trajectory),20.0,71,31,S,4.93744,3.3,0,extxyz
